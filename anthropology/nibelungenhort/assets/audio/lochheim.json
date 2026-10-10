@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/lochheim.wav",
+  "seconds": 89.74,
+  "chapters": [
+    0.0,
+    15.138,
+    37.935,
+    63.587
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "5bcbb3f5a679ca783d8630709e43f6a4c7dfba0f6636819a84536e4d712309b8",
+  "sampleRate": 24000
+}

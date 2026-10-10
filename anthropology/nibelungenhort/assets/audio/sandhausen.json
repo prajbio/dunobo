@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/sandhausen.wav",
+  "seconds": 96.63,
+  "chapters": [
+    0.0,
+    17.559,
+    48.126,
+    72.086
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "4ccb31ee7f1307a66780be5c75717c12472b5d498ed630c6a02457a83e7ff2e6",
+  "sampleRate": 24000
+}

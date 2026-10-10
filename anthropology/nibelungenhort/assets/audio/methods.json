@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/methods.wav",
+  "seconds": 94.22,
+  "chapters": [
+    0.0,
+    15.809,
+    42.371,
+    67.813
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "751fa1a0d97e8b3302255d6839c2c4b3bee93b271bdaa56ab87fb4ac5d08f497",
+  "sampleRate": 24000
+}

@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/decision.wav",
+  "seconds": 98.13,
+  "chapters": [
+    0.0,
+    15.778,
+    44.09,
+    71.068
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "90c9a51e0f3a0bb53219abc1e9179defb40f65ed3a537b5b198086652a4ecedd",
+  "sampleRate": 24000
+}

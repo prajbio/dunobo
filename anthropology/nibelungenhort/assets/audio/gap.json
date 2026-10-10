@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/gap.wav",
+  "seconds": 93.09,
+  "chapters": [
+    0.0,
+    14.135,
+    39.434,
+    68.955
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "0f36ee75bcb518de6d11552969cbf4ead20062ed078195418552a0b197c514b2",
+  "sampleRate": 24000
+}

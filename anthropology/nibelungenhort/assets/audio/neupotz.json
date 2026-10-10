@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/neupotz.wav",
+  "seconds": 90.29,
+  "chapters": [
+    0.0,
+    14.552,
+    40.016,
+    67.079
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "9f219941fd3a962f57e18f07db933fb3395130604e0175b7ca54be3548681f10",
+  "sampleRate": 24000
+}

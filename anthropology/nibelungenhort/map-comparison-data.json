@@ -1,0 +1,168 @@
+{
+  "regions": [
+    {
+      "id": "hamm",
+      "name": "Hamm–Eich / Biebesheim–Lochheim",
+      "box": [
+        8.34,
+        49.715,
+        8.505,
+        49.82
+      ],
+      "pixels": [
+        1097160,
+        712866,
+        1098121,
+        713813
+      ],
+      "tiles": [
+        4285,
+        2784,
+        4289,
+        2788
+      ],
+      "width": 961,
+      "height": 947,
+      "layers": [
+        {
+          "id": "ghh",
+          "label": "19th-century survey",
+          "file": "assets/map-hamm-ghh.png",
+          "sha256": "a4fdd83770a992f15dae5493fba7f8c495047690ce7391f058aa1b7d2ad47f2f"
+        },
+        {
+          "id": "tk25_1900",
+          "label": "Around 1900",
+          "file": "assets/map-hamm-tk25_1900.png",
+          "sha256": "ed663f5678b11ab6ff79b165b435b6a79730a807e640bd13c78f9224ea19487f"
+        },
+        {
+          "id": "tk25_1970",
+          "label": "Around 1970",
+          "file": "assets/map-hamm-tk25_1970.png",
+          "sha256": "69dd11af2d01aa5e6935516fe530b62ffb318c78c78f2494e3653574d1c6499b"
+        },
+        {
+          "id": "tk25_1990",
+          "label": "Around 1990",
+          "file": "assets/map-hamm-tk25_1990.png",
+          "sha256": "bf7223b235eb6179facb1f66d93f6a979a8096efd3320876b388fed6f680746c"
+        },
+        {
+          "id": "modern",
+          "label": "Modern basemap · retrieved 2026",
+          "file": "assets/map-hamm-modern.png",
+          "sha256": "7940b8555747b993f805d67be1e17dbb786730af1077189372de0b75dfab1dc0"
+        }
+      ],
+      "worldFile": [
+        19.109257071294063,
+        0,
+        0,
+        -19.109257071294063,
+        928413.7001802847,
+        6415159.136775594
+      ],
+      "groundPixelMetres": 12.34
+    },
+    {
+      "id": "kuehkopf",
+      "name": "Kühkopf / Stockstadt",
+      "box": [
+        8.37,
+        49.77,
+        8.505,
+        49.86
+      ],
+      "pixels": [
+        1097335,
+        712505,
+        1098121,
+        713318
+      ],
+      "tiles": [
+        4286,
+        2783,
+        4289,
+        2786
+      ],
+      "width": 786,
+      "height": 813,
+      "layers": [
+        {
+          "id": "ghh",
+          "label": "19th-century survey",
+          "file": "assets/map-kuehkopf-ghh.png",
+          "sha256": "4b4b8d7dc8facd9b76c7251f3a4ea00fbae3892cbe13c31f7a4e23c647be5205"
+        },
+        {
+          "id": "tk25_1900",
+          "label": "Around 1900",
+          "file": "assets/map-kuehkopf-tk25_1900.png",
+          "sha256": "e3b89a69dfcf4fe2f015a8322db0cd7a401c44bac483b14e2fd4a1be2166e054"
+        },
+        {
+          "id": "tk25_1970",
+          "label": "Around 1970",
+          "file": "assets/map-kuehkopf-tk25_1970.png",
+          "sha256": "893f0104ca1e241c5744269c6c803a5757dfbea8f63b30b65bf342c04051b95a"
+        },
+        {
+          "id": "tk25_1990",
+          "label": "Around 1990",
+          "file": "assets/map-kuehkopf-tk25_1990.png",
+          "sha256": "1e4da3473539f4a50bb678c373bbc68e23724b7f2452ef812e49211bcabfd757"
+        },
+        {
+          "id": "modern",
+          "label": "Modern basemap · retrieved 2026",
+          "file": "assets/map-kuehkopf-modern.png",
+          "sha256": "d815584d79eb32653cc6de5f1426105b43e6bde5860ac6832773f04675444809"
+        }
+      ],
+      "worldFile": [
+        19.109257071294063,
+        0,
+        0,
+        -19.109257071294063,
+        931757.8201677613,
+        6422057.578578332
+      ],
+      "groundPixelMetres": 12.33
+    }
+  ],
+  "epochs": [
+    {
+      "id": "ghh",
+      "group": "landesaufnahme",
+      "label": "19th-century survey"
+    },
+    {
+      "id": "tk25_1900",
+      "group": "hist_tk",
+      "label": "Around 1900"
+    },
+    {
+      "id": "tk25_1970",
+      "group": "hist_tk",
+      "label": "Around 1970"
+    },
+    {
+      "id": "tk25_1990",
+      "group": "hist_tk",
+      "label": "Around 1990"
+    },
+    {
+      "id": "modern",
+      "label": "Modern basemap · retrieved 2026"
+    }
+  ],
+  "zoom": 13,
+  "projection": "EPSG:3857",
+  "retrieved": "2026-09-16",
+  "services": {
+    "historical": "https://wms.hlgl.uni-marburg.de/mapcache/{group}/wmts/1.0.0/{id}/default/GoogleMapsCompatible/{zoom}/{row}/{column}.png",
+    "modern": "https://sgx.geodatenzentrum.de/wmts_basemapde/tile/1.0.0/de_basemapde_web_raster_farbe/default/GLOBAL_WEBMERCATOR/{zoom}/{row}/{column}.png"
+  },
+  "method": "Tiles supplied in EPSG:3857; assembled and cropped to identical global pixel bounds. No manual warp. Approximate geographic boxes describe study windows; pixels and world-file coefficients specify actual image bounds. HIL historical georeferencing residuals not independently measured."
+}

@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/court.wav",
+  "seconds": 89.64,
+  "chapters": [
+    0.0,
+    15.01,
+    38.831,
+    62.789
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "b4b8b04431d100ade3f8d4d53c8b884e963fbcd07a0a4ec6d5a4890f7a3c288a",
+  "sampleRate": 24000
+}

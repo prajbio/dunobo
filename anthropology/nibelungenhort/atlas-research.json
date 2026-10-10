@@ -1,0 +1,2618 @@
+{
+  "edition": 4,
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Nibelungenlied",
+      "author": "German UNESCO Commission",
+      "type": "Institutional overview",
+      "date": "Undated; accessed 16 September 2026",
+      "url": "https://www.unesco.de/staette/nibelungenlied/",
+      "access": "Page inspected",
+      "note": "Composition around 1200; cultural significance and manuscript tradition. UNESCO recognition authenticates documentary importance, not the events of the poem.",
+      "locator": "Composition and reception paragraphs",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S02",
+      "title": "UNESCO Weltdokumentenerbe Nibelungenlied",
+      "author": "Badische Landesbibliothek",
+      "type": "Holding library",
+      "date": "Undated; accessed 16 September 2026",
+      "url": "https://www.blb-karlsruhe.de/sammlungen/unesco-weltdokumentenerbe-nibelungenlied",
+      "access": "Page inspected",
+      "note": "Library overview and links to the major manuscripts.",
+      "locator": "Manuscript overview and digital links",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S03",
+      "title": "Codex Sangallensis 857 — manuscript B",
+      "author": "Stiftsbibliothek St Gallen / e-codices",
+      "type": "Manuscript catalogue",
+      "date": "Catalogue accessed 16 September 2026",
+      "url": "https://www.e-codices.unifr.ch/de/list/one/csg/0857",
+      "access": "Catalogue inspected; folios not collated",
+      "note": "Dates the physical codex to the third quarter of the thirteenth century, probably around 1260.",
+      "locator": "Short description; Nibelungenlied pp. 291–416",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S04",
+      "title": "Nibelungenlied and Klage — manuscript C",
+      "author": "Badische Landesbibliothek",
+      "type": "Manuscript catalogue",
+      "date": "Second quarter of thirteenth century; digitisation 2003",
+      "url": "https://digital.blb-karlsruhe.de/737536",
+      "access": "Catalogue inspected; folios not collated",
+      "note": "Dates the physical witness separately from composition of the poem.",
+      "locator": "Bibliographic metadata; Cod. Donaueschingen 63; fols. 1r–89r",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S05",
+      "title": "The Nibelungenlied — W. N. Lettsom translation",
+      "author": "Project Gutenberg",
+      "type": "Published literary translation",
+      "date": "Historical translation; electronic edition accessed 16 September 2026",
+      "url": "https://www.gutenberg.org/cache/epub/38468/pg38468-images.html",
+      "access": "Relevant passage inspected",
+      "note": "Useful English reading text. Its expansion of the location to Lochheim is not an independent geographical identification.",
+      "locator": "Adventure XIX, stanza XL; printed p. 183",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S06",
+      "title": "Mythos Nibelungenhort",
+      "author": "Ellen Bender / Nibelungenlied Society",
+      "type": "Specialist synthesis",
+      "date": "Undated page; accessed 16 September 2026",
+      "url": "https://www.nibelungenlied-gesellschaft.de/03_beitrag/bender/fs14_bend.html",
+      "access": "Relevant sections inspected",
+      "note": "Compares traditions and summarises location theories, including the reported stone. It is not a drilling report.",
+      "locator": "Part I literary versions; Part II search locations",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S07",
+      "title": "Niederlage der Burgunder gegen die Hunnen",
+      "author": "University of Hamburg eManual; Prosper Tiro; commentary Nathalie Klinck",
+      "type": "Ancient passage with teaching commentary",
+      "date": "29 December 2018; underlying text fifth century",
+      "url": "https://emanualaltegeschichte.blogs.uni-hamburg.de/niederlage-der-burgunder-gegen-die-hunnen/",
+      "access": "Passage and commentary inspected",
+      "note": "Contains Prosper Chron. 1320–1322. The displayed year 408 is problematic; verify chronology against a critical edition rather than copying it.",
+      "locator": "Prosper Chron. 1322; original, translation and commentary",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S08",
+      "title": "König Gunther und Worms",
+      "author": "Ellen Bender / Nibelungenlied Society",
+      "type": "Specialist historical and literary review",
+      "date": "Lecture 14 September 2023",
+      "url": "https://www.nibelungenlied-gesellschaft.de/nlg/koenig-gunther-und-worms/",
+      "access": "Relevant sections inspected",
+      "note": "Distinguishes ancient evidence from literary geography; the royal court at Worms remains uncertain.",
+      "locator": "Section 1; discussion of the Burgundian court; Worms excursus",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S09",
+      "title": "Lochheim, Landkreis Groß-Gerau",
+      "author": "Hessian Institute for Regional History / LAGIS",
+      "type": "Official historical gazetteer",
+      "date": "Record dated 4 March 2024",
+      "url": "https://www.lagis-hessen.de/de/subjects/idrec/sn/ol/id/13841",
+      "access": "Record inspected through legacy result page",
+      "note": "Historical settlement, early attestations, uncertain location, and ownership history. Coordinates represent the catalogue location, not treasure.",
+      "locator": "Settlement; name forms; ownership; record 13841",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S10",
+      "title": "Lochheim — Südhessisches Flurnamenbuch",
+      "author": "LAGIS Hessen",
+      "type": "Scholarly place-name reference",
+      "date": "Undated record; accessed 16 September 2026",
+      "url": "https://www.lagis-hessen.de/de/subjects/idrec/sn/shfb/id/2239",
+      "access": "Record inspected",
+      "note": "Explains the development of Flochheim/Flochum from the settlement name.",
+      "locator": "Record 2239; Deutung",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S11",
+      "title": "Lorscher Codex — charter 192 reference",
+      "author": "Heidelberg University Library",
+      "type": "Archival database",
+      "date": "Charter dated 17 April 793; database accessed 16 September 2026",
+      "url": "https://www.ub.uni-heidelberg.de/cgi-bin/archiv-lorsch/archiv-lorsch.cgi?filter=&person=1005",
+      "access": "Database entry inspected; original not transcribed",
+      "note": "Identifies CL II 192 and the surviving copy at fol. 37v, column a.",
+      "locator": "Gebehilt entry; CL II 192; Staatsarchiv Würzburg",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S12",
+      "title": "Eine Notbergung in der mittelalterlichen Wüstung Lochheim",
+      "author": "Ludwig H. Hildebrandt and Uwe Gross",
+      "type": "Archaeological field report",
+      "date": "Kraichgau 17, 2002, pp. 39–41",
+      "url": "https://regionalia.blb-karlsruhe.de/files/17617/BLB_Hildebrandt_Gross_Notbergung_Lochheim.pdf",
+      "access": "Three-page report text inspected",
+      "note": "Rescue archaeology at Lochheim near Sandhausen. This is a real investigation of the settlement, not a treasure expedition.",
+      "locator": "Printed pp. 39–41; DOI 10.57962/regionalia-17617",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S13",
+      "title": "Nibelungenschatz im Altrheingebiet",
+      "author": "Ernst Ritscher website",
+      "type": "Local historical advocacy",
+      "date": "PDF date not established; accessed 16 September 2026",
+      "url": "https://www.e-ritscher.de/wp-content/uploads/2020/02/nibelungenschatz-im-altrheingebiet.pdf",
+      "access": "Three-page text inspected",
+      "note": "Reports Jacobi activity and an equipment/depth problem. Mixes historical facts with unverified assertions that a treasure was deposited.",
+      "locator": "Printed p. 2, Nibelungenschatzsucher; p. 1 geographical assertions",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S14",
+      "title": "Vom Schatzerlebnis zum Erlebnisschatz",
+      "author": "Volker Gallé / Nibelungenlied Society",
+      "type": "Cultural essay reporting a public claim",
+      "date": "2004 attribution in S13; event September 2003",
+      "url": "https://www.nibelungenlied-gesellschaft.de/03_beitrag/galle/schatz_galle.html",
+      "access": "Relevant passage inspected",
+      "note": "Reports Jacobi announcing confidence at a public event in Eich. The event date is not proof of a new drilling campaign.",
+      "locator": "Opening discussion of Hans-Jörg Jacobi",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S15",
+      "title": "Der Querdenker — Hans-Jörg Jacobi",
+      "author": "Christina Jackmuth / sensor Magazin Mainz",
+      "type": "Interview-based local journalism",
+      "date": "4 January 2013",
+      "url": "https://sensor-magazin.de/der-querdenker-hans-jorg-jacobi-ein-portrat/",
+      "access": "Article inspected",
+      "note": "Reports drilling, excavations, a dowser, and renewed search intentions. No recovered hoard is presented.",
+      "locator": "Den Nibelungen auf der Spur",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S16",
+      "title": "ZDF announces Der Nibelungen-Code",
+      "author": "ZDF press release via Presseportal",
+      "type": "Broadcaster press release",
+      "date": "18 December 2007",
+      "url": "https://www.presseportal.de/pm/7840/1104858",
+      "access": "Search extract inspected; direct page unavailable",
+      "note": "Confirms announced broadcasts on 23 and 26 December 2007. Does not validate the historical claims of the programme.",
+      "locator": "Release opening",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S17",
+      "title": "Schatzsuche am Rhein — Wo liegt der Hort der Nibelungen",
+      "author": "Dominic Konrad / SWR Kultur",
+      "type": "Public broadcaster overview",
+      "date": "1 September 2023",
+      "url": "https://www.swr.de/swrkultur/film-und-serie/tatort-luwigshafen-schatzsuche-am-rhein-wo-liegt-der-schatz-der-nibelungen-nibelungenhort-100.html",
+      "access": "Article inspected",
+      "note": "Popular review of searches, Rheingold and Rülzheim. Literary simplifications should be checked against specialist or original sources.",
+      "locator": "Location discussion; Rheingold section; Rülzheim section",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S18",
+      "title": "Gold aus dem Rhein in homöopathischen Dosen",
+      "author": "WELT",
+      "type": "Newspaper report",
+      "date": "2011 article; accessed 16 September 2026",
+      "url": "https://www.welt.de/wissenschaft/article13779078/Rohstoffe-Gold-aus-dem-Rhein-in-homoeopathischen-Dosen.html",
+      "access": "Relevant search extract inspected",
+      "note": "Broad assertion about diving, sonar and radar does not include survey footprints or calibration.",
+      "locator": "Opening treasure-search paragraph",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S19",
+      "title": "The discovery of the Barbarian Treasure",
+      "author": "Staatliche Museen zu Berlin",
+      "type": "Holding museum account",
+      "date": "19 December 2016",
+      "url": "https://www.smb.museum/en/whats-new/detail/the-discovery-of-the-barbarian-treasure/",
+      "access": "Article inspected",
+      "note": "Neupotz objects recovered over decades from an Old Rhine channel.",
+      "locator": "Discovery paragraph; dating and interpretation",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S20",
+      "title": "Der Schatz von Rülzheim kommt nach Koblenz",
+      "author": "Rhineland-Palatinate cultural heritage authority",
+      "type": "Official archaeological exhibition notice",
+      "date": "2019 notice; accessed 16 September 2026",
+      "url": "https://kulturerleben.rlp.de/service/presse/detail/der-schatz-von-ruelzheim-kommt-nach-koblenz-ein-hunnenzeitlicher-hort-und-ein-weltweites-unikat",
+      "access": "Relevant extract inspected",
+      "note": "Institutional confirmation of an important late Roman/Hunnic-period hoard found in 2013.",
+      "locator": "Opening description",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S21",
+      "title": "Der römische Klappstuhl aus Rülzheim",
+      "author": "Ulrich Himmelmann, Richard Petrovszky, Holger Becker",
+      "type": "Research article",
+      "date": "Bonner Jahrbücher 218.2018(2019); online 12 March 2021",
+      "url": "https://journals.ub.uni-heidelberg.de/index.php/bjb/article/view/79815",
+      "access": "Metadata and PDF opening extract inspected; full article not reviewed",
+      "note": "Detailed object study demonstrates the level of specialist work needed for attribution.",
+      "locator": "pp. 153–192; DOI 10.11588/bjb.2018.1.79815",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S22",
+      "title": "Morpho-sedimentary characteristics of Holocene paleochannels",
+      "author": "Mubarak Abdulkarim and co-authors",
+      "type": "Peer-reviewed geomorphology research",
+      "date": "8 September 2022",
+      "url": "https://egqsj.copernicus.org/articles/71/191/2022/",
+      "access": "Abstract and methods inspected",
+      "note": "Study in the French Upper Rhine plain, not a reconstruction of the Worms search area.",
+      "locator": "E&G Quaternary Science Journal 71, pp. 191–212; abstract and methods",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S23",
+      "title": "Geologie Viewer and drilling data access",
+      "author": "HLNUG",
+      "type": "Official geological data service",
+      "date": "Current FAQ accessed 16 September 2026",
+      "url": "https://bohranzeige.hessen.de/faq/",
+      "access": "Relevant extract inspected",
+      "note": "Public electronic geological data are provided through the Hessen geology viewer; this is a resource, not a local borehole audit.",
+      "locator": "Data provision FAQ",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S24",
+      "title": "Bereitstellung geologischer Daten",
+      "author": "Landesamt für Geologie und Bergbau Rheinland-Pfalz",
+      "type": "Official geological data service",
+      "date": "Current page accessed 16 September 2026",
+      "url": "https://www.lgb-rlp.de/fachthemen-des-amtes/projekte/geologiedatengesetz/bereitstellung-geologischer-daten",
+      "access": "Relevant page text inspected",
+      "note": "Electronic records, requests for non-digitised records, and inspection of cores by arrangement.",
+      "locator": "Data availability and sample access",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S25",
+      "title": "Digitale Geländemodelle",
+      "author": "Vermessungs- und Katasterverwaltung Rheinland-Pfalz",
+      "type": "Official terrain data catalogue",
+      "date": "Current page accessed 16 September 2026",
+      "url": "https://geoshop.rlp.de/digitale_gelaendemodelle/digitale_gelaendemodelle_dgm.html",
+      "access": "Catalogue inspected",
+      "note": "Ground elevation and laser-point data for regional landscape work. No candidate-area tiles analysed yet.",
+      "locator": "Digital terrain model and laser-point products",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S26",
+      "title": "Historische Luftbilder",
+      "author": "Geoportal Rheinland-Pfalz",
+      "type": "Official aerial-image catalogue",
+      "date": "Current page accessed 16 September 2026",
+      "url": "https://geoportal.rlp.de/mediawiki/index.php/Historische_Luftbilder",
+      "access": "Page inspected",
+      "note": "Historical imagery and time-variable services; coverage dates require parcel-level checks.",
+      "locator": "Historical orthophoto services",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S27",
+      "title": "Historische Karten der Vermessungsverwaltung",
+      "author": "Vermessungs- und Katasterverwaltung Rheinland-Pfalz",
+      "type": "Official cartographic guide",
+      "date": "Guide accessed 16 September 2026",
+      "url": "https://lvermgeo.rlp.de/fileadmin/lvermgeo/pdf/produktinfos/Historische_Karten_der_VermKV.pdf",
+      "access": "Relevant extract inspected",
+      "note": "Sources for cadastral and historical mapping. No historical map has been georeferenced in this dossier.",
+      "locator": "Product overview",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S28",
+      "title": "EAC Guidelines for the Use of Geophysics in Archaeology",
+      "author": "Armin Schmidt and co-authors / EAC / Historic England",
+      "type": "Professional archaeological guidance",
+      "date": "25 January 2016",
+      "url": "https://historicengland.org.uk/images-books/publications/eac-guidelines-for-use-of-geophysics-in-archaeology/",
+      "access": "Official overview inspected; full book not reviewed",
+      "note": "Survey choice depends on the target and geological conditions; includes alluvium and wetlands.",
+      "locator": "Overview and contents",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S29",
+      "title": "The internal structure of sand bars on the Colorado River",
+      "author": "US Geological Survey",
+      "type": "Primary geophysical research",
+      "date": "Open-File Report 01-425, 2001",
+      "url": "https://pubs.usgs.gov/of/2001/0425/intro.html",
+      "access": "Technical introduction inspected",
+      "note": "Documents radar attenuation in conductive material. Performance at its study sites cannot be transferred directly to the Rhine.",
+      "locator": "Introduction and investigation limits",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S30",
+      "title": "Marine Geophysics — Data Acquisition, Processing and Interpretation",
+      "author": "Historic England",
+      "type": "Professional archaeological guidance",
+      "date": "Second edition, 8 July 2025",
+      "url": "https://historicengland.org.uk/images-books/publications/marine-geophysics-data-acquisition-processing-interpretation/",
+      "access": "Overview and selected PDF sections inspected",
+      "note": "Underwater survey design, buried features, data interpretation and archiving. Adaptation to river conditions is required.",
+      "locator": "PDF sections 6–7; particularly sub-bottom profiling",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S31",
+      "title": "Auch Denkmäler haben Rechte",
+      "author": "hessenARCHÄOLOGIE",
+      "type": "Official permissions guidance",
+      "date": "Current page accessed 16 September 2026",
+      "url": "https://denkmal.hessen.de/hessenarchaeologie/nachforschungs-genehmigungen",
+      "access": "Page inspected",
+      "note": "Archaeological searches require authorisation under section 22 HDSchG, including professional and private projects.",
+      "locator": "Introductory paragraph and Fachfirmen/Institutionen",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S32",
+      "title": "Nachforschungsgenehmigung gem. § 21 DSchG RLP",
+      "author": "Generaldirektion Kulturelles Erbe Rheinland-Pfalz",
+      "type": "Official permissions guidance",
+      "date": "Current result accessed 16 September 2026",
+      "url": "https://gdke.rlp.de/wer-wir-sind/landesarchaeologie/nachforschungsgenehmigung-gem-21-dschg-rlp",
+      "access": "Search extract inspected; direct fetch failed",
+      "note": "Permit route and conditions; obtain the current project-specific requirements before fieldwork.",
+      "locator": "Permit guidance",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S33",
+      "title": "Richtlinien zur archäologischen und erdgeschichtlichen Prospektion",
+      "author": "GDKE Rheinland-Pfalz",
+      "type": "Official fieldwork guidelines",
+      "date": "9 October 2024 version",
+      "url": "https://gdke.rlp.de/fileadmin/gdke/Wer_wir_sind/Landesarchaeologie/2024_10_09_Richtlinien_zur_archaeologischen_und_erdgeschichtlichen_Prospektion.pdf",
+      "access": "Search extract only; full text pending",
+      "note": "Candidate reference for field documentation; confirm whether superseded.",
+      "locator": "Dated guidelines; full review outstanding",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S34",
+      "title": "§ 31 Bundeswasserstraßengesetz",
+      "author": "Federal Ministry of Justice / Gesetze im Internet",
+      "type": "Official statutory text",
+      "date": "Current search extract accessed 16 September 2026",
+      "url": "https://www.gesetze-im-internet.de/wastrg/__31.html",
+      "access": "Search extract inspected; direct fetch failed",
+      "note": "Waterway interventions may require notification and approval depending on their effects. No permit determination made.",
+      "locator": "Section 31",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S35",
+      "title": "Nibelungenlied collection at Stadtbibliothek Worms",
+      "author": "Stadtbibliothek Worms / Nibelungenlied Society",
+      "type": "Library collection guide",
+      "date": "Guide accessed 16 September 2026",
+      "url": "https://www.nibelungenlied-gesellschaft.de/nlg/wp-content/uploads/2022/11/nibelungenlied-sammlung_stadtbibliothek-worms.pdf",
+      "access": "Relevant extract inspected; full catalogue pending",
+      "note": "Useful route into nineteenth-century reception and local historical publications.",
+      "locator": "Sections on local guides and nineteenth-century scholarship",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S36",
+      "title": "Der rätselhafte Schatz der Nibelungen",
+      "author": "Marie Todeskino / Deutsche Welle",
+      "type": "Journalism; retrieval lead",
+      "date": "2013 attribution in S13",
+      "url": "https://www.dw.com/de/der-r%C3%A4tselhafte-schatz-der-nibelungen/a-17009071",
+      "access": "Unavailable in this review",
+      "note": "Referenced by other accounts. Not treated as independently read corroboration.",
+      "locator": "Retrieve original publication or archive copy",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S37",
+      "title": "Lorscher Codex, German translation, volume 2",
+      "author": "Karl Josef Minst / Heidelberg University Library",
+      "type": "Published translation of charters",
+      "date": "1968",
+      "url": "https://digi.ub.uni-heidelberg.de/diglit/minst1968bd2/0023",
+      "access": "Catalogue/search extract only; page access blocked",
+      "note": "Further reading for charter wording. A database entry is available separately as S11.",
+      "locator": "Charters 186–193; page-by-page review pending",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S38",
+      "title": "Science or Superstition",
+      "author": "US Geological Survey",
+      "type": "Scientific institutional review",
+      "date": "2024 article; accessed 16 September 2026",
+      "url": "https://www.usgs.gov/news/featured-story/science-or-superstition",
+      "access": "Relevant article extract inspected",
+      "note": "Reviews the absence of reliable support for dowsing. Not a controlled trial of Jacobi’s specific site.",
+      "locator": "Discussion of Ellis and evidential support",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S39",
+      "title": "Grabungsschutzgebiete",
+      "author": "GDKE Rheinland-Pfalz",
+      "type": "Official heritage guidance",
+      "date": "Current page accessed 16 September 2026",
+      "url": "https://gdke.rlp.de/wer-wir-sind/landesarchaeologie/grabungsschutzgebiete",
+      "access": "Relevant extract inspected",
+      "note": "Protected excavation areas carry restrictions; finds there fall under the state treasure provision described by the authority.",
+      "locator": "Search restrictions and section 20",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S40",
+      "title": "Schatzfund von Rülzheim",
+      "author": "Südpfalz Tourismus Rülzheim; GDKE material",
+      "type": "Local institutional account",
+      "date": "Undated; accessed 16 September 2026",
+      "url": "https://www.suedpfalztourismus-ruelzheim.de/de/suedpfalz-erleben/kunst-kultur/museen-und-mehr/schatzfund-von-ruelzheim",
+      "access": "Page inspected",
+      "note": "Reports fifth-century dating and loss of context through unauthorised recovery.",
+      "locator": "Seiner Geschichte beraubt",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S41",
+      "title": "Optical dating of fluvio-deltaic clastic lake-fill sediments",
+      "author": "Jakob Wallinga and Ingwer J. Bos / Quaternary Geochronology",
+      "type": "Primary research article",
+      "date": "October 2010; volume 5(5), pp. 602–610",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1871101409001587",
+      "access": "Publisher abstract and article-preview extract inspected; full paper not reviewed",
+      "note": "Rhine delta feasibility study combining optical dating and radiocarbon constraints. Not a date for a treasure location.",
+      "locator": "Abstract; DOI 10.1016/j.quageo.2009.11.001",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S42",
+      "title": "Geophysical Archaeology",
+      "author": "Michael Bodhi Rogers Laboratory, University of Colorado Denver",
+      "type": "University research methods overview",
+      "date": "Undated; accessed 16 September 2026",
+      "url": "https://clas.ucdenver.edu/rogers-lab/geophysical-archaeology",
+      "access": "Overview inspected",
+      "note": "Introduces radar, magnetometry, resistivity and conductivity as complementary subsurface methods.",
+      "locator": "Methods overview",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S43",
+      "title": "Burgunder und Nibelungen auf einen Blick",
+      "author": "City of Worms hosted historical note",
+      "type": "Municipal-hosted local interpretation",
+      "date": "3 March 2020",
+      "url": "https://www.worms.de/erleben-wAssets/docs/Geschichte/anekdoten/Burgunder-und-Nibelungen-auf-einem-Blick-_-Stadt-Worms.pdf",
+      "access": "Relevant chronology inspected",
+      "note": "Lists a 2003 treasure search. Compare with S14’s description of a public announcement; it is not a campaign log.",
+      "locator": "Twenty-first-century chronology",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S44",
+      "title": "Untersuchungen am sog. Barbarenschatz von Rülzheim",
+      "author": "Curt-Engelhorn-Zentrum Archäometrie",
+      "type": "Primary laboratory report",
+      "date": "2018 annual report; reviewed 16 September 2026",
+      "url": "https://ceza.de/english/wp-content/uploads/sites/2/2023/11/CEZA_Jahresbericht_2018.pdf",
+      "access": "Relevant section inspected",
+      "locator": "Printed pp. 43–44, Rülzheim folding-chair investigation",
+      "note": "Radiocarbon sample association and metal/solder analysis. The results do not identify an owner.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S45",
+      "title": "Schätze aus dem Rhein: Der Barbarenschatz von Neupotz",
+      "author": "Staatliche Museen zu Berlin",
+      "type": "Museum collection presentation",
+      "date": "Undated; reviewed 16 September 2026",
+      "url": "https://www.smb.museum/museen-einrichtungen/neues-museum/ausstellungen/detail/schaetze-aus-dem-rhein-der-barbarenschatz-von-neupotz/",
+      "access": "Page inspected",
+      "locator": "Exhibition introduction and object descriptions",
+      "note": "Object categories and third-century chronology of the distinct Neupotz assemblage.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S46",
+      "title": "Karte des Rheingebiets von Rheindürkheim bis Lampertheim mit Worms",
+      "author": "Hessisches Landesarchiv",
+      "type": "Historical map reproduction and catalogue",
+      "date": "1736; Commons record reviewed 16 September 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Karte_des_Rheingebiets_von_Rheind%C3%BCrkheim_bis_Lampertheim_mit_Worms.jpg",
+      "access": "Metadata and map image inspected",
+      "locator": "HStAD P 1 Nr. 200; archive permalink https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v4958745",
+      "note": "Dated landscape source. No georeferencing or fifth-century inference performed.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S47",
+      "title": "Ketsch-Karte Rheindurchstich",
+      "author": "Unnamed cartographer; via Wikimedia Commons",
+      "type": "Historical engineering map",
+      "date": "1833; record reviewed 16 September 2026",
+      "url": "https://commons.wikimedia.org/wiki/File:Ketsch-Karte_Rheindurchstich.jpg",
+      "access": "Metadata and map image inspected",
+      "locator": "Original 734 × 525 pixel reproduction",
+      "note": "Illustrates the Ketsch cutoff at a documented historical date.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S48",
+      "title": "Historical topographic maps and georeferenced services",
+      "author": "Hessisches Institut für Landesgeschichte / Hessian surveying authorities",
+      "date": "19th century; 1899–1901, 1970–71, 1989–91; retrieved 2026-09-16",
+      "url": "https://www.lagis-hessen.de/maps/topografische-karten/",
+      "access": "Map imagery, WMTS capabilities and sheet metadata inspected",
+      "locator": "Gernsheim 6216; Oppenheim 6116; nineteenth-century Großherzogtum Hessen mosaic. The dates of revisions, issue and printing differ.",
+      "note": "Georeferencing supplied by HIL; no independent local residual-error estimate. Open Data: https://hvbg.hessen.de/open-data",
+      "type": "Map / landscape source",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S49",
+      "title": "basemap.de Web Raster",
+      "author": "GeoBasis-DE / Bundesamt für Kartographie und Geodäsie",
+      "date": "Retrieved 16 September 2026",
+      "url": "https://basemap.de/produkte-und-dienste/web-raster/",
+      "access": "WMTS metadata and downloaded extracts inspected",
+      "locator": "GLOBAL_WEBMERCATOR, zoom 13. Retrieval date is not a single survey date.",
+      "note": "CC BY 4.0; © GeoBasis-DE / BKG (2026). Tiles mosaicked and cropped without manual warping.",
+      "type": "Map / landscape source",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S50",
+      "title": "Auenlehrpfad: old river bed and Rhine cutoff",
+      "author": "Hessian environmental education centre Schatzinsel Kühkopf",
+      "date": "Web account reviewed 16 September 2026",
+      "url": "https://schatzinsel-kuehkopf.hessen.de/schutzgebiet/erholung-u-naturbeobachtung/auenlehrpfad",
+      "access": "Text reviewed",
+      "locator": "Stations 5 and 18",
+      "note": "Describes construction beginning 31 March 1828, opening 30 April 1829, followed by sedimentation in the old arm.",
+      "type": "Map / landscape source",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S51",
+      "title": "Map of Biebesheim, Geyerswörth and Mühlwörth",
+      "author": "Franz Born; Hessisches Staatsarchiv Darmstadt",
+      "date": "1723; original dating [1723–1725]",
+      "url": "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=3466881",
+      "access": "Catalogue and digital-copy link verified; not aligned",
+      "locator": "HStAD P 1, 696; approximately 1:3525",
+      "note": "Priority pre-cutoff source. Not included in the aligned overlay; full interpretation and control points remain to be established.",
+      "type": "Map / landscape source",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S52",
+      "title": "Map of Kühkopf with Rindswörth",
+      "author": "Ernst Hoehle; Hessisches Staatsarchiv Darmstadt",
+      "date": "1822",
+      "url": "https://arcinsys.hessen.de/arcinsys/showArchivalDescriptionDetails?archivalDescriptionId=5201190",
+      "access": "Catalogue and digital-copy link verified; not aligned",
+      "locator": "HStAD P 1, 838",
+      "note": "A source before the 1828–29 works. Catalogue dating alone is not proof of its positional accuracy.",
+      "type": "Map / landscape source",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S53",
+      "title": "Der Schatz der Nibelungen",
+      "author": "ZDFinfo · Mythos",
+      "date": "14 October 2020",
+      "url": "https://www.zdf.de/video/dokus/mythos-die-groessten-raetsel-der-geschichte-100/mythos-die-groessten-raetsel-der-geschichte--der-schatz-der-nibelungen-100",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "45 min; German",
+      "note": "A documentary’s proposed connections are leads to audit. Its description does not establish a discovered hoard, and a broadcast is not a drilling log.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S54",
+      "title": "Das Nibelungenlied",
+      "author": "ZDF · Terra X / ZDF goes Schule",
+      "date": "12 December 2021",
+      "url": "https://schule.zdf.de/video/grosse-mythen-aufgedeckt-das-nibelungenlied-100",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "44 min; German",
+      "note": "This supplies a literary perspective, not an ancient location fix. The provider lists availability until 12 December 2031.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S55",
+      "title": "Die Nibelungensage in 90 Sekunden",
+      "author": "Terra X History · official YouTube channel",
+      "date": "26 November 2016",
+      "url": "https://www.youtube.com/watch?v=7wNtptF6JLE",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "About 90 sec; German",
+      "note": "A popular retelling should not substitute for comparing manuscript witnesses or be used to estimate treasure value.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S56",
+      "title": "Der Rhein (1/2)",
+      "author": "3sat · Terra X",
+      "date": "Listing: 26 April 2026; production 2016",
+      "url": "https://www.3sat.de/wissen/terra-x/der-geschichte-des-rheins-teil-1-von-vulkanen-und-100.html",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "About 45 min; German",
+      "note": "Regional history does not date a channel at Hamm. Use the aligned maps and local sediment studies for that question.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S57",
+      "title": "Historische Karten mit QGIS georeferenzieren",
+      "author": "FOSSGIS 2025 · Niklas Alt & Johannes Wagner",
+      "date": "27 March 2025",
+      "url": "https://media.ccc.de/v/fossgis2025-58149-historische-karten-mit-qgis-georeferenzieren",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "47 min; German",
+      "note": "This teaches a method. It neither surveys the treasure candidates nor independently validates the alignment error of our map extracts.",
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "S58",
+      "title": "Das Nibelungenlied · Sommers Weltliteratur",
+      "author": "Michael Sommer · presented by Reclam",
+      "date": "Publication date not stated on the reviewed page",
+      "url": "https://sommers-weltliteratur.de/videos/das-nibelungenlied/",
+      "type": "Video / provider record",
+      "access": "Provider page and synopsis checked; full film not reviewed",
+      "locator": "Just under 11 min; German",
+      "note": "An educational plot summary is not archaeological evidence. Open the provider page to load its YouTube player.",
+      "checked": "2026-09-16"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "title": "The epic is centuries later than the proposed deposit",
+      "category": "Text and history",
+      "status": "Established",
+      "confidence": "High",
+      "date": "c. 1200",
+      "place": "Rhine tradition",
+      "observation": "The composition date is around 1200, whereas the proposed historical catastrophe belongs to the fifth century.",
+      "supports": "A long interval separates the poem from the putative deposition.",
+      "doesNot": "This does not establish that oral tradition preserved a real hoard.",
+      "alternative": "A story can retain historical names while inventing motives, wealth and locations.",
+      "next": "Commission a review of the transmission of the hoard motif, distinct from the Burgundian defeat.",
+      "sourceIds": [
+        "S01",
+        "S02"
+      ],
+      "family": "Text tradition"
+    },
+    {
+      "id": "E02",
+      "title": "Manuscript B is not a fifth-century witness",
+      "category": "Text and history",
+      "status": "Established",
+      "confidence": "High",
+      "date": "c. 1260",
+      "place": "St Gallen",
+      "observation": "The holding catalogue dates Cod. Sang. 857 to the third quarter of the thirteenth century, probably around 1260.",
+      "supports": "The poem has a surviving medieval manuscript witness.",
+      "doesNot": "A genuine manuscript does not authenticate the events it narrates.",
+      "alternative": "Composition date and physical manuscript date must not be conflated.",
+      "next": "Collate the hoard passage from the facsimile and a critical transcription.",
+      "sourceIds": [
+        "S03"
+      ],
+      "family": "Text tradition"
+    },
+    {
+      "id": "E03",
+      "title": "Manuscript C provides another medieval witness",
+      "category": "Text and history",
+      "status": "Established",
+      "confidence": "High",
+      "date": "1225–1250",
+      "place": "Karlsruhe",
+      "observation": "The catalogue dates Cod. Donaueschingen 63 to the second quarter of the thirteenth century.",
+      "supports": "A second major witness is available for comparison.",
+      "doesNot": "Multiple copies of a story are not independent eyewitness accounts of a sinking.",
+      "alternative": "Shared textual ancestry can explain agreement.",
+      "next": "Compare wording, stanza numbering and context across A, B and C.",
+      "sourceIds": [
+        "S04"
+      ],
+      "family": "Text tradition"
+    },
+    {
+      "id": "E04",
+      "title": "The location clue requires textual criticism",
+      "category": "Text and history",
+      "status": "Literary evidence",
+      "confidence": "High for literary motif",
+      "date": "Medieval text",
+      "place": "Lôche",
+      "observation": "The specialist survey reports the Rhine deposition at Lôche. Lettsom’s English translation renders the place as Lochheim.",
+      "supports": "The literary tradition contains a location cue.",
+      "doesNot": "The translation does not settle the modern location.",
+      "alternative": "A translator may expand an ambiguous name using an existing interpretation.",
+      "next": "Produce a verified witness-by-witness table; do not silently standardise Lôche to a modern village.",
+      "sourceIds": [
+        "S05",
+        "S06"
+      ],
+      "family": "Text tradition"
+    },
+    {
+      "id": "E05",
+      "title": "The hoard story changes between traditions",
+      "category": "Text and history",
+      "status": "Literary evidence",
+      "confidence": "High for variation",
+      "date": "Medieval and later versions",
+      "place": "German and Norse traditions",
+      "observation": "The specialist comparison describes different owners, motives and losses in the German epic, Norse accounts and later adaptations.",
+      "supports": "The treasure motif was reshaped in transmission.",
+      "doesNot": "Combining every version does not create a coherent historical itinerary.",
+      "alternative": "Independent literary elaboration can generate conflicting geographical clues.",
+      "next": "Choose an explicitly defined tradition for each hypothesis.",
+      "sourceIds": [
+        "S06"
+      ],
+      "family": "Text tradition"
+    },
+    {
+      "id": "E06",
+      "title": "Prosper attests a Burgundian catastrophe",
+      "category": "Text and history",
+      "status": "Established",
+      "confidence": "High for narrow passage",
+      "date": "Fifth century",
+      "place": "Gallia",
+      "observation": "Prosper’s passage names Gundicharius, Aetius, an initial peace, and subsequent destruction by Huns.",
+      "supports": "There is near-contemporary testimony to a ruler and catastrophe.",
+      "doesNot": "The cited passage identifies no treasure, hiding place or court at Worms.",
+      "alternative": "The historical event and the literary treasure can have different origins.",
+      "next": "Check a critical Latin edition and chronological apparatus; the teaching page’s displayed 408 should not be repeated.",
+      "sourceIds": [
+        "S07",
+        "S08"
+      ],
+      "family": "Ancient testimony"
+    },
+    {
+      "id": "E07",
+      "title": "The Burgundian royal court at Worms is uncertain",
+      "category": "Text and history",
+      "status": "Unresolved",
+      "confidence": "High that uncertainty is documented",
+      "date": "Fifth-century claim",
+      "place": "Worms",
+      "observation": "Bender’s 2023 review explicitly leaves the historical court’s location at Worms unresolved.",
+      "supports": "Worms is firmly a literary setting, but weaker as an archaeological anchor.",
+      "doesNot": "The poem alone cannot determine a fifth-century royal residence.",
+      "alternative": "The poet may have selected an important city of his own period.",
+      "next": "Review settlement archaeology and ancient geography before assigning a spatial prior to Worms.",
+      "sourceIds": [
+        "S08"
+      ],
+      "family": "Ancient testimony"
+    },
+    {
+      "id": "E08",
+      "title": "A treasury is plausible but undocumented here",
+      "category": "Text and history",
+      "status": "Hypothesis",
+      "confidence": "Low for this particular hoard",
+      "date": "Fifth century",
+      "place": "Burgundian sphere",
+      "observation": "Royal or military wealth is a plausible background to a hoard story, but no contemporary deposition record has been identified in this review.",
+      "supports": "A historically possible mechanism worth specifying.",
+      "doesNot": "Possibility does not show that a single treasury was hidden or survives.",
+      "alternative": "Ordinary tribute, plunder and redistribution could inspire the motif without a lost cache.",
+      "next": "Find independent historical or material evidence of a specific deposit; do not infer it from kingship alone.",
+      "sourceIds": [
+        "S06",
+        "S07"
+      ],
+      "family": "Research inference"
+    },
+    {
+      "id": "E09",
+      "title": "Lochheim near Biebesheim is historically attested",
+      "category": "Locations",
+      "status": "Established",
+      "confidence": "High for settlement",
+      "date": "770–771 onward",
+      "place": "Biebesheim",
+      "observation": "LAGIS gives an earliest attestation in 770–771 and places the deserted settlement tentatively northwest of Biebesheim.",
+      "supports": "A real settlement and name existed in the medieval landscape.",
+      "doesNot": "It does not establish a fifth-century settlement or the treasure location.",
+      "alternative": "An authentic place-name may have been borrowed by a later storyteller.",
+      "next": "Check charter originals and georeference the settlement uncertainty.",
+      "sourceIds": [
+        "S09",
+        "S11"
+      ],
+      "family": "Lochheim records"
+    },
+    {
+      "id": "E10",
+      "title": "Flochum is a linguistic development, not a second clue",
+      "category": "Locations",
+      "status": "Established",
+      "confidence": "High for name analysis",
+      "date": "Later medieval and early modern",
+      "place": "Biebesheim",
+      "observation": "The field-name reference derives Flochheim/Flochum from the older settlement name through redivision and weakening.",
+      "supports": "Related names can identify a historical naming tradition.",
+      "doesNot": "Several related spellings do not supply several independent pieces of evidence.",
+      "alternative": "All names may descend from the same settlement label.",
+      "next": "Treat related spellings as one evidence family.",
+      "sourceIds": [
+        "S10"
+      ],
+      "family": "Lochheim records"
+    },
+    {
+      "id": "E11",
+      "title": "Charter 192 is a traceable archival lead",
+      "category": "Locations",
+      "status": "Established",
+      "confidence": "High for record existence",
+      "date": "17 April 793",
+      "place": "Lochheim",
+      "observation": "Heidelberg’s database identifies CL II 192, a surviving copy at fol. 37v, column a in the Lorscher Codex.",
+      "supports": "There is a concrete record to inspect beyond modern retellings.",
+      "doesNot": "Its existence alone says nothing about gold deposition.",
+      "alternative": "The charter may concern ordinary property and people.",
+      "next": "Read its full wording and compare other Lochheim charters.",
+      "sourceIds": [
+        "S11",
+        "S37"
+      ],
+      "family": "Lochheim records"
+    },
+    {
+      "id": "E12",
+      "title": "The 815 donation is a source conflict",
+      "category": "Locations",
+      "status": "Conflicting reports",
+      "confidence": "Unresolved",
+      "date": "815",
+      "place": "Lochheim",
+      "observation": "LAGIS lists a donation to Hersfeld in 815; the older specialist treasure survey discusses an 815 identification in connection with Lorsch.",
+      "supports": "The secondary accounts require reconciliation.",
+      "doesNot": "The discrepancy cannot be resolved by choosing the more attractive narrative.",
+      "alternative": "Different documents, identifications or a secondary error may be involved.",
+      "next": "Inspect the actual 815 document and critical regesta before using it to locate Lôche.",
+      "sourceIds": [
+        "S09",
+        "S06"
+      ],
+      "family": "Lochheim records"
+    },
+    {
+      "id": "E13",
+      "title": "Sandhausen has real settlement archaeology",
+      "category": "Locations",
+      "status": "Established",
+      "confidence": "High for reported excavation",
+      "date": "1993 location; May 2001 rescue",
+      "place": "Lochheim near Sandhausen",
+      "observation": "The field report describes localisation in 1993 and a gas-pipeline rescue investigation in May 2001. Surface ceramics included seventh- to fourteenth/fifteenth-century material.",
+      "supports": "This alternative Lochheim has material evidence and an investigated settlement.",
+      "doesNot": "It does not identify fifth-century treasure or equate this place with Lôche.",
+      "alternative": "The evidence fits a long-lived medieval settlement.",
+      "next": "Audit the field archive, early ceramics and sampling limits.",
+      "sourceIds": [
+        "S12"
+      ],
+      "family": "Sandhausen fieldwork"
+    },
+    {
+      "id": "E14",
+      "title": "The 1131 mention is not the start of Sandhausen settlement",
+      "category": "Locations",
+      "status": "Established",
+      "confidence": "High",
+      "date": "Seventh century onward; written mention 1131",
+      "place": "Sandhausen",
+      "observation": "The report distinguishes the secure 1131 church reference from earlier archaeological material and a possible 1061 reference.",
+      "supports": "First written mention and earliest occupation are different questions.",
+      "doesNot": "Earlier occupation still does not demonstrate a fifth-century deposit.",
+      "alternative": "Document survival can make a settlement appear younger than it is.",
+      "next": "Avoid dismissing the site solely because its secure written mention is late.",
+      "sourceIds": [
+        "S12"
+      ],
+      "family": "Sandhausen fieldwork"
+    },
+    {
+      "id": "E15",
+      "title": "Hamm–Eich is a search hypothesis, not a verified point",
+      "category": "Locations",
+      "status": "Hypothesis",
+      "confidence": "Low for treasure location",
+      "date": "Modern interpretation",
+      "place": "Hamm–Eich",
+      "observation": "Jacobi associated an old river landscape around Hamm and Eich with the literary hiding place.",
+      "supports": "An identifiable hypothesis can be audited.",
+      "doesNot": "A modern bank position does not establish an ancient channel or deposit.",
+      "alternative": "The same name tradition can be placed differently in changing river geography.",
+      "next": "Recover original mapped search boundaries before any field design.",
+      "sourceIds": [
+        "S13",
+        "S14"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E16",
+      "title": "Rheinbach-Loch is not an excavated treasure discovery",
+      "category": "Locations",
+      "status": "Hypothesis",
+      "confidence": "Low",
+      "date": "Modern interpretation",
+      "place": "Rheinbach / Nideggen",
+      "observation": "The specialist survey describes alternative name-based reconstructions and reports no excavation at the proposed Rheinbach site at the time of writing.",
+      "supports": "A competing theory exists in the literature.",
+      "doesNot": "This is not evidence of an unsuccessful comprehensive search, nor a current permit-status check.",
+      "alternative": "Similar names may be selected after the theory is formed.",
+      "next": "Require original argument, chronology and independent site evidence before field expenditure.",
+      "sourceIds": [
+        "S06"
+      ],
+      "family": "Alternative geography"
+    },
+    {
+      "id": "E17",
+      "title": "Jacobi drilling is reported, but the campaign dossier is missing",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Moderate for activity",
+      "date": "1970s onward reported",
+      "place": "Hamm / Gernsheim vicinity",
+      "observation": "Local accounts describe drilling and excavations by Hans and Hans Jörg Jacobi. Original campaign records were not available in the reviewed material.",
+      "supports": "Field activity is credibly reported.",
+      "doesNot": "The number, position, depth and coverage of interventions are not independently established.",
+      "alternative": "Later descriptions may combine several events or repeat one source.",
+      "next": "Obtain logs, plans, permits and contractor records.",
+      "sourceIds": [
+        "S13",
+        "S15"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E18",
+      "title": "The reported marble block is not authenticated treasure evidence",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Low for archaeological inference",
+      "date": "Undated drilling event",
+      "place": "Hofgut Seibert area reported",
+      "observation": "Bender reports a marble block encountered at about ten metres and Jacobi’s interpretation of it as a possible covering.",
+      "supports": "A physical observation has been claimed.",
+      "doesNot": "No examined sample, custody record or stratigraphic report establishes a treasure association.",
+      "alternative": "Building material, redeposited stone, later fill or misidentification remain possible.",
+      "next": "Locate sample and borehole log; verify petrology, worked surfaces and depositional context.",
+      "sourceIds": [
+        "S06"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E19",
+      "title": "An equipment limitation is a reported explanation",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Low to moderate",
+      "date": "1970s campaign attribution",
+      "place": "Hamm am Rhein",
+      "observation": "Ritscher’s account says depth was underestimated and appropriate equipment for safe continuation was unavailable.",
+      "supports": "An operational explanation for stopping has been reported.",
+      "doesNot": "It does not prove that equipment was the only obstacle or that a deeper target exists.",
+      "alternative": "The reported anomaly may have had no archaeological significance.",
+      "next": "Find the contractor report, stopping depth and contemporaneous correspondence.",
+      "sourceIds": [
+        "S13"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E20",
+      "title": "September 2003 is securely a public-claim date",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Moderate to high for announcement",
+      "date": "September 2003",
+      "place": "Eich",
+      "observation": "Gallé reports Jacobi expressing confidence at a public event. A city-hosted chronology also lists treasure searching in 2003.",
+      "supports": "Public advocacy occurred by this time.",
+      "doesNot": "These documents do not securely date a separate 2003 borehole or stone discovery.",
+      "alternative": "A lecture about older work can become a new search event in a shortened chronology.",
+      "next": "Reconcile event reporting with dated campaign documentation.",
+      "sourceIds": [
+        "S14",
+        "S43"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E21",
+      "title": "A 2013 interview reports dowsing as part of the search",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "High for published report",
+      "date": "4 January 2013",
+      "place": "Jacobi search area unspecified",
+      "observation": "The sensor profile mentions a professional dowser alongside drilling and excavation.",
+      "supports": "An identifiable account records the methods claimed by the searcher.",
+      "doesNot": "A dowsing response is not a calibrated geophysical anomaly.",
+      "alternative": "Expectation and selective interpretation can create apparent confirmations.",
+      "next": "Separate every claimed observation by instrument, operator, date and retained data.",
+      "sourceIds": [
+        "S15",
+        "S38"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E22",
+      "title": "The 2007 broadcast is evidence of publicity",
+      "category": "Search history",
+      "status": "Established",
+      "confidence": "High for announced broadcast",
+      "date": "23 and 26 December 2007",
+      "place": "ZDF",
+      "observation": "A broadcaster press release announced the two-part Nibelungen-Code programme.",
+      "supports": "The documentary can be retrieved as a source of interviews and leads.",
+      "doesNot": "A filmed reconstruction or announcement is not an excavation report.",
+      "alternative": "Editing can omit uncertainty and compress chronology.",
+      "next": "Retrieve full episodes and credits; label reenactments and trace every technical claim to records.",
+      "sourceIds": [
+        "S16"
+      ],
+      "family": "Broadcast reception"
+    },
+    {
+      "id": "E23",
+      "title": "Claims that all candidate places were surveyed are not auditable",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Low for coverage claim",
+      "date": "2011 reporting",
+      "place": "Rhine, undefined extent",
+      "observation": "A WELT report broadly describes diving, sonar and radar searches without presenting a coverage dataset in the reviewed extract.",
+      "supports": "Such searches have been reported in the press.",
+      "doesNot": "The wording cannot establish that all plausible areas or depths were tested.",
+      "alternative": "Surface inspection can miss buried deposits and unsearched former channels.",
+      "next": "Require georeferenced tracks, instrument settings, dates and detection limits before counting negative evidence.",
+      "sourceIds": [
+        "S18"
+      ],
+      "family": "Media search summaries"
+    },
+    {
+      "id": "E24",
+      "title": "Rheingold dredging is a different kind of search",
+      "category": "Search history",
+      "status": "Reported",
+      "confidence": "Moderate",
+      "date": "1939–1943 reported",
+      "place": "Upper Rhine",
+      "observation": "SWR reports dredging for natural gold and a total recovery of roughly 300 grams.",
+      "supports": "Natural gold extraction was pursued and produced a small reported yield.",
+      "doesNot": "That yield does not test the existence of manufactured objects in a buried hoard.",
+      "alternative": "Placer gold and deposited valuables are different target populations.",
+      "next": "Keep natural-gold production outside the archaeological search-success denominator.",
+      "sourceIds": [
+        "S17"
+      ],
+      "family": "Natural gold extraction"
+    },
+    {
+      "id": "E25",
+      "title": "Neupotz proves recovery of a substantial ancient Rhine hoard",
+      "category": "Comparative finds",
+      "status": "Established",
+      "confidence": "High",
+      "date": "Third century; recovered 1967–1997",
+      "place": "Neupotz",
+      "observation": "Berlin’s museum account records over 1,000 metal objects, about 700 kilograms, recovered by dredging an Old Rhine branch between 1967 and 1997.",
+      "supports": "Substantial ancient material can survive and emerge from former Rhine channels.",
+      "doesNot": "This third-century assemblage is not evidence identifying a fifth-century Burgundian treasury.",
+      "alternative": "Different historical loss events can create superficially similar hoards.",
+      "next": "Use its recovery history and object mix to design preservation and detection scenarios.",
+      "sourceIds": [
+        "S19",
+        "S45"
+      ],
+      "family": "Neupotz assemblage"
+    },
+    {
+      "id": "E26",
+      "title": "Rülzheim is a real fifth-century comparison",
+      "category": "Comparative finds",
+      "status": "Established",
+      "confidence": "High",
+      "date": "Found 2013; fifth-century attribution",
+      "place": "Rülzheim",
+      "observation": "Institutional accounts describe a late antique hoard found in 2013, with a fifth-century/Hunnic-period attribution.",
+      "supports": "Valuable contemporary-period assemblages occur in the broader region.",
+      "doesNot": "Regional proximity and period are insufficient for a Nibelungen identification.",
+      "alternative": "Elite possessions, diplomatic gifts or concealment unrelated to Burgundians may explain it.",
+      "next": "Read the excavation and conservation publications before estimating how representative it is.",
+      "sourceIds": [
+        "S20",
+        "S40"
+      ],
+      "family": "Rülzheim assemblage"
+    },
+    {
+      "id": "E27",
+      "title": "Rülzheim illustrates the cost of losing context",
+      "category": "Comparative finds",
+      "status": "Established",
+      "confidence": "High for reported context loss",
+      "date": "2013 recovery; subsequent study",
+      "place": "Rülzheim",
+      "observation": "The local institutional account describes destruction of original ground traces. A specialist study examines its elaborate folding chair.",
+      "supports": "Preserving associations and stratigraphy is central to identifying a find.",
+      "doesNot": "An object’s alloy or decorative style alone may not reveal its owner or reason for burial.",
+      "alternative": "Several historical owners can possess objects made in the same workshop tradition.",
+      "next": "Require archaeological recording before removal and independent specialist interpretation.",
+      "sourceIds": [
+        "S21",
+        "S40"
+      ],
+      "family": "Rülzheim assemblage"
+    },
+    {
+      "id": "E28",
+      "title": "A later river map cannot directly locate a fifth-century channel",
+      "category": "Landscape and methods",
+      "status": "Research inference",
+      "confidence": "High for methodological distinction",
+      "date": "Multiple periods",
+      "place": "Rhine floodplain",
+      "observation": "Historical maps and modern topography document different moments; the regional geomorphology literature describes complex channel migration.",
+      "supports": "The search must reconstruct time-specific landscapes.",
+      "doesNot": "A bend shown in the eighteenth century is not proof of the same bend in 436.",
+      "alternative": "Channels can migrate, be filled, be reoccupied or be removed by extraction.",
+      "next": "Combine dated sediment sequences, maps and archaeological horizons.",
+      "sourceIds": [
+        "S22",
+        "S27"
+      ],
+      "family": "Landscape chronology"
+    },
+    {
+      "id": "E29",
+      "title": "The French Upper Rhine study is an analogue, not a local map",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High",
+      "date": "2022 research",
+      "place": "French Upper Rhine plain",
+      "observation": "Abdulkarim and colleagues combine lidar, fieldwork and sediment provenance to distinguish palaeochannel groups.",
+      "supports": "A credible approach exists for reconstructing former river systems.",
+      "doesNot": "Its mapped channels and conditions do not establish those at Hamm or Biebesheim.",
+      "alternative": "Local geology and preservation may differ substantially.",
+      "next": "Adapt the method and acquire local cores rather than transferring conclusions.",
+      "sourceIds": [
+        "S22"
+      ],
+      "family": "Landscape chronology"
+    },
+    {
+      "id": "E30",
+      "title": "Existing geological data could reduce new drilling",
+      "category": "Landscape and methods",
+      "status": "Available resource",
+      "confidence": "High for service existence",
+      "date": "Current services",
+      "place": "Hessen and Rhineland-Palatinate",
+      "observation": "Official services provide geological records; the RLP service also describes requests for older records and inspection of cores.",
+      "supports": "There is a concrete route to existing subsurface evidence.",
+      "doesNot": "This review has not extracted or audited boreholes at the candidate parcels.",
+      "alternative": "Records may be sparse, inaccessible or unsuitable for archaeological dating.",
+      "next": "Inventory boreholes by coordinates, depth, log quality, sample survival and licence.",
+      "sourceIds": [
+        "S23",
+        "S24"
+      ],
+      "family": "Official spatial data"
+    },
+    {
+      "id": "E31",
+      "title": "Terrain and aerial data are available but unanalysed here",
+      "category": "Landscape and methods",
+      "status": "Available resource",
+      "confidence": "High for service existence",
+      "date": "Modern and historical observations",
+      "place": "Rhineland-Palatinate",
+      "observation": "Official catalogues provide digital terrain models, laser data and historical aerial imagery.",
+      "supports": "Existing landscape data can support the first spatial study.",
+      "doesNot": "These data do not directly image buried gold and have not been interpreted for this dossier.",
+      "alternative": "Modern earthworks can imitate ancient channel features.",
+      "next": "Retrieve candidate-area data, check acquisition dates and compare independent layers.",
+      "sourceIds": [
+        "S25",
+        "S26"
+      ],
+      "family": "Official spatial data"
+    },
+    {
+      "id": "E32",
+      "title": "No single geophysical technique settles the question",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High",
+      "date": "2016 guidance",
+      "place": "All proposed sites",
+      "observation": "EAC guidance emphasises target- and geology-dependent survey selection and qualified interpretation.",
+      "supports": "A combined and validated investigation is appropriate.",
+      "doesNot": "Buying the newest instrument does not guarantee the relevant depth or material can be detected.",
+      "alternative": "Different physical contrasts produce different signals and blind spots.",
+      "next": "Set measurable target classes and blind trials before procuring wide-area surveys.",
+      "sourceIds": [
+        "S28",
+        "S42"
+      ],
+      "family": "Survey physics"
+    },
+    {
+      "id": "E33",
+      "title": "Radar may fail in conductive sediments",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High",
+      "date": "2001 primary study",
+      "place": "Transferable principle; local test required",
+      "observation": "USGS describes strong radar attenuation from conductive materials such as clay-rich sediment and saline porewater.",
+      "supports": "Local conductivity and sediments must be tested.",
+      "doesNot": "A negative radar survey cannot exclude a target below its effective penetration.",
+      "alternative": "A blank image may reflect signal loss, not empty ground.",
+      "next": "Measure site conditions and validate depth-specific performance with representative targets.",
+      "sourceIds": [
+        "S29"
+      ],
+      "family": "Survey physics"
+    },
+    {
+      "id": "E34",
+      "title": "Underwater surface surveys leave buried targets unresolved",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High",
+      "date": "2025 guidance",
+      "place": "Rhine channels",
+      "observation": "Underwater guidance distinguishes surface and sub-bottom methods and their interpretation.",
+      "supports": "Buried deposits require methods capable of examining the subsurface.",
+      "doesNot": "A clean sonar image of the riverbed cannot exclude objects below sediment.",
+      "alternative": "Scour, burial, gas and substrate can change visibility.",
+      "next": "Design combined bathymetric, sub-bottom and targeted verification work with a river specialist.",
+      "sourceIds": [
+        "S30"
+      ],
+      "family": "Survey physics"
+    },
+    {
+      "id": "E35",
+      "title": "Sediment dating constrains a landscape, not the gold directly",
+      "category": "Landscape and methods",
+      "status": "Research inference",
+      "confidence": "High for distinction",
+      "date": "Proposed investigation",
+      "place": "Candidate channels",
+      "observation": "Rhine-delta research uses optical dating with radiocarbon constraints for sediment history.",
+      "supports": "Appropriate dating can constrain deposition or abandonment of channels.",
+      "doesNot": "A dated sediment sample does not automatically date an associated-looking metal object.",
+      "alternative": "Reworked organic matter, mixed sediment and later intrusion can mislead.",
+      "next": "Use stratigraphic relationships, multiple samples and explicit age uncertainty.",
+      "sourceIds": [
+        "S41"
+      ],
+      "family": "Landscape chronology"
+    },
+    {
+      "id": "E36",
+      "title": "Search permissions precede fieldwork",
+      "category": "Permissions",
+      "status": "Established",
+      "confidence": "High for general requirement",
+      "date": "Current guidance",
+      "place": "Hessen and Rhineland-Palatinate",
+      "observation": "The state heritage authorities describe permission requirements for archaeological searches.",
+      "supports": "A qualified project needs an agreed regulatory route.",
+      "doesNot": "This dossier does not grant access, permission to dig or ownership of finds.",
+      "alternative": "Even non-destructive methods can form part of regulated archaeological research.",
+      "next": "Define parcels and methods with the authorities and landowners.",
+      "sourceIds": [
+        "S31",
+        "S32"
+      ],
+      "family": "Permissions"
+    },
+    {
+      "id": "E37",
+      "title": "River work and protected sites add constraints",
+      "category": "Permissions",
+      "status": "Established",
+      "confidence": "Moderate to high for general scope",
+      "date": "Current guidance",
+      "place": "Rhine and protected areas",
+      "observation": "Official guidance addresses waterway interventions and restrictions in protected archaeological areas.",
+      "supports": "Field design must account for navigation, protection and custody.",
+      "doesNot": "The programme cannot assume every preferred site can be excavated.",
+      "alternative": "A scientifically attractive target may be inaccessible or better preserved in place.",
+      "next": "Obtain project-specific determinations and budget for conservation and access.",
+      "sourceIds": [
+        "S34",
+        "S39"
+      ],
+      "family": "Permissions"
+    },
+    {
+      "id": "E38",
+      "title": "The proposal’s probabilities are assumptions",
+      "category": "Decision assumptions",
+      "status": "Planning assumption",
+      "confidence": "Not an empirical estimate",
+      "date": "Previous proposal",
+      "place": "Whole programme",
+      "observation": "The 0.006%, 0.2% and 4.3% outcomes were products of illustrative conditional assumptions, not measured historical frequencies.",
+      "supports": "They show how weak links can dominate overall success.",
+      "doesNot": "They are not a calibrated probability range, a confidence interval or evidence of existence.",
+      "alternative": "Other defensible priors could produce much lower or higher outputs.",
+      "next": "Use transparent sensitivity analysis and independent expert elicitation before funding decisions.",
+      "sourceIds": [],
+      "family": "Proposal assumptions"
+    },
+    {
+      "id": "E39",
+      "title": "The proposal’s budget is not a costed procurement plan",
+      "category": "Decision assumptions",
+      "status": "Planning assumption",
+      "confidence": "Not a quotation",
+      "date": "Previous proposal",
+      "place": "Whole programme",
+      "observation": "The €3.5–7.5 million range is a preliminary allowance for a staged programme, including contingency.",
+      "supports": "It provides an initial funding scale.",
+      "doesNot": "It does not establish contractor rates, permit feasibility or achievable coverage.",
+      "alternative": "Deep engineering and difficult recovery could substantially change costs.",
+      "next": "Obtain task-specific scopes and quotations after the archive and landscape audit.",
+      "sourceIds": [],
+      "family": "Proposal assumptions"
+    },
+    {
+      "id": "E40",
+      "title": "No verified Nibelungen discovery was located in this review",
+      "category": "Decision assumptions",
+      "status": "Review finding",
+      "confidence": "Bounded to reviewed sources",
+      "date": "As of 16 September 2026",
+      "place": "Reviewed public record",
+      "observation": "The inspected sources present hypotheses and comparative hoards, without an authenticated discovery identified as the Nibelungen treasure.",
+      "supports": "No reviewed positive find resolves the question.",
+      "doesNot": "This is not proof of absence or an exhaustive audit of unpublished archives.",
+      "alternative": "Relevant records may be offline, private, uncatalogued or lost.",
+      "next": "Complete the acquisition queue and publish search limits explicitly.",
+      "sourceIds": [
+        "S06",
+        "S17",
+        "S19",
+        "S20"
+      ],
+      "family": "Review scope"
+    },
+    {
+      "id": "E41",
+      "title": "Repeated Jacobi stories are not independent confirmations",
+      "category": "Search history",
+      "status": "Research inference",
+      "confidence": "High for dependence concern",
+      "date": "2003–2013 and later",
+      "place": "Hamm–Eich claim",
+      "observation": "The reviewed reports repeatedly concern the same searcher and proposed location, without independent raw datasets.",
+      "supports": "They document a persistent claim family.",
+      "doesNot": "Several articles cannot be counted as several successful detections.",
+      "alternative": "One original claim can generate a large chain of apparently corroborating reports.",
+      "next": "Build a source genealogy linking every statement to its earliest record.",
+      "sourceIds": [
+        "S13",
+        "S14",
+        "S15",
+        "S43"
+      ],
+      "family": "Jacobi claim family"
+    },
+    {
+      "id": "E42",
+      "title": "Negative evidence needs a defined detection probability",
+      "category": "Decision assumptions",
+      "status": "Research inference",
+      "confidence": "High for logic",
+      "date": "Proposed evaluation",
+      "place": "Surveyed volumes only",
+      "observation": "A negative result is informative only in proportion to the chance that the investigation would detect a present target.",
+      "supports": "A documented survey can lower belief in a narrowly specified hypothesis.",
+      "doesNot": "Repeated weak searches cannot prove global non-existence.",
+      "alternative": "Shared blind spots make repeated tests correlated.",
+      "next": "Specify target geometry, depth, surveyed volume and a validated end-to-end probability.",
+      "sourceIds": [],
+      "family": "Probability model"
+    },
+    {
+      "id": "E43",
+      "title": "Rülzheim has laboratory evidence, but no named owner",
+      "category": "Comparative finds",
+      "status": "Established",
+      "confidence": "High for the reported analyses; limited for historical attribution",
+      "date": "2018 investigation",
+      "place": "Rülzheim",
+      "observation": "CEZA reports a radiocarbon date on an olive stone associated with chair filling and analyses of silver and solder.",
+      "supports": "Independent material analysis contributes to object chronology and possible manufacture or repair connections.",
+      "doesNot": "It does not directly date the whole deposit or link it to the Nibelungen story.",
+      "alternative": "An object can have a production, repair and deposition history spanning different dates and places.",
+      "next": "Read the complete chair study and laboratory data alongside the conservation record.",
+      "sourceIds": [
+        "S44",
+        "S21"
+      ],
+      "family": "Rülzheim laboratory evidence"
+    },
+    {
+      "id": "E44",
+      "title": "The Lochheim report records a medieval sediment transition",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High for the published observation; interpretation requires local context",
+      "date": "May 2001 fieldwork; 2002 report",
+      "place": "Lochheim near Sandhausen",
+      "observation": "The rescue report describes redeposited loess above organic mud and interprets a medieval change in the local water system.",
+      "supports": "Local stratigraphy can constrain landscape history more directly than place-name resemblance.",
+      "doesNot": "This is not a fifth-century Rhine reconstruction or a treasure-bearing layer.",
+      "alternative": "Sediment processes vary spatially; this section cannot be transferred to Hamm.",
+      "next": "Review original profiles, sample locations and the dating basis.",
+      "sourceIds": [
+        "S12"
+      ],
+      "family": "Sandhausen excavation"
+    },
+    {
+      "id": "E45",
+      "title": "Two dated maps illustrate historical river landscapes",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High for catalogue dates; untested for spatial precision",
+      "date": "1736 and 1833",
+      "place": "Worms–Lampertheim and Ketsch",
+      "observation": "An archive map of the Worms area and an engineering map at Ketsch are available as credited reproductions.",
+      "supports": "They are inspectable historical map sources for their stated periods.",
+      "doesNot": "Neither is a fifth-century reconstruction, a survey boundary, or Jacobi’s cited 1760 map.",
+      "alternative": "A historical plan may show intended works as well as contemporary features; consult its legend.",
+      "next": "Retrieve complete catalogue information and georeference suitable originals with control-point errors.",
+      "sourceIds": [
+        "S46",
+        "S47"
+      ],
+      "family": "Historical cartography"
+    },
+    {
+      "id": "E46",
+      "title": "Matched map extracts allow a reproducible landscape comparison",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High for source identification; local spatial accuracy unquantified",
+      "date": "Review 16 September 2026",
+      "place": "Hamm–Eich, Biebesheim and Kühkopf",
+      "observation": "HIL historical maps and the BKG basemap are rendered on the same Web Mercator grid and identical pixel bounds for each area.",
+      "supports": "Broad changes in settlement extent, water bodies and channel configuration can be inspected by swipe or transparency.",
+      "doesNot": "Identical output coordinates do not eliminate historical survey error, cartographic displacement or differences in map generalisation.",
+      "sourceIds": [
+        "S48",
+        "S49"
+      ],
+      "alternative": "Map compilation, changing symbols and uneven revision can resemble physical change. Inspect the source dates and the shared geography.",
+      "next": "Check original sheets and independent stable control points; test inferred changes against dated air photos, engineering records and cores.",
+      "family": "Historical cartography"
+    },
+    {
+      "id": "E47",
+      "title": "The Kühkopf cutoff changed flow and sedimentation",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High for source identification; local spatial accuracy unquantified",
+      "date": "Review 16 September 2026",
+      "place": "Kühkopf / Stockstadt",
+      "observation": "The Hessian education centre dates the opening to 30 April 1829 and describes increased sedimentation in the old arm after the cutoff.",
+      "supports": "Today’s land and narrow watercourses can occupy a former active river bed.",
+      "doesNot": "This does not establish the Rhine’s fifth-century position or the preservation of a particular deposit.",
+      "sourceIds": [
+        "S50",
+        "S48"
+      ],
+      "alternative": "Map compilation, changing symbols and uneven revision can resemble physical change. Inspect the source dates and the shared geography.",
+      "next": "Check original sheets and independent stable control points; test inferred changes against dated air photos, engineering records and cores.",
+      "family": "Historical cartography"
+    },
+    {
+      "id": "E48",
+      "title": "Later maps show additional water bodies and expanded settlements",
+      "category": "Landscape and methods",
+      "status": "Interpretation",
+      "confidence": "Moderate; visual comparison",
+      "date": "Review 16 September 2026",
+      "place": "Hamm–Eich / Biebesheim",
+      "observation": "Visual comparison of the early and modern extracts shows extensive lake areas near Eich and larger built-up areas around Biebesheim and Hamm.",
+      "supports": "Modern surface conditions and disturbance must enter a search model.",
+      "doesNot": "Map comparison alone cannot give excavation depth, sediment survival, exact construction dates or the age of an underlying palaeochannel.",
+      "sourceIds": [
+        "S48",
+        "S49"
+      ],
+      "alternative": "Map compilation, changing symbols and uneven revision can resemble physical change. Inspect the source dates and the shared geography.",
+      "next": "Check original sheets and independent stable control points; test inferred changes against dated air photos, engineering records and cores.",
+      "family": "Historical cartography"
+    },
+    {
+      "id": "E49",
+      "title": "Specific pre-cutoff archive maps are available",
+      "category": "Landscape and methods",
+      "status": "Established",
+      "confidence": "High for source identification; local spatial accuracy unquantified",
+      "date": "Review 16 September 2026",
+      "place": "Biebesheim / Kühkopf",
+      "observation": "The archive catalogues Born’s map at 1723, with original dating 1723–1725, and Hoehle’s Kühkopf map at 1822.",
+      "supports": "These are concrete sources to extend the landscape chronology earlier than the aligned survey mosaic.",
+      "doesNot": "Neither has been georeferenced here; neither is the unverified 1760 map cited in Jacobi-related accounts.",
+      "sourceIds": [
+        "S51",
+        "S52"
+      ],
+      "alternative": "Map compilation, changing symbols and uneven revision can resemble physical change. Inspect the source dates and the shared geography.",
+      "next": "Check original sheets and independent stable control points; test inferred changes against dated air photos, engineering records and cores.",
+      "family": "Historical cartography"
+    }
+  ],
+  "stops": {
+    "legend": {
+      "place": "worms",
+      "era": "The literary tradition",
+      "title": "A story is the starting point",
+      "question": "What would turn a famous legend into an archaeological case?",
+      "text": "The treasure enters our investigation through a medieval epic. A historical catastrophe, a real place-name and a lost deposit are three separate claims to test.",
+      "image": "hagen",
+      "records": [
+        "E04",
+        "E06",
+        "E08",
+        "E40"
+      ],
+      "clue": "The literary tradition gives us a Rhine deposition and the name Lôche.",
+      "open": "No authenticated Nibelungen hoard was identified in the sources reviewed.",
+      "next": "Separate what the poem says from what contemporary evidence can establish.",
+      "sections": [
+        {
+          "title": "What are we actually looking for?",
+          "text": "The first task is to define “the treasure”. A literal reading asks whether the particular hoard in the Nibelungenlied was deposited as described. A broader archaeological question asks whether a recoverable late antique hoard survives somewhere in the region. A third question asks whether any discovery could be connected to the people behind the legend. Finding ancient metal would answer only part of this sequence.",
+          "records": [
+            "E04",
+            "E40"
+          ]
+        },
+        {
+          "title": "Read the poem as a source",
+          "text": "In the epic, the hoard is wealth that gives its holder power. Hagen removes it from Kriemhild’s control and the poem places its sinking in the Rhine at Lôche. Later versions change the person who loses the treasure and the circumstances. These differences matter: combining details from different stories can produce an attractive search narrative that no single source actually contains.",
+          "records": [
+            "E04",
+            "E05"
+          ]
+        },
+        {
+          "title": "Our working decision",
+          "text": "We should keep the literal-legend and historical-hoard hypotheses separate throughout the programme. Before fieldwork, write down what material, date range, deposit setting and minimum recoverable size would count as a target. A result outside that definition can still be an important discovery; it simply answers a different question. This is a proposed research rule, not an assertion that such a deposit exists.",
+          "records": [
+            "E38",
+            "E40"
+          ]
+        }
+      ],
+      "gallery": [
+        "hagen",
+        "manuscript",
+        "worms1736",
+        "claimladder"
+      ]
+    },
+    "gap": {
+      "place": "karlsruhe",
+      "era": "Fifth century → c. 1200",
+      "title": "Seven centuries to bridge",
+      "question": "How far is the poem from the events behind it?",
+      "text": "The epic was composed around 1200. Its proposed historical setting is the fifth century. The surviving manuscripts are later still.",
+      "image": "manuscript",
+      "records": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "clue": "The medieval manuscripts are real, traceable objects.",
+      "open": "Their authenticity does not make the treasure story an eyewitness account.",
+      "next": "Compare the hoard passage across the principal manuscript witnesses.",
+      "sections": [
+        {
+          "title": "Three dates, three different things",
+          "text": "The composition of the Nibelungenlied around 1200, the copying of a surviving manuscript, and a proposed fifth-century historical background are distinct dates. Manuscript C at Karlsruhe is catalogued to the second quarter of the thirteenth century. Manuscript B at St Gallen is generally placed later in that century. The page reproduced here is the opening of C, not the treasure passage.",
+          "records": [
+            "E01",
+            "E02",
+            "E03"
+          ]
+        },
+        {
+          "title": "The word that becomes a destination",
+          "text": "A modern translation can silently turn an ambiguous place-name into a specific place on today’s map. The English reading edition used in this dossier gives Lochheim, but that translation is not independent evidence for the location. The necessary next step is a side-by-side comparison of the original wording in A, B and C, using folio images, a critical edition and a specialist’s account of the name. That collation has not yet been done.",
+          "records": [
+            "E04",
+            "E05"
+          ]
+        },
+        {
+          "title": "What an archive result could change",
+          "text": "If the principal witnesses support a narrower geographical reading, the candidate list could shrink. If the name remains ambiguous or has a literary explanation, searching one modern village becomes harder to justify. Neither outcome would prove that no unrelated ancient hoard exists. The useful product is an annotated passage with every interpretive step exposed.",
+          "records": [
+            "E04",
+            "E40"
+          ]
+        }
+      ],
+      "gallery": [
+        "manuscript",
+        "claimladder"
+      ]
+    },
+    "court": {
+      "place": "worms",
+      "era": "Fifth-century historical setting",
+      "title": "Was the royal court at Worms?",
+      "question": "How secure is the anchor on our map?",
+      "text": "Prosper records a Burgundian ruler and catastrophe. The cited passage supplies no treasure location. A specialist historical review leaves the royal court at Worms unresolved.",
+      "diagram": "gap",
+      "records": [
+        "E06",
+        "E07",
+        "E08"
+      ],
+      "clue": "Near-contemporary testimony supports part of the historical framework.",
+      "open": "A literary setting cannot, by itself, locate an ancient treasury.",
+      "next": "Review ancient geography and settlement archaeology independently of the poem.",
+      "sections": [
+        {
+          "title": "The historical anchor is incomplete",
+          "text": "Prosper’s chronicle supplies near-contemporary testimony concerning a Burgundian ruler and a destructive defeat. It does not describe a hidden treasury or give a findspot. The university teaching page used here also has a problematic displayed year, so the chronology needs checking against a critical edition before it becomes a fixed point in a project timeline.",
+          "records": [
+            "E06",
+            "E07"
+          ]
+        },
+        {
+          "title": "Why Worms belongs on the map",
+          "text": "Worms is central to the literary setting and to the modern commemoration of the story. The specialist review in this dossier nevertheless treats the location of a fifth-century Burgundian royal court as uncertain. A monument, a festival, and a medieval narrative can all document the reception of a legend without independently establishing the ancient administrative centre.",
+          "records": [
+            "E08"
+          ]
+        },
+        {
+          "title": "A test worth funding",
+          "text": "Build a dated inventory of settlement traces, cemeteries, inscriptions and stray finds across the wider region. Evaluate how securely each can be dated and whether any ethnic attribution is justified. This work could test assumptions about settlement and political geography. A distribution map should show gaps in investigation as well as finds, because an empty area can reflect missing observation rather than absent occupation.",
+          "records": [
+            "E08",
+            "E40"
+          ]
+        }
+      ],
+      "gallery": [
+        "hagen",
+        "worms1736"
+      ]
+    },
+    "lochheim": {
+      "place": "biebesheim",
+      "era": "770–771 onward",
+      "title": "A real name, an unresolved place",
+      "question": "Is this Lochheim the poem’s Lôche?",
+      "text": "Official records attest a medieval Lochheim near Biebesheim. That is a useful geographical lead. The step from this settlement to a fifth-century treasure remains unproven.",
+      "diagram": "names",
+      "records": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "clue": "Dated charters and a historical place-name register can be checked.",
+      "open": "Related spellings are one naming tradition, not independent treasure clues.",
+      "next": "Resolve the charter geography and the conflicting accounts of the 815 donation.",
+      "sections": [
+        {
+          "title": "Why this lead deserves attention",
+          "text": "The historical gazetteer documents a deserted Lochheim near Biebesheim, with early medieval name forms and a location that is not completely secure. The survival of related field names offers a route into cadastral and charter research. It does not take the settlement back automatically to the fifth century or identify it with the poem’s Lôche.",
+          "records": [
+            "E09",
+            "E10"
+          ]
+        },
+        {
+          "title": "One tradition can look like several clues",
+          "text": "Lochheim, Flochheim and Flochum are related names, not three separate discoveries of a treasure location. Accounts also disagree about the 815 donation. The dossier keeps this discrepancy open rather than selecting whichever version best suits a search theory. A charter must be checked for its date, copying history, people, neighbouring properties and the place it actually identifies.",
+          "records": [
+            "E10",
+            "E11",
+            "E12"
+          ]
+        },
+        {
+          "title": "Make the geography reproducible",
+          "text": "The proposed output is a map with separate layers for charter references, later property boundaries, historical river channels and modern parcels. Each point should carry an uncertainty area rather than false precision. The eighteenth-century Worms map in this gallery is an example of a dated cartographic source; it is not the specific 1760 map invoked in Jacobi-related accounts.",
+          "records": [
+            "E28",
+            "E45"
+          ]
+        }
+      ],
+      "gallery": [
+        "worms1736",
+        "ketsch",
+        "claimladder"
+      ]
+    },
+    "sandhausen": {
+      "place": "sandhausen",
+      "era": "Seventh century onward · excavation 2001",
+      "title": "Another Lochheim has archaeology",
+      "question": "Does a late first mention mean a late settlement?",
+      "text": "A rescue excavation near Sandhausen provides material evidence for a medieval settlement. Earlier ceramics make its secure 1131 written mention an inadequate starting date.",
+      "diagram": "settlement",
+      "records": [
+        "E13",
+        "E14",
+        "E44"
+      ],
+      "clue": "There is an original, published field report to investigate.",
+      "open": "Settlement evidence does not identify the poem’s hiding place or a fifth-century hoard.",
+      "next": "Inspect the excavation archive, finds chronology and sampling limits.",
+      "sections": [
+        {
+          "title": "What the field report actually records",
+          "text": "Hildebrandt and Gross describe a gas-pipeline rescue investigation in May 2001 at the northern edge of the deserted settlement. Surface collections ranged from the seventh to the fourteenth or fifteenth centuries. A roughly 1.8-metre-wide sunken building contained burning traces and early medieval ceramics; its filling was placed before or around the year 1000. This is substantially more informative than a first written mention alone.",
+          "records": [
+            "E13",
+            "E14"
+          ]
+        },
+        {
+          "title": "The sediment tells another story",
+          "text": "Across about 250 metres, the report describes yellow redeposited loess over dark organic mud and older loess below. The authors connected the change in sedimentation with medieval alteration of the local water system. Our section drawing simplifies those reported layers; it is not a measured excavation profile and does not show a treasure.",
+          "records": [
+            "E44"
+          ]
+        },
+        {
+          "title": "What remains to be tested",
+          "text": "This evidence weakens the argument that a secure mention in 1131 must mean a settlement began that late. It does not establish fifth-century occupation, nor does a narrow pipeline investigation test the whole landscape. Request the plans, finds catalogue and original documentation before drawing a boundary around either the settlement or a future search.",
+          "records": [
+            "E13",
+            "E14"
+          ]
+        }
+      ],
+      "gallery": [
+        "strata",
+        "ketsch"
+      ]
+    },
+    "jacobi": {
+      "place": "hamm",
+      "era": "1970s onward · reported work",
+      "title": "The ten-metre claim",
+      "question": "What did the drill actually encounter?",
+      "text": "Accounts describe Jacobi’s drilling and a marble block at about ten metres. The original log, sample and archaeological context have not been inspected.",
+      "diagram": "borehole",
+      "records": [
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E41"
+      ],
+      "clue": "A claimed physical observation could, in principle, be re-examined.",
+      "open": "Stone, depth and interpretation are all dependent on records still missing.",
+      "next": "Locate the campaign archive and any surviving sample before drilling again.",
+      "sections": [
+        {
+          "title": "The reported intervention",
+          "text": "Published accounts associate Hans and Hans Jörg Jacobi with work in the Hamm–Eich area from the 1970s onward. A specialist synthesis describes a marble block recovered at about ten metres on the Hofgut Seibert property. The original borehole location, drilling log, sample accession and photographs were not available for this dossier. The illustration is therefore a diagram of the claim, not a reconstruction of a documented borehole.",
+          "records": [
+            "E17",
+            "E18"
+          ]
+        },
+        {
+          "title": "Why work reportedly stopped",
+          "text": "Ritscher’s local account attributes the interruption to underestimated depth and unsuitable equipment for continuing safely. This is a reported operational explanation, not an independently established failure analysis. We cannot infer that better machinery would have reached treasure. A stone could be natural, displaced, reused or otherwise unrelated; its interpretation depends on material identification and context.",
+          "records": [
+            "E19"
+          ]
+        },
+        {
+          "title": "Untangle the dates before counting searches",
+          "text": "Gallé describes a public statement of confidence in September 2003. That establishes an announcement, not necessarily a new drilling campaign that year. Later interviews and broadcasts can repeat the same older observation. The archive audit should connect every reported event to a dated primary record, and record explicitly when several articles derive from a single claim.",
+          "records": [
+            "E20",
+            "E21",
+            "E41"
+          ]
+        }
+      ],
+      "gallery": [
+        "drilling",
+        "worms1736"
+      ]
+    },
+    "negative": {
+      "place": "hamm",
+      "era": "Modern searches",
+      "title": "An empty search has conditions",
+      "question": "Would that search have found a present target?",
+      "text": "A search result is only as strong as its documented coverage and detection ability. Broad press accounts do not tell us which places, depths and target sizes were actually tested.",
+      "diagram": "coverage",
+      "records": [
+        "E19",
+        "E21",
+        "E23",
+        "E42"
+      ],
+      "clue": "Logs, tracks and calibration can turn a negative result into useful evidence.",
+      "open": "Repeated searches can share the same blind spots.",
+      "next": "Define the target and survey volume, then validate detection in local sediments.",
+      "sections": [
+        {
+          "title": "“Nothing found” is not one kind of result",
+          "text": "A negative survey can mean the instrument worked in a fully observed area and found no target, or that coverage, depth or sensitivity were inadequate. Without tracks, settings, sediment conditions and quality-control records, those cases cannot be separated. The reviewed media summaries do not provide enough information to treat the whole Rhine or a complete candidate area as excluded.",
+          "records": [
+            "E23",
+            "E42"
+          ]
+        },
+        {
+          "title": "Specify what the search could have seen",
+          "text": "A compact chest of metal, scattered coins and a stone-lined feature are different targets. A technique that detects one may miss another at the same depth. Future work should record the smallest target it reliably detects, the tested burial range and the amount of inaccessible or disturbed ground. The illustrated grid shows why repeating the same survey can repeat the same blind spots.",
+          "records": [
+            "E32",
+            "E33",
+            "E42"
+          ]
+        },
+        {
+          "title": "A numerical example, not a forecast",
+          "text": "Suppose a location begins with a 10% assumed chance of containing the defined target. Suppose the search covers half of the possible positions and detects 80% of targets in that covered part. Its overall detection chance is 40%; after a negative result the conditional presence probability is 6.25%. These are deliberately chosen teaching inputs. The probability explorer lets you change them; real values require evidence.",
+          "records": [
+            "E39",
+            "E42"
+          ]
+        }
+      ],
+      "gallery": [
+        "coveragewide",
+        "drilling"
+      ]
+    },
+    "neupotz": {
+      "place": "neupotz",
+      "era": "Third century · recovered 1967–1997",
+      "title": "A real hoard from the Rhine",
+      "question": "What can a different treasure teach us?",
+      "text": "The Neupotz assemblage demonstrates that substantial ancient metalwork can survive in former Rhine channels. Its chronology and identity are distinct from the Nibelungen claim.",
+      "image": "neupotz",
+      "records": [
+        "E25"
+      ],
+      "clue": "The museum documents a large assemblage recovered over decades.",
+      "open": "One successful recovery does not tell us the frequency of undiscovered hoards.",
+      "next": "Use the recovery history to study preservation and detection, not to establish identity.",
+      "sections": [
+        {
+          "title": "Look beyond the word “treasure”",
+          "text": "Neupotz is a substantial Roman-period metal assemblage recovered during gravel extraction from an old Rhine channel. Museum presentations include vessels, tools, vehicle components, locks and shackles. The photographed shackles are actual objects from that separate assemblage. A large hoard need not look like a box of gold coins; its composition affects how it survives and how a survey might detect it.",
+          "records": [
+            "E25"
+          ]
+        },
+        {
+          "title": "What this comparison can and cannot do",
+          "text": "The museum dates the loss to the third century. That separates it from the fifth-century setting proposed for the Burgundian story. Its recovery demonstrates survival in a river landscape, but it supplies neither a rate of undiscovered hoards nor the probability of finding another. The recovery process also matters: objects lifted by industrial extraction do not retain the same contextual information as a controlled excavation.",
+          "records": [
+            "E25"
+          ]
+        },
+        {
+          "title": "A useful technical comparison",
+          "text": "Commission a recovery-history review: where objects were brought up, which sediment was removed, how dispersed the assemblage was and what documentation survives. Use that review to define preservation and detection questions. Do not transfer a successful discovery’s dimensions, date or identity onto an unrelated signal in another part of the floodplain.",
+          "records": [
+            "E25",
+            "E35"
+          ]
+        }
+      ],
+      "gallery": [
+        "neupotz",
+        "ketsch"
+      ]
+    },
+    "ruelzheim": {
+      "place": "ruelzheim",
+      "era": "Fifth century · found 2013",
+      "title": "The right period is not an identity",
+      "question": "Would fifth-century valuables settle the legend?",
+      "text": "Rülzheim offers a real late antique comparison. Matching period and broad region would still be insufficient to name a new discovery as the legendary treasure.",
+      "diagram": "identity",
+      "records": [
+        "E26",
+        "E27",
+        "E43"
+      ],
+      "clue": "A valuable fifth-century assemblage exists in the wider region.",
+      "open": "Lost excavation context limits what can be said about ownership and concealment.",
+      "next": "Preserve every association and stratigraphic relationship in any future investigation.",
+      "sections": [
+        {
+          "title": "An object can preserve laboratory clues",
+          "text": "The late antique Rülzheim hoard includes a remarkable silver folding chair. CEZA’s 2018 report describes an olive stone found in filling material associated with a small bust. Radiocarbon analysis placed that organic material in the late fourth or early fifth century. This dates a sample associated with an object component; it is not a direct date for the concealment of the whole hoard.",
+          "records": [
+            "E26",
+            "E43"
+          ]
+        },
+        {
+          "title": "Composition can test a production history",
+          "text": "The laboratory also investigated the chair’s metal and solder. The solder’s lead-isotope composition was compatible with Eifel deposits and with solder on a broadly contemporary Trier silver jug. CEZA considered manufacture or repair near Trier possible. Such matches can narrow a technological discussion, but they do not name an owner or establish a connection to Gunther, Hagen or the Nibelungen story.",
+          "records": [
+            "E43"
+          ]
+        },
+        {
+          "title": "Context is part of the discovery",
+          "text": "The circumstances of recovery limit reconstruction of the original deposit. The research lesson is to preserve associations, positions and conservation evidence from the beginning. Our illustration separates an organic date, a metal-provenance argument and a deposit history. They answer different questions, and should never be compressed into “the treasure has been identified”.",
+          "records": [
+            "E27",
+            "E43"
+          ]
+        }
+      ],
+      "gallery": [
+        "laboratory",
+        "neupotz"
+      ]
+    },
+    "landscape": {
+      "place": "hamm",
+      "era": "The landscape through time",
+      "title": "The river has moved",
+      "question": "Are we looking in the channel that existed then?",
+      "text": "A modern river bend or an eighteenth-century map cannot fix the fifth-century river. Dated sediment, historical maps and existing boreholes have to be studied together.",
+      "diagram": "landscape",
+      "records": [
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E35",
+        "E45"
+      ],
+      "clue": "Geological archives and terrain data provide a practical starting point.",
+      "open": "No candidate-area palaeochannel model has been completed for this dossier.",
+      "next": "Map surviving deposits and extraction history before choosing survey parcels.",
+      "sections": [
+        {
+          "title": "A real historical map, at its own date",
+          "text": "The gallery now includes a 1736 map of the Worms–Lampertheim area from the Hessian State Archive and an 1833 map illustrating the Ketsch Rhine cutoff. They make changing river geography tangible. Neither image establishes a fifth-century channel, and neither has been georeferenced here. Look at the original legend and orientation before comparing it with the modern atlas.",
+          "records": [
+            "E28",
+            "E45"
+          ]
+        },
+        {
+          "title": "A published example of the method",
+          "text": "Abdulkarim and colleagues mapped former channels in the French Upper Rhine plain using terrain data, aerial images and old maps, then investigated selected channels with cores. The reproduced figures show their terrain and reconstructed network in Alsace. They are a methodological comparison south of our principal candidates, not survey results for Hamm or Biebesheim.",
+          "records": [
+            "E28",
+            "E35"
+          ]
+        },
+        {
+          "title": "What to build for this project",
+          "text": "Start with existing boreholes, historical cartography, elevation models and extraction records. Distinguish deposits that survive, deposits that have been removed, and areas whose history is unknown. Then obtain age constraints on selected sediment sequences. The result should be a time-specific three-dimensional search volume with uncertainties, not a single attractive bend circled on a map.",
+          "records": [
+            "E29",
+            "E30",
+            "E31"
+          ]
+        }
+      ],
+      "gallery": [
+        "worms1736",
+        "ketsch",
+        "terrain",
+        "channels"
+      ]
+    },
+    "methods": {
+      "place": "hamm",
+      "era": "A proposed future investigation",
+      "title": "Prove the method can see the target",
+      "question": "Which tool can answer the question at this depth?",
+      "text": "Radar, electromagnetic methods and underwater surveys respond to different physical contrasts. Local sediment and target form determine whether a negative result has meaning.",
+      "diagram": "coverage",
+      "records": [
+        "E32",
+        "E33",
+        "E34",
+        "E35",
+        "E42"
+      ],
+      "clue": "Blind trials can measure performance against representative targets.",
+      "open": "No candidate-site trial has established the detection probabilities used in the proposal.",
+      "next": "Require independent calibration before commissioning wide-area work.",
+      "sections": [
+        {
+          "title": "Match the instrument to the physical question",
+          "text": "Radar measures contrasts in electromagnetic properties; its useful depth is constrained by the ground. Magnetometry responds to magnetic contrasts and is not a direct gold detector. Electrical and electromagnetic surveys can help characterize sediment or conductive targets, but an anomaly still needs interpretation. No method in this dossier has yet passed a local target-detection trial.",
+          "records": [
+            "E32",
+            "E33"
+          ]
+        },
+        {
+          "title": "Treat the river bed and buried sediments separately",
+          "text": "Bathymetry maps the bed surface; side-scan sonar can reveal exposed objects and texture. Sub-bottom methods investigate sediment structure under suitable conditions. A clean surface image does not exclude an object below sediment. These are different observation volumes, so a survey report must state what was visible and what remained beyond its effective depth or resolution.",
+          "records": [
+            "E34"
+          ]
+        },
+        {
+          "title": "A field decision we can audit",
+          "text": "Use independent blind trials with representative targets and local sediments before scaling up. Agree how a candidate will be revisited by a second method, what counts as a significant anomaly and which observations would stop further spending. Record detection misses as carefully as successes. These proposed quality controls are the bridge from illustrative probability sliders to evidence-based survey planning.",
+          "records": [
+            "E35",
+            "E38",
+            "E42"
+          ]
+        }
+      ],
+      "gallery": [
+        "terrain",
+        "channels",
+        "coveragewide"
+      ]
+    },
+    "decision": {
+      "place": "worms",
+      "era": "The decision now",
+      "title": "Search for a testable answer",
+      "question": "Which missing record would change your view most?",
+      "text": "The immediate priority is an archive and landscape audit. A sample with provenance, an original log, or a corrected place identification could sharply redirect the programme.",
+      "diagram": "decision",
+      "records": [
+        "E38",
+        "E39",
+        "E40",
+        "E42"
+      ],
+      "clue": "The dossier gives each claim a source trail and a next decisive check.",
+      "open": "Numerical success scenarios remain assumptions, not calibrated forecasts.",
+      "next": "Evaluate the evidence, rank the missing records, and agree a stopping rule.",
+      "sections": [
+        {
+          "title": "Success has more than one level",
+          "text": "A programme can succeed by rejecting a specific location, establishing that an old search claim cannot be substantiated, locating a real archaeological deposit, or recovering evidence that changes the historical interpretation. The much stronger claim that a find is the legendary Nibelungen hoard needs independent support. Define these outcomes before investing, so an interesting object is not mistaken for the answer to every question.",
+          "records": [
+            "E38",
+            "E40"
+          ]
+        },
+        {
+          "title": "A sequence for an ambitious programme",
+          "text": "First recover and assess the campaign archive and the key texts. Next reconstruct candidate landscapes and prioritize surviving deposits. Then validate instruments locally and survey only justified areas. Finally, investigate a reproducible anomaly through an agreed archaeological project with conservation and publication built in. Each stage should finish with an explicit continue, revise or stop decision.",
+          "records": [
+            "E38",
+            "E39"
+          ]
+        },
+        {
+          "title": "What we can honestly rule out",
+          "text": "A negative result can exclude a specified target in a specified volume to a measured detection standard. It cannot prove that no treasure ever existed anywhere, especially if a deposit was recovered, dispersed or destroyed long ago. The immediate goal is therefore to turn a broad legend into a set of bounded claims that can actually be tested. The probability figures remain scenario assumptions until that work supplies better inputs.",
+          "records": [
+            "E40",
+            "E42"
+          ]
+        }
+      ],
+      "gallery": [
+        "claimladder",
+        "coveragewide"
+      ]
+    }
+  },
+  "media": {
+    "hagen": {
+      "file": "assets/hagen-worms.jpg",
+      "title": "Hagen monument beside the Rhine, Worms",
+      "alt": "A bronze monument representing Hagen beside the Rhine at Worms.",
+      "caption": "Modern commemoration of the legend; not evidence of a deposit.",
+      "credit": "Igor Kurakin · 2008",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Hagendenkmal_Worms.JPG",
+      "change": "Original image; displayed to fit the panel.",
+      "type": "Monument photograph"
+    },
+    "manuscript": {
+      "file": "assets/manuscript-c.jpg",
+      "title": "Nibelungenlied, manuscript C, folio 1r",
+      "alt": "The opening page of manuscript C, with medieval script and decorated initials.",
+      "caption": "Opening folio, not the hoard passage. Holding catalogue: second quarter of the 13th century.",
+      "credit": "Badische Landesbibliothek · scan via Wikimedia Commons",
+      "licence": "Public domain",
+      "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Nibelungenlied_manuscript-c_f1r.jpg",
+      "change": "Original scan; displayed to fit the panel.",
+      "type": "Historical manuscript"
+    },
+    "neupotz": {
+      "file": "assets/neupotz-shackles.jpg",
+      "title": "Shackles from the Neupotz assemblage",
+      "alt": "Iron shackles displayed as part of the Neupotz hoard.",
+      "caption": "An actual object group from a separate Roman-period hoard.",
+      "credit": "Befana~commonswiki · Römisches Museum Augsburg · 2007",
+      "licence": "Public domain dedication by the photographer",
+      "licenceUrl": "https://commons.wikimedia.org/wiki/File:Neupotz_Handschellen.jpg#Licensing",
+      "url": "https://commons.wikimedia.org/wiki/File:Neupotz_Handschellen.jpg",
+      "change": "Original photograph; displayed to fit the panel.",
+      "type": "Object photograph"
+    },
+    "worms1736": {
+      "file": "assets/worms-1736.jpg",
+      "title": "Worms and the Rhine in 1736",
+      "alt": "Historical map showing the Worms–Lampertheim Rhine landscape in 1736.",
+      "caption": "Historical map, 1736. Not the 1760 map in search accounts and not an ancient-channel reconstruction.",
+      "credit": "Hessisches Landesarchiv · HStAD P 1 Nr. 200",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Karte_des_Rheingebiets_von_Rheind%C3%BCrkheim_bis_Lampertheim_mit_Worms.jpg",
+      "change": "Archive reproduction via Commons, reduced-resolution copy; no annotations.",
+      "type": "Historical map"
+    },
+    "ketsch": {
+      "file": "assets/ketsch-1833.jpg",
+      "title": "The Rhine cutoff at Ketsch, 1833",
+      "alt": "An 1833 historical map depicting a Rhine meander and the cutoff at Ketsch.",
+      "caption": "Historical engineering map near Ketsch, 1833. A dated example of river alteration, not a treasure location.",
+      "credit": "Unnamed cartographer · 1833 · via Themenpark Umwelt Baden-Württemberg / Wikimedia Commons",
+      "licence": "Public domain",
+      "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Ketsch-Karte_Rheindurchstich.jpg",
+      "change": "Original image, unmodified.",
+      "type": "Historical map"
+    },
+    "terrain": {
+      "file": "assets/palaeochannel-terrain.png",
+      "title": "Seeing former channels in terrain data",
+      "alt": "Published lidar terrain map and topographic profiles of an Alsace study area.",
+      "caption": "Published figure 4: Alsace study area, not Hamm–Eich. Terrain mapping and sampling positions.",
+      "credit": "Mubarak Abdulkarim and co-authors, 2022 · data: Grand Est, European Collectivity of Alsace and IGN France",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://egqsj.copernicus.org/articles/71/191/2022/",
+      "change": "Unmodified figure 4 from the open-access paper.",
+      "type": "Published research figure"
+    },
+    "channels": {
+      "file": "assets/palaeochannel-network.png",
+      "title": "A mapped network of former channels",
+      "alt": "Published map of five groups of former river channels in the French Upper Rhine plain.",
+      "caption": "Published figure 5: interpreted channel groups in Alsace. Method comparison, not a Nibelungen search map.",
+      "credit": "Mubarak Abdulkarim and co-authors, 2022",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://egqsj.copernicus.org/articles/71/191/2022/",
+      "change": "Unmodified figure 5 from the open-access paper.",
+      "type": "Published research figure"
+    },
+    "claimladder": {
+      "file": "assets/claim-ladder.svg",
+      "title": "From an ancient deposit to an identified treasure",
+      "alt": "From an ancient deposit to an identified treasure",
+      "caption": "Original explanatory diagram. Each step requires additional evidence.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "drilling": {
+      "file": "assets/reported-drilling.svg",
+      "title": "What would verify the reported drilling?",
+      "alt": "What would verify the reported drilling?",
+      "caption": "Original schematic of an unverified claim. No real borehole profile or treasure is depicted.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "strata": {
+      "file": "assets/lochheim-strata.svg",
+      "title": "Lochheim: a simplified sediment sequence",
+      "alt": "Lochheim: a simplified sediment sequence",
+      "caption": "Original explanatory drawing based on S12, pp. 39–41. Not to scale and not a treasure layer.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://regionalia.blb-karlsruhe.de/files/17617/BLB_Hildebrandt_Gross_Notbergung_Lochheim.pdf",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "laboratory": {
+      "file": "assets/laboratory-clues.svg",
+      "title": "What laboratory evidence can establish",
+      "alt": "What laboratory evidence can establish",
+      "caption": "Original explanation of the distinctions in S44. Not a reconstruction of the folding chair.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://ceza.de/english/wp-content/uploads/sites/2/2023/11/CEZA_Jahresbericht_2018.pdf",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "coveragewide": {
+      "file": "assets/survey-coverage.svg",
+      "title": "Where a negative search can leave uncertainty",
+      "alt": "Where a negative search can leave uncertainty",
+      "caption": "Original teaching illustration. Cells do not represent measured search coverage.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    }
+  },
+  "videos": [
+    {
+      "id": "V01",
+      "title": "Der Schatz der Nibelungen",
+      "english": "The treasure investigation",
+      "publisher": "ZDFinfo · Mythos",
+      "date": "14 October 2020",
+      "duration": "45 min",
+      "kind": "Treasure investigation",
+      "chapters": [
+        "jacobi",
+        "lochheim",
+        "negative",
+        "decision"
+      ],
+      "source": "S53",
+      "url": "https://www.zdf.de/video/dokus/mythos-die-groessten-raetsel-der-geschichte-100/mythos-die-groessten-raetsel-der-geschichte--der-schatz-der-nibelungen-100",
+      "image": "hagen",
+      "summary": "The broadcaster describes a search involving old texts, the disappeared Lochheim and modern treasure hunters. This is the closest match to the central question in this atlas.",
+      "watch": "Look for the original document behind each location claim, and whether any detector result is independently verified.",
+      "limit": "A documentary’s proposed connections are leads to audit. Its description does not establish a discovered hoard, and a broadcast is not a drilling log."
+    },
+    {
+      "id": "V02",
+      "title": "Das Nibelungenlied",
+      "english": "Reading the epic through Kriemhild",
+      "publisher": "ZDF · Terra X / ZDF goes Schule",
+      "date": "12 December 2021",
+      "duration": "44 min",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap",
+        "court"
+      ],
+      "source": "S54",
+      "url": "https://schule.zdf.de/video/grosse-mythen-aufgedeckt-das-nibelungenlied-100",
+      "image": "manuscript",
+      "summary": "An interpretation centred on Kriemhild and the medieval society reflected in the poem. Useful alongside the manuscript chronology and the distinction between literary setting and ancient testimony.",
+      "watch": "Separate the world of the poem’s composition from the much earlier events it may rework.",
+      "limit": "This supplies a literary perspective, not an ancient location fix. The provider lists availability until 12 December 2031."
+    },
+    {
+      "id": "V03",
+      "title": "Die Nibelungensage in 90 Sekunden",
+      "english": "The legend in ninety seconds",
+      "publisher": "Terra X History · official YouTube channel",
+      "date": "26 November 2016",
+      "duration": "About 90 sec",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap"
+      ],
+      "source": "S55",
+      "url": "https://www.youtube.com/watch?v=7wNtptF6JLE",
+      "image": "hagen",
+      "summary": "A very short introduction to the story’s characters and treasure. Best used as an orientation before the evidence chapters.",
+      "watch": "Notice how compression makes several strands of the tradition look like one continuous account.",
+      "limit": "A popular retelling should not substitute for comparing manuscript witnesses or be used to estimate treasure value."
+    },
+    {
+      "id": "V04",
+      "title": "Der Rhein (1/2)",
+      "english": "The Rhine as a changing historical landscape",
+      "publisher": "3sat · Terra X",
+      "date": "Listing: 26 April 2026; production 2016",
+      "duration": "About 45 min",
+      "kind": "River history",
+      "chapters": [
+        "landscape",
+        "court",
+        "neupotz"
+      ],
+      "source": "S56",
+      "url": "https://www.3sat.de/wissen/terra-x/der-geschichte-des-rheins-teil-1-von-vulkanen-und-100.html",
+      "image": "worms1736",
+      "summary": "A broad account of settlement, trade and major events along the Rhine, including the Nibelungen tradition. It places river finds in a much longer history of activity along the waterway.",
+      "watch": "Ask which scenes concern the Upper Rhine study area and which concern other reaches of the river.",
+      "limit": "Regional history does not date a channel at Hamm. Use the aligned maps and local sediment studies for that question."
+    },
+    {
+      "id": "V05",
+      "title": "Historische Karten mit QGIS georeferenzieren",
+      "english": "How historical map overlays are made",
+      "publisher": "FOSSGIS 2025 · Niklas Alt & Johannes Wagner",
+      "date": "27 March 2025",
+      "duration": "47 min",
+      "kind": "Research methods",
+      "chapters": [
+        "landscape",
+        "methods",
+        "lochheim",
+        "negative"
+      ],
+      "source": "S57",
+      "url": "https://media.ccc.de/v/fossgis2025-58149-historische-karten-mit-qgis-georeferenzieren",
+      "image": "worms1736",
+      "summary": "A technical demonstration of aligning historical maps with modern coordinates, using control points and printed grids. The speakers explain how map scale, displacement and historical coordinate systems complicate the work.",
+      "watch": "The sections on control-point selection and coordinate systems explain why an attractive overlay can still mislead.",
+      "limit": "This teaches a method. It neither surveys the treasure candidates nor independently validates the alignment error of our map extracts."
+    },
+    {
+      "id": "V06",
+      "title": "Das Nibelungenlied · Sommers Weltliteratur",
+      "english": "An accessible plot walkthrough",
+      "publisher": "Michael Sommer · presented by Reclam",
+      "date": "Publication date not stated on the reviewed page",
+      "duration": "Just under 11 min",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap"
+      ],
+      "source": "S58",
+      "url": "https://sommers-weltliteratur.de/videos/das-nibelungenlied/",
+      "image": "manuscript",
+      "summary": "A compact German-language explanation of the epic’s plot, useful for keeping the characters and sequence of events straight while evaluating the treasure story.",
+      "watch": "Use it to orient yourself, then return to the manuscript and historical-source records.",
+      "limit": "An educational plot summary is not archaeological evidence. Open the provider page to load its YouTube player."
+    }
+  ],
+  "mapComparison": {
+    "regions": [
+      {
+        "id": "hamm",
+        "name": "Hamm–Eich / Biebesheim–Lochheim",
+        "box": [
+          8.34,
+          49.715,
+          8.505,
+          49.82
+        ],
+        "pixels": [
+          1097160,
+          712866,
+          1098121,
+          713813
+        ],
+        "tiles": [
+          4285,
+          2784,
+          4289,
+          2788
+        ],
+        "width": 961,
+        "height": 947,
+        "layers": [
+          {
+            "id": "ghh",
+            "label": "19th-century survey",
+            "file": "assets/map-hamm-ghh.png",
+            "sha256": "a4fdd83770a992f15dae5493fba7f8c495047690ce7391f058aa1b7d2ad47f2f"
+          },
+          {
+            "id": "tk25_1900",
+            "label": "Around 1900",
+            "file": "assets/map-hamm-tk25_1900.png",
+            "sha256": "ed663f5678b11ab6ff79b165b435b6a79730a807e640bd13c78f9224ea19487f"
+          },
+          {
+            "id": "tk25_1970",
+            "label": "Around 1970",
+            "file": "assets/map-hamm-tk25_1970.png",
+            "sha256": "69dd11af2d01aa5e6935516fe530b62ffb318c78c78f2494e3653574d1c6499b"
+          },
+          {
+            "id": "tk25_1990",
+            "label": "Around 1990",
+            "file": "assets/map-hamm-tk25_1990.png",
+            "sha256": "bf7223b235eb6179facb1f66d93f6a979a8096efd3320876b388fed6f680746c"
+          },
+          {
+            "id": "modern",
+            "label": "Modern basemap · retrieved 2026",
+            "file": "assets/map-hamm-modern.png",
+            "sha256": "7940b8555747b993f805d67be1e17dbb786730af1077189372de0b75dfab1dc0"
+          }
+        ],
+        "worldFile": [
+          19.109257071294063,
+          0,
+          0,
+          -19.109257071294063,
+          928413.7001802847,
+          6415159.136775594
+        ],
+        "groundPixelMetres": 12.34
+      },
+      {
+        "id": "kuehkopf",
+        "name": "Kühkopf / Stockstadt",
+        "box": [
+          8.37,
+          49.77,
+          8.505,
+          49.86
+        ],
+        "pixels": [
+          1097335,
+          712505,
+          1098121,
+          713318
+        ],
+        "tiles": [
+          4286,
+          2783,
+          4289,
+          2786
+        ],
+        "width": 786,
+        "height": 813,
+        "layers": [
+          {
+            "id": "ghh",
+            "label": "19th-century survey",
+            "file": "assets/map-kuehkopf-ghh.png",
+            "sha256": "4b4b8d7dc8facd9b76c7251f3a4ea00fbae3892cbe13c31f7a4e23c647be5205"
+          },
+          {
+            "id": "tk25_1900",
+            "label": "Around 1900",
+            "file": "assets/map-kuehkopf-tk25_1900.png",
+            "sha256": "e3b89a69dfcf4fe2f015a8322db0cd7a401c44bac483b14e2fd4a1be2166e054"
+          },
+          {
+            "id": "tk25_1970",
+            "label": "Around 1970",
+            "file": "assets/map-kuehkopf-tk25_1970.png",
+            "sha256": "893f0104ca1e241c5744269c6c803a5757dfbea8f63b30b65bf342c04051b95a"
+          },
+          {
+            "id": "tk25_1990",
+            "label": "Around 1990",
+            "file": "assets/map-kuehkopf-tk25_1990.png",
+            "sha256": "1e4da3473539f4a50bb678c373bbc68e23724b7f2452ef812e49211bcabfd757"
+          },
+          {
+            "id": "modern",
+            "label": "Modern basemap · retrieved 2026",
+            "file": "assets/map-kuehkopf-modern.png",
+            "sha256": "d815584d79eb32653cc6de5f1426105b43e6bde5860ac6832773f04675444809"
+          }
+        ],
+        "worldFile": [
+          19.109257071294063,
+          0,
+          0,
+          -19.109257071294063,
+          931757.8201677613,
+          6422057.578578332
+        ],
+        "groundPixelMetres": 12.33
+      }
+    ],
+    "epochs": [
+      {
+        "id": "ghh",
+        "group": "landesaufnahme",
+        "label": "19th-century survey"
+      },
+      {
+        "id": "tk25_1900",
+        "group": "hist_tk",
+        "label": "Around 1900"
+      },
+      {
+        "id": "tk25_1970",
+        "group": "hist_tk",
+        "label": "Around 1970"
+      },
+      {
+        "id": "tk25_1990",
+        "group": "hist_tk",
+        "label": "Around 1990"
+      },
+      {
+        "id": "modern",
+        "label": "Modern basemap · retrieved 2026"
+      }
+    ],
+    "zoom": 13,
+    "projection": "EPSG:3857",
+    "retrieved": "2026-09-16",
+    "services": {
+      "historical": "https://wms.hlgl.uni-marburg.de/mapcache/{group}/wmts/1.0.0/{id}/default/GoogleMapsCompatible/{zoom}/{row}/{column}.png",
+      "modern": "https://sgx.geodatenzentrum.de/wmts_basemapde/tile/1.0.0/de_basemapde_web_raster_farbe/default/GLOBAL_WEBMERCATOR/{zoom}/{row}/{column}.png"
+    },
+    "method": "Tiles supplied in EPSG:3857; assembled and cropped to identical global pixel bounds. No manual warp. Approximate geographic boxes describe study windows; pixels and world-file coefficients specify actual image bounds. HIL historical georeferencing residuals not independently measured."
+  }
+}

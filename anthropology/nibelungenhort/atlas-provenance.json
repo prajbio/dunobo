@@ -1,0 +1,770 @@
+{
+  "edition": 4,
+  "researchDate": "2026-09-16",
+  "places": [
+    {
+      "id": "worms",
+      "name": "Worms",
+      "kind": "history",
+      "coord": [
+        8.3608,
+        49.6331
+      ],
+      "geo": "https://de.wikipedia.org/wiki/Worms",
+      "label": "Literary setting",
+      "records": [
+        "E06",
+        "E07",
+        "E08",
+        "E45"
+      ],
+      "note": "Town reference point. A fifth-century royal court here remains uncertain."
+    },
+    {
+      "id": "hamm",
+      "name": "Hamm–Eich",
+      "kind": "claim",
+      "coord": [
+        8.4306,
+        49.7292
+      ],
+      "geo": "https://de.wikipedia.org/wiki/Hamm_am_Rhein",
+      "label": "Jacobi search reports",
+      "records": [
+        "E15",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E41"
+      ],
+      "note": "Marker at Hamm for regional orientation. It is not a borehole or a verified search boundary."
+    },
+    {
+      "id": "biebesheim",
+      "name": "Biebesheim / Lochheim",
+      "kind": "history",
+      "coord": [
+        8.4647,
+        49.78
+      ],
+      "geo": "https://de.wikipedia.org/wiki/Biebesheim_am_Rhein",
+      "label": "Medieval place records",
+      "records": [
+        "E09",
+        "E10",
+        "E11",
+        "E12"
+      ],
+      "note": "Marker at the modern town. The deserted Lochheim settlement is tentatively located northwest of it."
+    },
+    {
+      "id": "sandhausen",
+      "name": "Lochheim near Sandhausen",
+      "kind": "find",
+      "coord": [
+        8.6581,
+        49.3439
+      ],
+      "geo": "https://de.wikipedia.org/wiki/Sandhausen",
+      "label": "Settlement archaeology",
+      "records": [
+        "E13",
+        "E14",
+        "E44"
+      ],
+      "note": "Marker at the modern town, not the 2001 excavation trench. This is settlement evidence, not a treasure find."
+    },
+    {
+      "id": "neupotz",
+      "name": "Neupotz",
+      "kind": "find",
+      "coord": [
+        8.33,
+        49.11
+      ],
+      "geo": "https://commons.wikimedia.org/wiki/Category:Barbarenschatz",
+      "label": "Third-century hoard",
+      "records": [
+        "E25"
+      ],
+      "note": "Approximate locality reference. The recovered assemblage is a comparison, not the Nibelungen treasure."
+    },
+    {
+      "id": "ruelzheim",
+      "name": "Rülzheim",
+      "kind": "find",
+      "coord": [
+        8.2936,
+        49.1556
+      ],
+      "geo": "https://de.wikipedia.org/wiki/R%C3%BClzheim",
+      "label": "Fifth-century hoard",
+      "records": [
+        "E26",
+        "E27",
+        "E43"
+      ],
+      "note": "Marker at the modern town, not an excavation position. Historical attribution remains a separate question."
+    },
+    {
+      "id": "karlsruhe",
+      "name": "Karlsruhe",
+      "kind": "history",
+      "coord": [
+        8.4,
+        49.01
+      ],
+      "geo": "https://www.blb-karlsruhe.de/sammlungen/unesco-weltdokumentenerbe-nibelungenlied",
+      "label": "Manuscript C today",
+      "records": [
+        "E01",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "note": "Approximate modern city location of the holding library. This is a manuscript repository, not a deposit candidate."
+    },
+    {
+      "id": "rheinbach",
+      "name": "Rheinbach / Loch",
+      "kind": "claim",
+      "coord": [
+        6.95,
+        50.6333
+      ],
+      "geo": "https://de.wikipedia.org/wiki/Rheinbach",
+      "label": "Alternative place theory",
+      "records": [
+        "E16"
+      ],
+      "note": "Marker at Rheinbach for regional orientation. No surveyed treasure position is established."
+    }
+  ],
+  "images": {
+    "hagen": {
+      "file": "assets/hagen-worms.jpg",
+      "title": "Hagen monument beside the Rhine, Worms",
+      "alt": "A bronze monument representing Hagen beside the Rhine at Worms.",
+      "caption": "Modern commemoration of the legend; not evidence of a deposit.",
+      "credit": "Igor Kurakin · 2008",
+      "licence": "CC BY-SA 3.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Hagendenkmal_Worms.JPG",
+      "change": "Original image; displayed to fit the panel.",
+      "type": "Monument photograph"
+    },
+    "manuscript": {
+      "file": "assets/manuscript-c.jpg",
+      "title": "Nibelungenlied, manuscript C, folio 1r",
+      "alt": "The opening page of manuscript C, with medieval script and decorated initials.",
+      "caption": "Opening folio, not the hoard passage. Holding catalogue: second quarter of the 13th century.",
+      "credit": "Badische Landesbibliothek · scan via Wikimedia Commons",
+      "licence": "Public domain",
+      "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Nibelungenlied_manuscript-c_f1r.jpg",
+      "change": "Original scan; displayed to fit the panel.",
+      "type": "Historical manuscript"
+    },
+    "neupotz": {
+      "file": "assets/neupotz-shackles.jpg",
+      "title": "Shackles from the Neupotz assemblage",
+      "alt": "Iron shackles displayed as part of the Neupotz hoard.",
+      "caption": "An actual object group from a separate Roman-period hoard.",
+      "credit": "Befana~commonswiki · Römisches Museum Augsburg · 2007",
+      "licence": "Public domain dedication by the photographer",
+      "licenceUrl": "https://commons.wikimedia.org/wiki/File:Neupotz_Handschellen.jpg#Licensing",
+      "url": "https://commons.wikimedia.org/wiki/File:Neupotz_Handschellen.jpg",
+      "change": "Original photograph; displayed to fit the panel.",
+      "type": "Object photograph"
+    },
+    "worms1736": {
+      "file": "assets/worms-1736.jpg",
+      "title": "Worms and the Rhine in 1736",
+      "alt": "Historical map showing the Worms–Lampertheim Rhine landscape in 1736.",
+      "caption": "Historical map, 1736. Not the 1760 map in search accounts and not an ancient-channel reconstruction.",
+      "credit": "Hessisches Landesarchiv · HStAD P 1 Nr. 200",
+      "licence": "CC BY-SA 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Karte_des_Rheingebiets_von_Rheind%C3%BCrkheim_bis_Lampertheim_mit_Worms.jpg",
+      "change": "Archive reproduction via Commons, reduced-resolution copy; no annotations.",
+      "type": "Historical map"
+    },
+    "ketsch": {
+      "file": "assets/ketsch-1833.jpg",
+      "title": "The Rhine cutoff at Ketsch, 1833",
+      "alt": "An 1833 historical map depicting a Rhine meander and the cutoff at Ketsch.",
+      "caption": "Historical engineering map near Ketsch, 1833. A dated example of river alteration, not a treasure location.",
+      "credit": "Unnamed cartographer · 1833 · via Themenpark Umwelt Baden-Württemberg / Wikimedia Commons",
+      "licence": "Public domain",
+      "licenceUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://commons.wikimedia.org/wiki/File:Ketsch-Karte_Rheindurchstich.jpg",
+      "change": "Original image, unmodified.",
+      "type": "Historical map"
+    },
+    "terrain": {
+      "file": "assets/palaeochannel-terrain.png",
+      "title": "Seeing former channels in terrain data",
+      "alt": "Published lidar terrain map and topographic profiles of an Alsace study area.",
+      "caption": "Published figure 4: Alsace study area, not Hamm–Eich. Terrain mapping and sampling positions.",
+      "credit": "Mubarak Abdulkarim and co-authors, 2022 · data: Grand Est, European Collectivity of Alsace and IGN France",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://egqsj.copernicus.org/articles/71/191/2022/",
+      "change": "Unmodified figure 4 from the open-access paper.",
+      "type": "Published research figure"
+    },
+    "channels": {
+      "file": "assets/palaeochannel-network.png",
+      "title": "A mapped network of former channels",
+      "alt": "Published map of five groups of former river channels in the French Upper Rhine plain.",
+      "caption": "Published figure 5: interpreted channel groups in Alsace. Method comparison, not a Nibelungen search map.",
+      "credit": "Mubarak Abdulkarim and co-authors, 2022",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://egqsj.copernicus.org/articles/71/191/2022/",
+      "change": "Unmodified figure 5 from the open-access paper.",
+      "type": "Published research figure"
+    },
+    "claimladder": {
+      "file": "assets/claim-ladder.svg",
+      "title": "From an ancient deposit to an identified treasure",
+      "alt": "From an ancient deposit to an identified treasure",
+      "caption": "Original explanatory diagram. Each step requires additional evidence.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "drilling": {
+      "file": "assets/reported-drilling.svg",
+      "title": "What would verify the reported drilling?",
+      "alt": "What would verify the reported drilling?",
+      "caption": "Original schematic of an unverified claim. No real borehole profile or treasure is depicted.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "strata": {
+      "file": "assets/lochheim-strata.svg",
+      "title": "Lochheim: a simplified sediment sequence",
+      "alt": "Lochheim: a simplified sediment sequence",
+      "caption": "Original explanatory drawing based on S12, pp. 39–41. Not to scale and not a treasure layer.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://regionalia.blb-karlsruhe.de/files/17617/BLB_Hildebrandt_Gross_Notbergung_Lochheim.pdf",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "laboratory": {
+      "file": "assets/laboratory-clues.svg",
+      "title": "What laboratory evidence can establish",
+      "alt": "What laboratory evidence can establish",
+      "caption": "Original explanation of the distinctions in S44. Not a reconstruction of the folding chair.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "https://ceza.de/english/wp-content/uploads/sites/2/2023/11/CEZA_Jahresbericht_2018.pdf",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    },
+    "coveragewide": {
+      "file": "assets/survey-coverage.svg",
+      "title": "Where a negative search can leave uncertainty",
+      "alt": "Where a negative search can leave uncertainty",
+      "caption": "Original teaching illustration. Cells do not represent measured search coverage.",
+      "credit": "Nibelungen Atlas · 2026",
+      "licence": "CC BY 4.0",
+      "licenceUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "url": "atlas-provenance.json",
+      "change": "Original vector illustration; explanatory, not a field record.",
+      "type": "Explanatory illustration"
+    }
+  },
+  "audio": {
+    "legend": {
+      "file": "assets/audio/legend.mp3",
+      "seconds": 89.18,
+      "chapters": [
+        0,
+        15.425,
+        40.344,
+        64.215
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "1f2c78dc4a5aa705054d0336498e191738f5330b491131590c6de863bd51c8d7",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "gap": {
+      "file": "assets/audio/gap.mp3",
+      "seconds": 93.09,
+      "chapters": [
+        0,
+        14.135,
+        39.434,
+        68.955
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "0f36ee75bcb518de6d11552969cbf4ead20062ed078195418552a0b197c514b2",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "court": {
+      "file": "assets/audio/court.mp3",
+      "seconds": 89.64,
+      "chapters": [
+        0,
+        15.01,
+        38.831,
+        62.789
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "b4b8b04431d100ade3f8d4d53c8b884e963fbcd07a0a4ec6d5a4890f7a3c288a",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "lochheim": {
+      "file": "assets/audio/lochheim.mp3",
+      "seconds": 89.74,
+      "chapters": [
+        0,
+        15.138,
+        37.935,
+        63.587
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "5bcbb3f5a679ca783d8630709e43f6a4c7dfba0f6636819a84536e4d712309b8",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "sandhausen": {
+      "file": "assets/audio/sandhausen.mp3",
+      "seconds": 96.63,
+      "chapters": [
+        0,
+        17.559,
+        48.126,
+        72.086
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "4ccb31ee7f1307a66780be5c75717c12472b5d498ed630c6a02457a83e7ff2e6",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "jacobi": {
+      "file": "assets/audio/jacobi.mp3",
+      "seconds": 92.92,
+      "chapters": [
+        0,
+        13.421,
+        40.987,
+        67.655
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "ce81a1be02657e8cdca01886a5eb4c86928856c1edd1496e5d4c7b36eca0d9ef",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "negative": {
+      "file": "assets/audio/negative.mp3",
+      "seconds": 96.72,
+      "chapters": [
+        0,
+        15.481,
+        40.699,
+        65.221
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "e4cc3ec2631e3e07f57cdedb72f695fcde0c53ef862bce9975b706f52ba45a59",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "neupotz": {
+      "file": "assets/audio/neupotz.mp3",
+      "seconds": 90.29,
+      "chapters": [
+        0,
+        14.552,
+        40.016,
+        67.079
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "9f219941fd3a962f57e18f07db933fb3395130604e0175b7ca54be3548681f10",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "ruelzheim": {
+      "file": "assets/audio/ruelzheim.mp3",
+      "seconds": 92.21,
+      "chapters": [
+        0,
+        14.807,
+        41.273,
+        67.931
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "ec3bab4126ec262940b37767a7b2ea7e7db02ecd3c7cbfa00af50445b452a5c9",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "landscape": {
+      "file": "assets/audio/landscape.mp3",
+      "seconds": 89.9,
+      "chapters": [
+        0,
+        13.868,
+        41.048,
+        64.88
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "b27bf1829c822afd920bd7914f55b3a3a966a4cd52edcdbf21e1042d43a41e7c",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "methods": {
+      "file": "assets/audio/methods.mp3",
+      "seconds": 94.22,
+      "chapters": [
+        0,
+        15.809,
+        42.371,
+        67.813
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "751fa1a0d97e8b3302255d6839c2c4b3bee93b271bdaa56ab87fb4ac5d08f497",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    },
+    "decision": {
+      "file": "assets/audio/decision.mp3",
+      "seconds": 98.13,
+      "chapters": [
+        0,
+        15.778,
+        44.09,
+        71.068
+      ],
+      "voice": "bf_emma",
+      "model": "Kokoro-82M / kokoro-onnx",
+      "scriptHash": "90c9a51e0f3a0bb53219abc1e9179defb40f65ed3a537b5b198086652a4ecedd",
+      "sampleRate": 24000,
+      "encoding": "MP3 96 kbps mono"
+    }
+  },
+  "geography": {
+    "source": "Natural Earth",
+    "url": "https://www.naturalearthdata.com/",
+    "licence": "Public domain",
+    "note": "Modern, generalised geography. Not a reconstructed ancient river."
+  },
+  "notes": "Edition 4 adds a video library and two aligned historical-map comparison windows. Original chapter narration is retained. Video descriptions are based on provider pages, not full-film review. Historical mapping is georeferenced by HIL; local residual accuracy has not been independently measured.",
+  "videos": [
+    {
+      "id": "V01",
+      "title": "Der Schatz der Nibelungen",
+      "english": "The treasure investigation",
+      "publisher": "ZDFinfo · Mythos",
+      "date": "14 October 2020",
+      "duration": "45 min",
+      "kind": "Treasure investigation",
+      "chapters": [
+        "jacobi",
+        "lochheim",
+        "negative",
+        "decision"
+      ],
+      "source": "S53",
+      "url": "https://www.zdf.de/video/dokus/mythos-die-groessten-raetsel-der-geschichte-100/mythos-die-groessten-raetsel-der-geschichte--der-schatz-der-nibelungen-100",
+      "image": "hagen",
+      "summary": "The broadcaster describes a search involving old texts, the disappeared Lochheim and modern treasure hunters. This is the closest match to the central question in this atlas.",
+      "watch": "Look for the original document behind each location claim, and whether any detector result is independently verified.",
+      "limit": "A documentary’s proposed connections are leads to audit. Its description does not establish a discovered hoard, and a broadcast is not a drilling log."
+    },
+    {
+      "id": "V02",
+      "title": "Das Nibelungenlied",
+      "english": "Reading the epic through Kriemhild",
+      "publisher": "ZDF · Terra X / ZDF goes Schule",
+      "date": "12 December 2021",
+      "duration": "44 min",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap",
+        "court"
+      ],
+      "source": "S54",
+      "url": "https://schule.zdf.de/video/grosse-mythen-aufgedeckt-das-nibelungenlied-100",
+      "image": "manuscript",
+      "summary": "An interpretation centred on Kriemhild and the medieval society reflected in the poem. Useful alongside the manuscript chronology and the distinction between literary setting and ancient testimony.",
+      "watch": "Separate the world of the poem’s composition from the much earlier events it may rework.",
+      "limit": "This supplies a literary perspective, not an ancient location fix. The provider lists availability until 12 December 2031."
+    },
+    {
+      "id": "V03",
+      "title": "Die Nibelungensage in 90 Sekunden",
+      "english": "The legend in ninety seconds",
+      "publisher": "Terra X History · official YouTube channel",
+      "date": "26 November 2016",
+      "duration": "About 90 sec",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap"
+      ],
+      "source": "S55",
+      "url": "https://www.youtube.com/watch?v=7wNtptF6JLE",
+      "image": "hagen",
+      "summary": "A very short introduction to the story’s characters and treasure. Best used as an orientation before the evidence chapters.",
+      "watch": "Notice how compression makes several strands of the tradition look like one continuous account.",
+      "limit": "A popular retelling should not substitute for comparing manuscript witnesses or be used to estimate treasure value."
+    },
+    {
+      "id": "V04",
+      "title": "Der Rhein (1/2)",
+      "english": "The Rhine as a changing historical landscape",
+      "publisher": "3sat · Terra X",
+      "date": "Listing: 26 April 2026; production 2016",
+      "duration": "About 45 min",
+      "kind": "River history",
+      "chapters": [
+        "landscape",
+        "court",
+        "neupotz"
+      ],
+      "source": "S56",
+      "url": "https://www.3sat.de/wissen/terra-x/der-geschichte-des-rheins-teil-1-von-vulkanen-und-100.html",
+      "image": "worms1736",
+      "summary": "A broad account of settlement, trade and major events along the Rhine, including the Nibelungen tradition. It places river finds in a much longer history of activity along the waterway.",
+      "watch": "Ask which scenes concern the Upper Rhine study area and which concern other reaches of the river.",
+      "limit": "Regional history does not date a channel at Hamm. Use the aligned maps and local sediment studies for that question."
+    },
+    {
+      "id": "V05",
+      "title": "Historische Karten mit QGIS georeferenzieren",
+      "english": "How historical map overlays are made",
+      "publisher": "FOSSGIS 2025 · Niklas Alt & Johannes Wagner",
+      "date": "27 March 2025",
+      "duration": "47 min",
+      "kind": "Research methods",
+      "chapters": [
+        "landscape",
+        "methods",
+        "lochheim",
+        "negative"
+      ],
+      "source": "S57",
+      "url": "https://media.ccc.de/v/fossgis2025-58149-historische-karten-mit-qgis-georeferenzieren",
+      "image": "worms1736",
+      "summary": "A technical demonstration of aligning historical maps with modern coordinates, using control points and printed grids. The speakers explain how map scale, displacement and historical coordinate systems complicate the work.",
+      "watch": "The sections on control-point selection and coordinate systems explain why an attractive overlay can still mislead.",
+      "limit": "This teaches a method. It neither surveys the treasure candidates nor independently validates the alignment error of our map extracts."
+    },
+    {
+      "id": "V06",
+      "title": "Das Nibelungenlied · Sommers Weltliteratur",
+      "english": "An accessible plot walkthrough",
+      "publisher": "Michael Sommer · presented by Reclam",
+      "date": "Publication date not stated on the reviewed page",
+      "duration": "Just under 11 min",
+      "kind": "Literary context",
+      "chapters": [
+        "legend",
+        "gap"
+      ],
+      "source": "S58",
+      "url": "https://sommers-weltliteratur.de/videos/das-nibelungenlied/",
+      "image": "manuscript",
+      "summary": "A compact German-language explanation of the epic’s plot, useful for keeping the characters and sequence of events straight while evaluating the treasure story.",
+      "watch": "Use it to orient yourself, then return to the manuscript and historical-source records.",
+      "limit": "An educational plot summary is not archaeological evidence. Open the provider page to load its YouTube player."
+    }
+  ],
+  "mapComparison": {
+    "regions": [
+      {
+        "id": "hamm",
+        "name": "Hamm–Eich / Biebesheim–Lochheim",
+        "box": [
+          8.34,
+          49.715,
+          8.505,
+          49.82
+        ],
+        "pixels": [
+          1097160,
+          712866,
+          1098121,
+          713813
+        ],
+        "tiles": [
+          4285,
+          2784,
+          4289,
+          2788
+        ],
+        "width": 961,
+        "height": 947,
+        "layers": [
+          {
+            "id": "ghh",
+            "label": "19th-century survey",
+            "file": "assets/map-hamm-ghh.png",
+            "sha256": "a4fdd83770a992f15dae5493fba7f8c495047690ce7391f058aa1b7d2ad47f2f"
+          },
+          {
+            "id": "tk25_1900",
+            "label": "Around 1900",
+            "file": "assets/map-hamm-tk25_1900.png",
+            "sha256": "ed663f5678b11ab6ff79b165b435b6a79730a807e640bd13c78f9224ea19487f"
+          },
+          {
+            "id": "tk25_1970",
+            "label": "Around 1970",
+            "file": "assets/map-hamm-tk25_1970.png",
+            "sha256": "69dd11af2d01aa5e6935516fe530b62ffb318c78c78f2494e3653574d1c6499b"
+          },
+          {
+            "id": "tk25_1990",
+            "label": "Around 1990",
+            "file": "assets/map-hamm-tk25_1990.png",
+            "sha256": "bf7223b235eb6179facb1f66d93f6a979a8096efd3320876b388fed6f680746c"
+          },
+          {
+            "id": "modern",
+            "label": "Modern basemap · retrieved 2026",
+            "file": "assets/map-hamm-modern.png",
+            "sha256": "7940b8555747b993f805d67be1e17dbb786730af1077189372de0b75dfab1dc0"
+          }
+        ],
+        "worldFile": [
+          19.109257071294063,
+          0,
+          0,
+          -19.109257071294063,
+          928413.7001802847,
+          6415159.136775594
+        ],
+        "groundPixelMetres": 12.34
+      },
+      {
+        "id": "kuehkopf",
+        "name": "Kühkopf / Stockstadt",
+        "box": [
+          8.37,
+          49.77,
+          8.505,
+          49.86
+        ],
+        "pixels": [
+          1097335,
+          712505,
+          1098121,
+          713318
+        ],
+        "tiles": [
+          4286,
+          2783,
+          4289,
+          2786
+        ],
+        "width": 786,
+        "height": 813,
+        "layers": [
+          {
+            "id": "ghh",
+            "label": "19th-century survey",
+            "file": "assets/map-kuehkopf-ghh.png",
+            "sha256": "4b4b8d7dc8facd9b76c7251f3a4ea00fbae3892cbe13c31f7a4e23c647be5205"
+          },
+          {
+            "id": "tk25_1900",
+            "label": "Around 1900",
+            "file": "assets/map-kuehkopf-tk25_1900.png",
+            "sha256": "e3b89a69dfcf4fe2f015a8322db0cd7a401c44bac483b14e2fd4a1be2166e054"
+          },
+          {
+            "id": "tk25_1970",
+            "label": "Around 1970",
+            "file": "assets/map-kuehkopf-tk25_1970.png",
+            "sha256": "893f0104ca1e241c5744269c6c803a5757dfbea8f63b30b65bf342c04051b95a"
+          },
+          {
+            "id": "tk25_1990",
+            "label": "Around 1990",
+            "file": "assets/map-kuehkopf-tk25_1990.png",
+            "sha256": "1e4da3473539f4a50bb678c373bbc68e23724b7f2452ef812e49211bcabfd757"
+          },
+          {
+            "id": "modern",
+            "label": "Modern basemap · retrieved 2026",
+            "file": "assets/map-kuehkopf-modern.png",
+            "sha256": "d815584d79eb32653cc6de5f1426105b43e6bde5860ac6832773f04675444809"
+          }
+        ],
+        "worldFile": [
+          19.109257071294063,
+          0,
+          0,
+          -19.109257071294063,
+          931757.8201677613,
+          6422057.578578332
+        ],
+        "groundPixelMetres": 12.33
+      }
+    ],
+    "epochs": [
+      {
+        "id": "ghh",
+        "group": "landesaufnahme",
+        "label": "19th-century survey"
+      },
+      {
+        "id": "tk25_1900",
+        "group": "hist_tk",
+        "label": "Around 1900"
+      },
+      {
+        "id": "tk25_1970",
+        "group": "hist_tk",
+        "label": "Around 1970"
+      },
+      {
+        "id": "tk25_1990",
+        "group": "hist_tk",
+        "label": "Around 1990"
+      },
+      {
+        "id": "modern",
+        "label": "Modern basemap · retrieved 2026"
+      }
+    ],
+    "zoom": 13,
+    "projection": "EPSG:3857",
+    "retrieved": "2026-09-16",
+    "services": {
+      "historical": "https://wms.hlgl.uni-marburg.de/mapcache/{group}/wmts/1.0.0/{id}/default/GoogleMapsCompatible/{zoom}/{row}/{column}.png",
+      "modern": "https://sgx.geodatenzentrum.de/wmts_basemapde/tile/1.0.0/de_basemapde_web_raster_farbe/default/GLOBAL_WEBMERCATOR/{zoom}/{row}/{column}.png"
+    },
+    "method": "Tiles supplied in EPSG:3857; assembled and cropped to identical global pixel bounds. No manual warp. Approximate geographic boxes describe study windows; pixels and world-file coefficients specify actual image bounds. HIL historical georeferencing residuals not independently measured."
+  }
+}

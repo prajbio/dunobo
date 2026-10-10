@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/ruelzheim.wav",
+  "seconds": 92.21,
+  "chapters": [
+    0.0,
+    14.807,
+    41.273,
+    67.931
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "ec3bab4126ec262940b37767a7b2ea7e7db02ecd3c7cbfa00af50445b452a5c9",
+  "sampleRate": 24000
+}

@@ -1,0 +1,182 @@
+{
+  "legend": {
+    "file": "assets/audio/legend.mp3",
+    "seconds": 89.18,
+    "chapters": [
+      0.0,
+      15.425,
+      40.344,
+      64.215
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "1f2c78dc4a5aa705054d0336498e191738f5330b491131590c6de863bd51c8d7",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "gap": {
+    "file": "assets/audio/gap.mp3",
+    "seconds": 93.09,
+    "chapters": [
+      0.0,
+      14.135,
+      39.434,
+      68.955
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "0f36ee75bcb518de6d11552969cbf4ead20062ed078195418552a0b197c514b2",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "court": {
+    "file": "assets/audio/court.mp3",
+    "seconds": 89.64,
+    "chapters": [
+      0.0,
+      15.01,
+      38.831,
+      62.789
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "b4b8b04431d100ade3f8d4d53c8b884e963fbcd07a0a4ec6d5a4890f7a3c288a",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "lochheim": {
+    "file": "assets/audio/lochheim.mp3",
+    "seconds": 89.74,
+    "chapters": [
+      0.0,
+      15.138,
+      37.935,
+      63.587
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "5bcbb3f5a679ca783d8630709e43f6a4c7dfba0f6636819a84536e4d712309b8",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "sandhausen": {
+    "file": "assets/audio/sandhausen.mp3",
+    "seconds": 96.63,
+    "chapters": [
+      0.0,
+      17.559,
+      48.126,
+      72.086
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "4ccb31ee7f1307a66780be5c75717c12472b5d498ed630c6a02457a83e7ff2e6",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "jacobi": {
+    "file": "assets/audio/jacobi.mp3",
+    "seconds": 92.92,
+    "chapters": [
+      0.0,
+      13.421,
+      40.987,
+      67.655
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "ce81a1be02657e8cdca01886a5eb4c86928856c1edd1496e5d4c7b36eca0d9ef",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "negative": {
+    "file": "assets/audio/negative.mp3",
+    "seconds": 96.72,
+    "chapters": [
+      0.0,
+      15.481,
+      40.699,
+      65.221
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "e4cc3ec2631e3e07f57cdedb72f695fcde0c53ef862bce9975b706f52ba45a59",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "neupotz": {
+    "file": "assets/audio/neupotz.mp3",
+    "seconds": 90.29,
+    "chapters": [
+      0.0,
+      14.552,
+      40.016,
+      67.079
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "9f219941fd3a962f57e18f07db933fb3395130604e0175b7ca54be3548681f10",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "ruelzheim": {
+    "file": "assets/audio/ruelzheim.mp3",
+    "seconds": 92.21,
+    "chapters": [
+      0.0,
+      14.807,
+      41.273,
+      67.931
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "ec3bab4126ec262940b37767a7b2ea7e7db02ecd3c7cbfa00af50445b452a5c9",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "landscape": {
+    "file": "assets/audio/landscape.mp3",
+    "seconds": 89.9,
+    "chapters": [
+      0.0,
+      13.868,
+      41.048,
+      64.88
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "b27bf1829c822afd920bd7914f55b3a3a966a4cd52edcdbf21e1042d43a41e7c",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "methods": {
+    "file": "assets/audio/methods.mp3",
+    "seconds": 94.22,
+    "chapters": [
+      0.0,
+      15.809,
+      42.371,
+      67.813
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "751fa1a0d97e8b3302255d6839c2c4b3bee93b271bdaa56ab87fb4ac5d08f497",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  },
+  "decision": {
+    "file": "assets/audio/decision.mp3",
+    "seconds": 98.13,
+    "chapters": [
+      0.0,
+      15.778,
+      44.09,
+      71.068
+    ],
+    "voice": "bf_emma",
+    "model": "Kokoro-82M / kokoro-onnx",
+    "scriptHash": "90c9a51e0f3a0bb53219abc1e9179defb40f65ed3a537b5b198086652a4ecedd",
+    "sampleRate": 24000,
+    "encoding": "MP3 96 kbps mono"
+  }
+}

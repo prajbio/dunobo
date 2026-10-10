@@ -1,0 +1,10 @@
+Nibelungen Atlas — edition 4
+
+Extract the complete ZIP and open index.html, videos.html or river-change.html. Keep assets beside the HTML files.
+
+Video library: 6 films and explainers, linked to relevant chapters. Provider pages and descriptions checked; complete films not reviewed. Videos need internet and provider availability.
+Rhine through time: 2 study windows, each with 5 aligned map periods. Swipe or blend layers, inspect numbered observations and source dates. Map images work offline. Alignment supplied by HIL; local accuracy remains unquantified.
+
+12 detailed chapters, 49 evidence records, 58 sources, 12 original visuals plus 10 map extracts, and approximately 18.5 minutes of original recorded narration.
+The latest structured research is atlas-research.json. Map geometry and hashes: map-comparison-data.json. Detailed sheet dates: map-sheet-dates.json.
+Earlier reading-view HTML files retain the initial edition. Existing evaluations remain local to the browser; export them before moving to another browser.

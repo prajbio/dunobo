@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/jacobi.wav",
+  "seconds": 92.92,
+  "chapters": [
+    0.0,
+    13.421,
+    40.987,
+    67.655
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "ce81a1be02657e8cdca01886a5eb4c86928856c1edd1496e5d4c7b36eca0d9ef",
+  "sampleRate": 24000
+}

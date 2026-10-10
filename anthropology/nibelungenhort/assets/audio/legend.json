@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/legend.wav",
+  "seconds": 89.18,
+  "chapters": [
+    0.0,
+    15.425,
+    40.344,
+    64.215
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "1f2c78dc4a5aa705054d0336498e191738f5330b491131590c6de863bd51c8d7",
+  "sampleRate": 24000
+}

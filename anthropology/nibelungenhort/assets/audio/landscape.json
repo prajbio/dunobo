@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/landscape.wav",
+  "seconds": 89.9,
+  "chapters": [
+    0.0,
+    13.868,
+    41.048,
+    64.88
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "b27bf1829c822afd920bd7914f55b3a3a966a4cd52edcdbf21e1042d43a41e7c",
+  "sampleRate": 24000
+}

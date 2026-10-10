@@ -1,0 +1,14 @@
+{
+  "file": "assets/audio/negative.wav",
+  "seconds": 96.72,
+  "chapters": [
+    0.0,
+    15.481,
+    40.699,
+    65.221
+  ],
+  "voice": "bf_emma",
+  "model": "Kokoro-82M / kokoro-onnx",
+  "scriptHash": "e4cc3ec2631e3e07f57cdedb72f695fcde0c53ef862bce9975b706f52ba45a59",
+  "sampleRate": 24000
+}
