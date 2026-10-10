@@ -41,6 +41,8 @@ Anthropology includes the existing Nibelungen Atlas Edition 4 at `/anthropology/
 
 All 17 HTML entry points load `assets/dunobo-theme.css` and `assets/dunobo.js`. The theme defines a shared dark canvas, typography, spacing, controls and responsive layouts. `data-design` selects page-specific layouts; existing atlas `data-page` values retain their original purpose.
 
+The original smiling-planet logo is used throughout. `assets/brand-themes.css` restores the navy, teal, mint and gold light palette as the default; the previous dark palette remains available. `assets/theme.js` applies a browser-local preference before paint and connects the accessible header switch. Maps retain a dark cartographic canvas for contrast in either layout. All assets and preference handling are local; there are no new dependencies or tracking services.
+
 The site header provides subject navigation and a keyboard-accessible search dialog (`/` opens it; Escape closes it). Search indexes the published collections and clearly labels forthcoming subjects. On mobile, the subject menu replaces the scrolling navigation strip. The atlas Resources menu retains existing control IDs and handlers; research data, narration, browser-local progress and evidence credits are preserved.
 
 The homepage map uses Natural Earth public-domain geometry. Its connections are editorial illustrations, not migration reconstructions. The Clue Club image is AI-created; the manuscript image is from the Badische Landesbibliothek and is public domain, with fuller source records in the Nibelungen Atlas.

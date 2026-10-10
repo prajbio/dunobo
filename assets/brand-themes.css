@@ -1,0 +1,77 @@
+/* Original Dunobo identity in both layouts. The dark palette remains unchanged. */
+.dunobo-bar .dunobo-wordmark{letter-spacing:-1px;gap:10px;font-size:27px}
+.dunobo-logo{display:block;width:45px;height:45px;flex-shrink:0;max-width:none}
+body[data-dunobo] .footer-brand{display:inline-flex;gap:10px;align-items:center;justify-self:start}
+.footer-brand .dunobo-logo{width:39px;height:39px}
+body[data-dunobo] .dunobo-theme-toggle{display:flex;align-items:center;justify-content:center;gap:7px;padding:8px 10px;font-size:12px;min-width:40px;min-height:40px;white-space:nowrap;background:transparent;color:var(--d-muted);border-color:var(--d-line)}
+.dunobo-theme-toggle svg{width:17px;height:17px;flex-shrink:0}
+html[data-theme=dark] .theme-moon,html:not([data-theme=dark]) .theme-sun{display:none}
+/* Light colours restore the white, navy, teal, mint and gold brand concept. */
+html:not([data-theme=dark]){color-scheme:light;--d-bg:#f7fbfd;--d-panel:#fff;--d-raised:#eaf5f8;--d-line:#d4e4eb;--d-text:#0b2d5b;--d-muted:#476578;--d-accent:#087d91}
+html:not([data-theme=dark]) body[data-dunobo]{--teal:#078fa5;--arch:#16785f;--gen:#8254ad;--protein:#956015;--mint:#16785f;--purple:#8254ad;--red:#a53b52}
+html:not([data-theme=dark]) .dunobo-bar{background:#fff}
+html:not([data-theme=dark]) body[data-dunobo] .dunobo-subjects a[aria-current]{background:#e0f2f5;color:#066d81}
+html:not([data-theme=dark]) body[data-dunobo] button:hover{border-color:#87aebc}
+html:not([data-theme=dark]) body[data-dunobo] :is(button.primary,.primary,.button,button.selected,button[aria-pressed=true]){color:white}
+html:not([data-theme=dark]) body[data-dunobo=portal] .button:hover{background:#06677b;color:white}
+html:not([data-theme=dark]) body[data-dunobo] dialog{border-color:var(--d-line);box-shadow:0 24px 80px #0b2d5b30}
+html:not([data-theme=dark]) body[data-dunobo] dialog::backdrop{background:#0b2d5b75}
+html:not([data-theme=dark]) .home-hero{position:relative}
+html:not([data-theme=dark]) body[data-design=home]{background:linear-gradient(130deg,#fff 0,#eefafa 32%,#f7fbfd 65%)}
+html:not([data-theme=dark]) .status-dot{background:#f4b223}
+html:not([data-theme=dark]) .collection-card{box-shadow:0 8px 24px #0b2d5b08}
+html:not([data-theme=dark]) .collection-card:hover{border-color:#078fa5}
+html:not([data-theme=dark]) .kids-card .collection-body{background:#f1faf5}
+html:not([data-theme=dark]) .treasure .collection-body{background:#fffbf1}
+html:not([data-theme=dark]) .subject-feature,html:not([data-theme=dark]) .next-subject{background:#eef8fa}
+html:not([data-theme=dark]) .editorial-note{border-color:#e7aa29}
+html:not([data-theme=dark]) .feature-image small{color:#f2f5ef}
+html:not([data-theme=dark]) body[data-dunobo] .site-footer{background:#0b2d5b;--d-text:#fff;--d-muted:#ccdfec;--d-accent:#96e8e1;--d-line:#355575;color:white}
+html:not([data-theme=dark]) .site-footer small{color:#b5cede}
+html:not([data-theme=dark]) body[data-dunobo] .dunobo-resources>nav{border-color:var(--d-line);box-shadow:0 12px 35px #0b2d5b26}
+/* Cartographic canvases keep dark contrast while surrounding controls use the chosen layout. */
+html:not([data-theme=dark]) :is(.hero-world,body[data-design=human] .map-shell,body[data-design=nibelungen] .stage){color-scheme:dark;--d-bg:#101b20;--d-panel:#18272d;--d-raised:#20333a;--d-line:#33464c;--d-text:#f2f5ef;--d-muted:#adbec0;--d-accent:#c6efa0;--ink:var(--d-text);--text:var(--d-text);--muted:var(--d-muted);--line:var(--d-line);--gold:var(--d-accent);--mint:#87d7c2;--purple:#cbb0f2;--blue:#73bdce;--arch:#84d6bd;--gen:#d1b2fa;--protein:#f3bd78;color:var(--d-text)}
+html:not([data-theme=dark]) body[data-dunobo] :is(.map-shell,.stage) :is(button.primary,button.selected,button[aria-pressed=true]){color:#17251b}
+html:not([data-theme=dark]) body[data-design=human] .journey-bar>button[aria-pressed=true]{color:white}
+html:not([data-theme=dark]) body[data-design=human] #journeyNext{color:#17251b}
+html:not([data-theme=dark]) body[data-design=human] .journey-bar #chooseStory{border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] :is(#groupSummary,.edition span){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=human] :is(.timeline-caption,.ticks){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=human] :is(.filter-panel,.dunobo-resources nav){box-shadow:0 12px 35px #0b2d5b26}
+html:not([data-theme=dark]) body[data-design=human] dialog :is(.research-media,.media-context,.story-choice,.reference-card,.collection-options button,.explorer-story){background:var(--d-raised);color:var(--d-text);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] dialog :is(.image-note,.reference-card p,.source-note){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=human] dialog :is(.import-note,.video-card){background:var(--d-raised);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] dialog :is(.reference-card small,.collection-options small,.release-note,.video-card h4){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-dunobo] .release-dialog :is(a,.release-kicker){color:var(--d-accent)}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.visual-preview small,.visual-preview b,.chapter-heading>p,.audio-options,.recorded-audio p.small,.gallery-card p,.time-note,.time-heading,.timeline button){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.chapter-resources4 a,.source-refs button){color:var(--d-accent)}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.recorded-audio select,.audio-options select){background:var(--d-bg);color:var(--d-text);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .chapter-conclusion{background:#e3f3ec;color:var(--d-text);border-color:#2e9781}
+html:not([data-theme=dark]) body[data-design=nibelungen] .timeline button.active{color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .layers label{background:#eef7f9;border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .timeline:before{background:#abc8ce}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.time-point strong,.field){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=nibelungen] dialog :is(.record-card,.source-card,.journey-card,.lab-panel,.queue-card,.place-row){background:var(--d-raised);border-color:var(--d-line);color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=nibelungen] dialog .record-card summary:hover{background:#deeff4}
+html:not([data-theme=dark]) body[data-design=nibelungen] dialog .claim-box{background:#e1f3e9}
+html:not([data-theme=dark]) body[data-design=nibelungen] dialog .warning{background:#fff4d9;color:#57451d;border-color:#e2a522}
+html:not([data-theme=dark]) body[data-design=nibelungen] #lightbox>button{color:white}
+html:not([data-theme=dark]) body[data-design=library] .notice,html:not([data-theme=dark]) body[data-design=dossier] .notice{background:#fff4d9;color:#57451d;border-color:#e2a522}
+html:not([data-theme=dark]) body[data-design=library] :is(.video-art,.video-art small){color:white}
+html:not([data-theme=dark]) body[data-design=library] .video-art small{background:#0b2d5b}
+html:not([data-theme=dark]) body[data-design=dossier] .rail{background:#edf6fa}
+html:not([data-theme=dark]) body[data-design=dossier] .rail :is(nav a,.brand span,.rail-foot){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=dossier] .rail nav a[aria-current]{color:#086e83;background:#dceff2;border-color:#078fa5}
+html:not([data-theme=dark]) body[data-design=dossier] .rail nav a:hover{background:#dceff2}
+html:not([data-theme=dark]) body[data-design=dossier] .tag{background:#edf4f7;color:#39556d;border-color:#b5cdd7}
+html:not([data-theme=dark]) .tag.established{background:#e6f5ed!important;color:#24634d!important}
+html:not([data-theme=dark]) :is(.tag.reported,.tag.conflicting-reports){background:#fff3d7!important;color:#725017!important}
+html:not([data-theme=dark]) :is(.tag.hypothesis,.tag.unresolved,.tag.planning-assumption){background:#f7edf9!important;color:#734678!important}
+html:not([data-theme=dark]) body[data-design=kids] .trail-card:nth-child(2n){background:#fffbf0;border-top-color:#f4b223}
+html:not([data-theme=dark]) body[data-design=kids] .trail-card:nth-child(3n){background:#f1faf5;border-top-color:#18a68b}
+html:not([data-theme=dark]) body[data-design=kids] .clue-tabs [aria-current=step],html:not([data-theme=dark]) body[data-design=kids] .chapter-links b{background:#dbeee5;color:#185e54}
+html:not([data-theme=dark]) body[data-design=kids] :is(.recorded-narration,.wonder-card,.kids-evidence figure){border-color:#b4cdd5}
+html:not([data-theme=dark]) body[data-design=kids] #kidsMap{background:#c8eaf0}
+html:not([data-theme=dark]) body[data-design=kids] #kidsLand path{fill:#dbebc9;stroke:#89aea0}
+@media(max-width:1150px){.dunobo-theme-toggle [data-theme-label]{display:none}.dunobo-bar{gap:14px;padding-inline:22px}.dunobo-bar .dunobo-wordmark{font-size:25px}.dunobo-logo{width:40px;height:40px}}
+@media(max-width:760px){.dunobo-bar{padding-inline:14px;gap:8px}.dunobo-bar .dunobo-wordmark{font-size:23px;gap:6px}.dunobo-logo{width:38px;height:38px}.dunobo-actions{gap:4px}body[data-dunobo] .dunobo-search-trigger{padding:8px}body[data-dunobo] .dunobo-theme-toggle{padding:8px;min-width:36px}.dunobo-theme-toggle [data-theme-label]{display:none}body[data-dunobo] .dunobo-menu{padding:8px;gap:7px}}
