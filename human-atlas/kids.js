@@ -1,0 +1,64 @@
+'use strict';
+const KC=window.CATALOGUE,KD=window.KIDS_CLUES,KI=window.EVIDENCE_IMAGES,KT=window.KIDS_TRAILS;
+const k$=s=>document.querySelector(s),kEsc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let clueIndex=0,visited=new Set(),lastClue=0,activeTrail='all',storyPlayer;
+const trail=()=>KT.find(t=>t.id===activeTrail);
+const sequence=()=>trail()?.clues.map(id=>KD.findIndex(c=>c.id===id))||KD.map((_,i)=>i);
+try { const saved=JSON.parse(localStorage.getItem('human-atlas-clue-club')||'{}'); visited=new Set((saved.visited||[]).filter(id=>KD.some(c=>c.id===id)));activeTrail=KT.some(t=>t.id===saved.trail)?saved.trail:'all';lastClue=Number.isSafeInteger(saved.index)?Math.min(KD.length-1,Math.max(0,saved.index)):0; } catch {}
+function saveClues(){try{localStorage.setItem('human-atlas-clue-club',JSON.stringify({index:clueIndex,visited:[...visited],trail:activeTrail}));}catch{}}
+function kidsModal(html){KidsNarration.stop();k$('#kidsDialogBody').innerHTML=html;const heading=k$('#kidsDialogBody h2');if(heading){heading.id='kidsDialogTitle';k$('#kidsDialog').setAttribute('aria-labelledby',heading.id);}k$('#kidsDialog').showModal();}
+function closeKids(){k$('#kidsDialog').close();}
+k$('#kidsClose').onclick=closeKids;k$('#kidsDialog').addEventListener('close',()=>{KidsNarration.stop();k$('#kidsDialogBody').replaceChildren();});
+function showClue(index,focus=true){
+  KidsNarration.stop();clueIndex=Math.max(0,Math.min(KD.length-1,index));const clue=KD[clueIndex],e=KC.events.find(e=>e.id===clue.id);
+  if(!sequence().includes(clueIndex))activeTrail='all';
+  const seq=sequence(),position=seq.indexOf(clueIndex);
+  visited.add(clue.id);saveClues();k$('#welcome').hidden=true;k$('#storyShelf').hidden=true;k$('#adventure').hidden=false;
+  k$('#trailSelect').value=activeTrail;k$('#trailDescription').textContent=trail()?.description||'Choose any clue, or follow all eighteen. Each story has three chapters.';
+  history.replaceState(null,'',location.pathname+'#clue='+clue.id+(activeTrail!=='all'?'&trail='+activeTrail:''));
+  k$('#kidsProgress').textContent=seq.filter(i=>visited.has(KD[i].id)).length+' of '+seq.length+' opened';
+  k$('#clueTabs').innerHTML=seq.map(i=>{const c=KD[i];return '<button data-clue="'+i+'" '+(i===clueIndex?'aria-current="step"':'')+'><span aria-hidden="true">'+c.icon+'</span><span>'+c.label+'</span><small>'+(visited.has(c.id)?'Opened':'Clue '+(seq.indexOf(i)+1))+'</small></button>';}).join('');
+  k$('#clueTabs').querySelectorAll('button').forEach(b=>b.onclick=()=>showClue(Number(b.dataset.clue)));k$('#clueTabs [aria-current=step]').scrollIntoView({block:'nearest',inline:'center',behavior:'instant'});
+  k$('#kidsDate').textContent='DISCOVERY '+(position+1)+' OF '+seq.length+' · '+e.date;k$('#kidsTitle').textContent=clue.title;
+  k$('#kidsText').innerHTML=clue.chapters.map((chapter,i)=>'<section id="chapter-'+i+'" class="story-chapter" tabindex="-1"><span class="chapter-number">CHAPTER '+(i+1)+'</span><h2>'+kEsc(chapter.title)+'</h2><p>'+kEsc(chapter.text)+'</p><button data-hear-chapter="'+i+'" class="hear-chapter">▶ Hear chapter '+(i+1)+'</button></section>').join('');
+  k$('#chapterLinks').innerHTML=clue.chapters.map((chapter,i)=>'<button data-read-chapter="'+i+'"><b>'+(i+1)+'</b> '+kEsc(chapter.title)+'</button>').join('');
+  k$('#chapterLinks').querySelectorAll('button').forEach(b=>b.onclick=()=>{const section=k$('#chapter-'+b.dataset.readChapter);section.focus({preventScroll:true});section.scrollIntoView({block:'start',behavior:'instant'});});
+  storyPlayer=KidsNarration.mount(k$('#kidsAudio'),clue);KidsNarration.mount(k$('#kidsAnswerAudio'),clue,{answer:true});
+  k$('#kidsText').querySelectorAll('[data-hear-chapter]').forEach(b=>b.onclick=()=>{const offset=window.KIDS_NARRATION?.stories[clue.id]?.chapters[Number(b.dataset.hearChapter)];if(offset!==undefined)storyPlayer.seek(offset);});
+  k$('#kidsWord').innerHTML='<b>New word: '+kEsc(clue.word[0])+'</b><p>'+kEsc(clue.word[1])+'</p>';
+  k$('#kidsWonder').textContent='🔎 Detective question: '+clue.wonder;k$('#kidsReveal').textContent=clue.reveal;k$('#wonderCard').open=false;
+  k$('#kidsPlace').textContent=e.site+' · '+e.location;
+  k$('#kidsBack').disabled=position===0;k$('#kidsNext').hidden=position===seq.length-1;k$('#kidsFinish').hidden=position!==seq.length-1;k$('#kidsFinish h2').textContent=seq.every(i=>visited.has(KD[i].id))?'You’ve opened every discovery in this adventure!':'There are more clues to explore!';
+  k$('#kidsNext').textContent=position<seq.length-1?'Next: '+KD[seq[position+1]].label+' →':'Next clue →';
+  const picture=KI[e.id]?.[0];k$('#kidsPhoto').innerHTML=picture?'<figure><button id="kidsPhotoOpen" aria-label="Enlarge the discovery image"><img src="'+kEsc(picture.src)+'" alt="'+kEsc(picture.caption)+'" width="'+picture.width+'" height="'+picture.height+'"></button><figcaption><strong>'+kEsc(picture.evidenceType)+'</strong><p>'+kEsc(picture.caption)+'</p><details><summary>Image credit</summary><p>'+kEsc(picture.author)+' · <a href="'+kEsc(picture.licenseUrl)+'" target="_blank" rel="noopener noreferrer">'+kEsc(picture.license)+'</a> · <a href="'+kEsc(picture.sourcePageUrl)+'" target="_blank" rel="noopener noreferrer">Image source ↗</a></p><p>'+kEsc(picture.changes||'No changes reported.')+'</p></details></figcaption></figure>':'<p>No verified evidence image is available for this clue yet.</p>';
+  if(picture)k$('#kidsPhotoOpen').onclick=()=>kidsModal('<h2>'+kEsc(picture.evidenceType)+'</h2><img class="kids-big-photo" src="'+kEsc(picture.src)+'" alt="'+kEsc(picture.caption)+'"><p>'+kEsc(picture.caption)+'</p><p>'+kEsc(picture.author)+' · '+kEsc(picture.license)+' · <a href="'+kEsc(picture.sourcePageUrl)+'" target="_blank" rel="noopener noreferrer">Image source</a></p>');
+  const refs=[...e.sources,...(e.id==='konso'?['lomekwi']:[])];
+  k$('#kidsSources').innerHTML='<p>'+kEsc(e.evidence)+'</p><p><b>Still uncertain:</b> '+kEsc(e.limit)+'</p>'+refs.map(key=>{const s=KC.sources[key];return '<p><a href="https://doi.org/'+kEsc(s.doi)+'" target="_blank" rel="noopener noreferrer">'+kEsc(s.author)+' ('+s.year+') · '+kEsc(s.title)+' ↗</a></p>';}).join('')+'<a href="index.html#record='+e.id+'">Open this discovery in the full atlas →</a>';
+  drawKidsPins();if(focus){k$('#kidsTitle').focus({preventScroll:true});k$('#adventure').scrollIntoView({behavior:'instant',block:'start'});}
+}
+k$('#wonderCard').addEventListener('toggle',()=>{if(!k$('#wonderCard').open)KidsNarration.stop();});
+function drawKidsPins(){const group=k$('#kidsPins');group.replaceChildren();sequence().forEach((i,step)=>{const c=KD[i],e=KC.events.find(e=>e.id===c.id),[x,y]=kidsProject(e.xy),g=document.createElementNS('http://www.w3.org/2000/svg','g');g.setAttribute('transform','translate('+x+','+y+')');g.setAttribute('tabindex','0');g.setAttribute('role','button');g.setAttribute('aria-label','Clue '+(step+1)+': '+e.site);g.setAttribute('class',i===clueIndex?'kid-pin active':'kid-pin');const circle=document.createElementNS(g.namespaceURI,'circle');circle.setAttribute('r',i===clueIndex?23:18);const label=document.createElementNS(g.namespaceURI,'text');label.setAttribute('text-anchor','middle');label.setAttribute('y','7');label.textContent=step+1;g.append(circle,label);g.onclick=()=>showClue(i);g.onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();showClue(i);}};group.append(g);});}
+function kidsProject([lon,lat]){return [(lon+180)/360*1100,(85-lat)/150*550+15];}
+fetch('land.geojson').then(r=>{if(!r.ok)throw Error();return r.json();}).then(geo=>{for(const f of geo.features){const polys=f.geometry.type==='Polygon'?[f.geometry.coordinates]:f.geometry.coordinates;for(const rings of polys){const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',rings.map(r=>r.map((point,i)=>(i?'L':'M')+kidsProject(point).join(',')).join(' ')+'Z').join(' '));k$('#kidsLand').append(p);}}}).catch(()=>k$('#kidsMapError').hidden=false);
+k$('#kidsStart').textContent=visited.size?'Continue your adventure →':'Let’s find some clues →';k$('#kidsStart').onclick=()=>showClue(lastClue);
+k$('#kidsBack').onclick=()=>{const seq=sequence();showClue(seq[seq.indexOf(clueIndex)-1]);};k$('#kidsNext').onclick=()=>{const seq=sequence();showClue(seq[seq.indexOf(clueIndex)+1]);};
+function showShelf(){KidsNarration.stop();lastClue=clueIndex;k$('#kidsStart').textContent='Continue your adventure →';renderShelf();k$('#adventure').hidden=true;k$('#welcome').hidden=false;k$('#storyShelf').hidden=false;history.replaceState(null,'',location.pathname);window.scrollTo(0,0);}
+k$('#kidsHome').onclick=showShelf;
+k$('#kidsReset').onclick=()=>{kidsModal('<h2>Start a fresh adventure?</h2><p>This clears the discoveries you have opened and your saved listening speed on this browser. Your stories will still be here.</p><button id="confirmKidsReset">Clear my progress</button> <button id="cancelKidsReset">Keep exploring</button>');k$('#cancelKidsReset').onclick=closeKids;k$('#confirmKidsReset').onclick=()=>{KidsNarration.stop();visited.clear();clueIndex=0;lastClue=0;activeTrail='all';try{localStorage.removeItem('human-atlas-clue-club');localStorage.removeItem('human-atlas-kids-audio-rate');}catch{}window.KidsNarration.resetRate();closeKids();showShelf();k$('#kidsStart').textContent='Let’s find some clues →';};};
+k$('#kidsAgain').onclick=()=>{showShelf();k$('#shelfTitle').scrollIntoView({block:'start',behavior:'instant'});k$('#trailCards button').focus({preventScroll:true});};
+k$('#kidsHelp').onclick=()=>kidsModal('<h2>A little guide for curious families</h2><p>Clue Club is a simplified starting point for children under 12, especially ages 7–11. Choose one of six adventures, or explore all eighteen discoveries. Each discovery has three chapters, an evidence image and a detective question. Explore together and pause whenever a question sparks a conversation. There are no scores or timed tasks.</p><p>Fossils and human remains appear in some evidence photographs. Captions identify originals, casts, site photographs and scientific figures. The welcome artwork is an AI-created illustration.</p><p>The main storyteller is an AI-generated voice, made with the open Kokoro model. The same recordings play on phones and computers. No microphone or account is needed. Choose a chapter to listen from that point, or change the speed. A device voice is available as an alternative. All spoken words are also written on screen. <a href="https://huggingface.co/hexgrad/Kokoro-82M" target="_blank" rel="noopener noreferrer">Narration model and licence ↗</a></p><h3>Our word collection</h3><dl>'+KD.map(c=>'<dt>'+kEsc(c.word[0])+'</dt><dd>'+kEsc(c.word[1])+'</dd>').join('')+'</dl><p>The full atlas contains publication links, related museum videos and the ROAD and AADR research collections. Videos are not embedded in Clue Club.</p><p>Progress is saved only in this browser when storage is available. “Start fresh” clears it. There is no child profile or sign-up.</p><a href="./">Open the full atlas →</a>');
+function renderShelf(){
+  k$('#trailCards').innerHTML=KT.map(t=>{const opened=t.clues.filter(id=>visited.has(id)).length;const seconds=t.clues.reduce((n,id)=>n+(window.KIDS_NARRATION?.stories[id]?.duration||150),0);return '<article class="trail-card"><span aria-hidden="true" class="trail-icon">'+t.icon+'</span><h3>'+kEsc(t.title)+'</h3><p>'+kEsc(t.description)+'</p><span class="trail-meta">3 discoveries · 9 chapters · about '+Math.ceil(seconds/60)+' min</span><button data-trail="'+t.id+'">'+(opened===3?'Explore again':opened?'Continue adventure':'Start adventure')+' →</button><span class="small">'+opened+' of 3 discoveries opened</span></article>';}).join('');
+  k$('#trailCards').querySelectorAll('button').forEach(b=>b.onclick=()=>{activeTrail=b.dataset.trail;const seq=sequence();showClue(seq.find(i=>!visited.has(KD[i].id))??seq[0]);});
+}
+k$('#trailSelect').insertAdjacentHTML('beforeend',KT.map(t=>'<option value="'+t.id+'">'+kEsc(t.title)+'</option>').join(''));
+k$('#trailSelect').onchange=()=>{activeTrail=k$('#trailSelect').value;showClue(sequence()[0]);};
+k$('#kidsAll').onclick=()=>{activeTrail='all';showClue(0);};
+renderShelf();
+const params=new URLSearchParams(location.hash.slice(1)),initial=params.get('clue'),requestedTrail=params.get('trail');
+if(requestedTrail&&KT.some(t=>t.id===requestedTrail))activeTrail=requestedTrail;
+if(KD.some(c=>c.id===initial))showClue(KD.findIndex(c=>c.id===initial),false);
+else if(requestedTrail&&trail())showClue(sequence()[0],false);
+
+k$('#kidsSeeEvidence').onclick=()=>{k$('#kidsPhoto').focus({preventScroll:true});k$('#kidsReturnStory').scrollIntoView({block:'start',behavior:'instant'});};
+k$('#kidsReturnStory').onclick=()=>{k$('#kidsTitle').focus({preventScroll:true});k$('#kidsTitle').scrollIntoView({block:'start',behavior:'instant'});};
