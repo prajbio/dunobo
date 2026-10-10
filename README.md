@@ -20,7 +20,8 @@ Publish the repository root as a static site to Cloudflare Pages, or another sta
 - Responsive desktop/mobile navigation
 - Browser-side search over current live sections
 - Human Atlas at `/human-atlas/` and Clue Club at `/human-atlas/kids/`
-- Future subject placeholders (Quantum Biology, Anthropology, History)
+- Anthropology and the Nibelungen Atlas
+- Future subject placeholders (Quantum Biology and History)
 
 ## Quality safeguards
 
@@ -35,3 +36,11 @@ Cloudflare Pages is deployed manually with Wrangler; Git-connected automatic dep
 ## Nibelungen Atlas
 
 Anthropology includes the existing Nibelungen Atlas Edition 4 at `/anthropology/nibelungenhort/`, with narrated chapters, evidence, videos and historical Rhine comparisons. Only the finished website package is included; build tools and local evaluation notes are excluded. Evaluations remain in each visitor's browser.
+
+## Shared design
+
+All 17 HTML entry points load `assets/dunobo-theme.css` and `assets/dunobo.js`. The theme defines a shared dark canvas, typography, spacing, controls and responsive layouts. `data-design` selects page-specific layouts; existing atlas `data-page` values retain their original purpose.
+
+The site header provides subject navigation and a keyboard-accessible search dialog (`/` opens it; Escape closes it). Search indexes the published collections and clearly labels forthcoming subjects. On mobile, the subject menu replaces the scrolling navigation strip. The atlas Resources menu retains existing control IDs and handlers; research data, narration, browser-local progress and evidence credits are preserved.
+
+The homepage map uses Natural Earth public-domain geometry. Its connections are editorial illustrations, not migration reconstructions. The Clue Club image is AI-created; the manuscript image is from the Badische Landesbibliothek and is public domain, with fuller source records in the Nibelungen Atlas.
