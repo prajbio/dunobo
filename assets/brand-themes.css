@@ -29,11 +29,9 @@ html:not([data-theme=dark]) .feature-image small{color:#f2f5ef}
 html:not([data-theme=dark]) body[data-dunobo] .site-footer{background:#0b2d5b;--d-text:#fff;--d-muted:#ccdfec;--d-accent:#96e8e1;--d-line:#355575;color:white}
 html:not([data-theme=dark]) .site-footer small{color:#b5cede}
 html:not([data-theme=dark]) body[data-dunobo] .dunobo-resources>nav{border-color:var(--d-line);box-shadow:0 12px 35px #0b2d5b26}
-/* Cartographic canvases keep dark contrast while surrounding controls use the chosen layout. */
-html:not([data-theme=dark]) :is(.hero-world,body[data-design=human] .map-shell,body[data-design=nibelungen] .stage){color-scheme:dark;--d-bg:#101b20;--d-panel:#18272d;--d-raised:#20333a;--d-line:#33464c;--d-text:#f2f5ef;--d-muted:#adbec0;--d-accent:#c6efa0;--ink:var(--d-text);--text:var(--d-text);--muted:var(--d-muted);--line:var(--d-line);--gold:var(--d-accent);--mint:#87d7c2;--purple:#cbb0f2;--blue:#73bdce;--arch:#84d6bd;--gen:#d1b2fa;--protein:#f3bd78;color:var(--d-text)}
-html:not([data-theme=dark]) body[data-dunobo] :is(.map-shell,.stage) :is(button.primary,button.selected,button[aria-pressed=true]){color:#17251b}
+html:not([data-theme=dark]) body[data-dunobo] :is(.map-shell,.stage) :is(button.primary,button.selected,button[aria-pressed=true]){color:white}
 html:not([data-theme=dark]) body[data-design=human] .journey-bar>button[aria-pressed=true]{color:white}
-html:not([data-theme=dark]) body[data-design=human] #journeyNext{color:#17251b}
+html:not([data-theme=dark]) body[data-design=human] #journeyNext{color:white}
 html:not([data-theme=dark]) body[data-design=human] .journey-bar #chooseStory{border-color:var(--d-line)}
 html:not([data-theme=dark]) body[data-design=human] :is(#groupSummary,.edition span){color:var(--d-muted)}
 html:not([data-theme=dark]) body[data-design=human] :is(.timeline-caption,.ticks){color:var(--d-muted)}
@@ -75,3 +73,54 @@ html:not([data-theme=dark]) body[data-design=kids] #kidsMap{background:#c8eaf0}
 html:not([data-theme=dark]) body[data-design=kids] #kidsLand path{fill:#dbebc9;stroke:#89aea0}
 @media(max-width:1150px){.dunobo-theme-toggle [data-theme-label]{display:none}.dunobo-bar{gap:14px;padding-inline:22px}.dunobo-bar .dunobo-wordmark{font-size:25px}.dunobo-logo{width:40px;height:40px}}
 @media(max-width:760px){.dunobo-bar{padding-inline:14px;gap:8px}.dunobo-bar .dunobo-wordmark{font-size:23px;gap:6px}.dunobo-logo{width:38px;height:38px}.dunobo-actions{gap:4px}body[data-dunobo] .dunobo-search-trigger{padding:8px}body[data-dunobo] .dunobo-theme-toggle{padding:8px;min-width:36px}.dunobo-theme-toggle [data-theme-label]{display:none}body[data-dunobo] .dunobo-menu{padding:8px;gap:7px}}
+
+/* Cartography and reading surfaces follow the explicit site theme. */
+.world-map-light{display:none!important}
+html:not([data-theme=dark]) .world-map-dark{display:none!important}
+html:not([data-theme=dark]) .world-map-light{display:block!important}
+html:not([data-theme=dark]) .hero-world{background:#e5f4f5;border-color:#bad9df}
+html:not([data-theme=dark]) .world-caption{background:linear-gradient(transparent,#e5f4f5 22%)}
+html:not([data-theme=dark]) :is(.world-credit,.world-pill){color:var(--d-muted)}
+html:not([data-theme=dark]) .round-arrow{border-color:#99c3cb}
+html:not([data-theme=dark]) .collection-art:has(.world-map-light){background:#e5f4f5}
+html:not([data-theme=dark]) .collection-art:has(.world-map-light) .card-index{background:#ffffffeb;color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=human] .map-shell{background:#e4f2f7}
+html:not([data-theme=dark]) body[data-design=human] #ocean stop:first-child{stop-color:#e8f7fa}
+html:not([data-theme=dark]) body[data-design=human] #ocean stop:last-child{stop-color:#c9e4ee}
+html:not([data-theme=dark]) body[data-design=human] #land path{fill:#d2e4d9;stroke:#628f88;stroke-opacity:.65}
+html:not([data-theme=dark]) body[data-design=human] #grid path{stroke:#476578;stroke-opacity:.16}
+html:not([data-theme=dark]) body[data-design=human] #labels text{fill:#476578;opacity:.8}
+html:not([data-theme=dark]) body[data-design=human] .marker text{fill:var(--d-text);stroke:#f7fbfd}
+html:not([data-theme=dark]) body[data-design=human] .marker .core{stroke:#f7fbfd}
+html:not([data-theme=dark]) body[data-design=human] :is(#journeyCard,.journey-actions,.panel,.mobile-selection,.empty-map,.map-error){background:var(--d-panel);border-color:var(--d-line);color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=human] #journeyCard{box-shadow:0 12px 30px #0b2d5b20}
+html:not([data-theme=dark]) body[data-design=human] :is(.map-tools button,#journeyImage button,.map-legend,.evidence-photo,.evidence-photo img){background:var(--d-raised);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] .map-heading{text-shadow:0 1px 8px #ffffffb0}
+html:not([data-theme=dark]) body[data-design=human] :is(.map-heading p,.legend-note,.map-credit,#journeyCard #journeySource,#journeyCard .journey-note,.record .record-ref,.evidence-block p,.comparison p,.evidence-photo figcaption span){color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=human] .badge{color:var(--d-text);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] .badge.arch{color:var(--arch)}
+html:not([data-theme=dark]) body[data-design=human] .badge.genetic{color:var(--gen)}
+html:not([data-theme=dark]) body[data-design=human] .badge.protein{color:var(--protein)}
+html:not([data-theme=dark]) body[data-design=human] .record{border-top-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=human] .record.active{background:#e0f2f5;border-color:var(--d-accent)}
+html:not([data-theme=dark]) body[data-design=human] .comparison{background:#f4edf9;border-color:#d4c0e2}
+html:not([data-theme=dark]) body[data-design=human] .evidence-photo figcaption a{color:var(--d-accent)}
+html:not([data-theme=dark]) body[data-design=nibelungen]{--blue:#087d91}
+html:not([data-theme=dark]) body[data-design=nibelungen] .stage{background:#e6f3f6}
+html:not([data-theme=dark]) body[data-design=nibelungen] .map-area{background:radial-gradient(ellipse at 75% 40%,#f2fafb 0,#e1f0f4 45%,#d0e7ee 100%)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .country{fill:#cee2d8;stroke:#73958b;stroke-opacity:.5;fill-opacity:.85}
+html:not([data-theme=dark]) body[data-design=nibelungen] .river-glow{stroke:#087d91}
+html:not([data-theme=dark]) body[data-design=nibelungen] .map-label{fill:#476578;opacity:.85}
+html:not([data-theme=dark]) body[data-design=nibelungen] .water-label{fill:#087d91;opacity:1}
+html:not([data-theme=dark]) body[data-design=nibelungen] .map-heading{text-shadow:0 1px 8px #ffffffb0}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.story-panel,.panel-actions){background:var(--d-panel);border-color:var(--d-line);color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .story-panel{box-shadow:0 16px 45px #0b2d5b20;scrollbar-color:#9ab9c5 transparent}
+html:not([data-theme=dark]) body[data-design=nibelungen] .panel-actions{box-shadow:0 -8px 14px #fff}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.map-controls button,.media){background:var(--d-raised);border-color:var(--d-line)}
+html:not([data-theme=dark]) body[data-design=nibelungen] :is(.map-caption button,.story-panel summary){color:var(--d-text)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker .marker-label{background:#ffffffeb;color:var(--d-text);box-shadow:0 1px 10px #0b2d5b20}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker .marker-label small{color:var(--d-muted)}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker{background:#fff;box-shadow:0 2px 7px #0b2d5b25}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker.active,html:not([data-theme=dark]) body[data-design=nibelungen] .marker:hover{background:#dff1f4}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker.cluster{color:var(--d-text);border-color:#7d9eab}
+html:not([data-theme=dark]) body[data-design=nibelungen] .marker.active::before{border-color:#087d9155}
