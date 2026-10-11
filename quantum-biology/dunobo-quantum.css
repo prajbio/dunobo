@@ -1,0 +1,50 @@
+html:has(body[data-design=quantum]){scroll-padding-top:170px}
+body[data-design=quantum]{height:auto;overflow:visible}
+body[data-design=quantum] .dunobo-bar{position:sticky;top:0;z-index:40}
+.quantum-atlas{--paper:var(--d-bg);--white:var(--d-panel);--ink:var(--d-text);--muted:var(--d-muted);--line:var(--d-line);--green:var(--d-accent);--sans:var(--d-font);font-family:var(--d-font);background:var(--paper);color:var(--ink)}
+.quantum-atlas .topbar{top:74px;background:var(--d-bg);z-index:15}
+.quantum-atlas .topbar .brand{color:var(--d-text)}
+.quantum-atlas .nav a{color:var(--d-muted)}
+.quantum-atlas .nav a.active{color:var(--d-accent)}
+.quantum-atlas .atlas-sidebar{top:170px;max-height:calc(100vh - 190px)}
+.quantum-atlas :is(.mechanism-panel,.lab-row,.reference){scroll-margin-top:170px}
+.quantum-atlas :is(.inference,.system-panel,.lab-panel,.mechanism-panel,.impact-card,.impact-principle>div,.glossary details){background:var(--d-panel);border-color:var(--d-line)}
+.quantum-atlas :is(.atlas-control input,.atlas-control select,.search-field input,.control select){background:var(--d-panel);color:var(--d-text);border-color:var(--d-line)}
+.quantum-atlas .atlas-count{color:var(--d-muted)}
+.quantum-atlas .footer{display:none}
+.quantum-atlas .icon-btn svg{width:17px;height:17px}
+html:not([data-theme=dark]) .quantum-atlas{--green:#087d91;--dark:#0b2d5b;--lime:#a7eee0}
+html:not([data-theme=dark]) .quantum-atlas :is(.hero,.history-section,.deep-band){background:#eaf5f8;color:var(--d-text)}
+html:not([data-theme=dark]) .quantum-atlas :is(.hero .eyebrow,.hero h1 em,.hero-meta span:before,.hero-bottom strong,.history-section h2,.history-event h3,.history-year,.history-section .eyebrow,.history-event .cites a,.history-coda strong,.timeline-year,.deep-band .eyebrow,.deep-band a){color:#087d91}
+html:not([data-theme=dark]) .quantum-atlas :is(.hero-sub,.hero-meta,.hero-bottom,.visual-caption,.history-section .section-head p,.history-event p,.history-type,.history-coda,.deep-band .muted,.timeline p,.timeline-type){color:var(--d-muted)}
+html:not([data-theme=dark]) .quantum-atlas :is(.hero-bottom,.history-event,.history-coda){border-color:var(--d-line)}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual{background:#0b2d5b;border-radius:18px;padding:12px}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual .visual-caption{color:#ccdfec}
+html:not([data-theme=dark]) .quantum-atlas .btn-primary{background:#087d91;border-color:#087d91;color:white}
+html:not([data-theme=dark]) .quantum-atlas .hero-meta span:before{color:#087d91}
+html:not([data-theme=dark]) .quantum-atlas .btn-quiet{color:#087d91;border-color:#9ec6cf}
+html:not([data-theme=dark]) .quantum-atlas .btn-quiet:hover{background:#d5edf1}
+html:not([data-theme=dark]) .quantum-atlas :is(.evidence-section,.glossary){background:#eaf5f8;border-color:var(--d-line)}
+html[data-theme=dark] .quantum-atlas{--dark:#14272e;--dark2:#1c343b;--lime:#c6efa0;--mint:#8fc8b8;--gold:#eac078;--purple:#cbb0f2}
+html[data-theme=dark] .quantum-atlas :is(.evidence-section,.glossary,.impact-section){background:var(--d-bg);border-color:var(--d-line)}
+html[data-theme=dark] .quantum-atlas :is(.scope-banner,.legend-item,.inference-row:nth-child(2),.inference-row:nth-child(3),.mode-buttons,.equation-strip,.axis,.model-note,.equation,.theory-note,.chain-card,.quiz,.section-bridge,.impact-callout,.atlas-sidebar,.lab-jumps a,.site-upgrade-links a){background:var(--d-raised);border-color:var(--d-line);color:var(--d-text)}
+html[data-theme=dark] .quantum-atlas :is(.scope-banner strong,.mech-scope,.mech-copy p,.mech-copy h4,.axis strong,.axis span,.diagram-heading,.diagram-card.quantum .diagram-heading,.diagram-card figcaption,.comparison-note,.atlas-sidebar-title,.model-tag,.range-ends,.lab-number,.equation small,.lab-text summary,.panel-footer,.ref-num,.ref-authors,.quiz-kicker,.quiz-feedback,.quiz-score,.impact-callout strong,.impact-stage){color:var(--d-muted)}
+html[data-theme=dark] .quantum-atlas :is(.mechanism-button,.system-tab,.quiz-option){background:var(--d-panel);color:var(--d-text);border-color:var(--d-line)}
+html[data-theme=dark] .quantum-atlas :is(.mechanism-button[aria-current=true],.system-tab[aria-selected=true]){background:var(--d-accent);color:#17251b}
+html[data-theme=dark] .quantum-atlas .mechanism-button[aria-current=true] .mech-number{color:#36553b}
+html[data-theme=dark] .quantum-atlas :is(.mechanism-button:hover,.system-tab:hover,.btn:hover,.icon-btn:hover){background:var(--d-raised);color:var(--d-text)}
+html[data-theme=dark] .quantum-atlas .mechanism-button[aria-current=true]:hover{background:#b9dd94;color:#17251b}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.diagram-card.quantum){background:var(--d-raised);border-color:var(--d-line)}
+html[data-theme=dark] .quantum-atlas :is(.mech-copy .boundary-box,.evidence-claim.boundary){background:#3c3427;color:#edddba}
+html[data-theme=dark] .quantum-atlas :is(.boundary-box h4,.evidence-claim.boundary h4){color:#eac078}
+html[data-theme=dark] .quantum-atlas .evidence-claim{background:#253b32}
+html[data-theme=dark] .quantum-atlas .evidence-claim h4{color:#a3d4b5}
+html[data-theme=dark] .quantum-atlas .reference:target{background:var(--d-raised);box-shadow:0 0 0 10px var(--d-raised)}
+html[data-theme=dark] .quantum-atlas .ref-type{background:#2a4234;color:#b8d8b5}
+html[data-theme=dark] .quantum-atlas .filter{color:var(--d-muted);border-color:var(--d-line)}
+html[data-theme=dark] .quantum-atlas .filter[aria-pressed=true]{background:var(--d-accent);color:#17251b}
+html[data-theme=dark] .quantum-atlas .quiz-option.correct{background:#284632;color:#d7edcd}
+html[data-theme=dark] .quantum-atlas .quiz-option.incorrect{background:#4b302d;color:#f1d9d1}
+@media(max-width:880px){.quantum-atlas .atlas-sidebar{position:static;max-height:270px}}
+@media(max-width:620px){.quantum-atlas .topbar{top:64px}.quantum-atlas .topbar-inner{gap:8px}.quantum-atlas .atlas-sidebar{max-height:229px}.quantum-atlas .hero-visual{margin-right:0}html:has(body[data-design=quantum]){scroll-padding-top:185px}.quantum-atlas :is(.mechanism-panel,.lab-row,.reference){scroll-margin-top:185px}}
+@media print{body[data-design=quantum] .dunobo-bar,body[data-design=quantum] .site-footer{display:none!important}.quantum-atlas{--d-bg:white;--d-panel:white;--d-text:#142e32;--d-muted:#476578;--d-line:#d4e4eb;color:#142e32}.quantum-atlas .hero-visual{display:none!important}.quantum-atlas .topbar{display:none!important}}

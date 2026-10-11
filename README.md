@@ -46,3 +46,5 @@ The original smiling-planet logo is used throughout. `assets/brand-themes.css` r
 The site header provides subject navigation and a keyboard-accessible search dialog (`/` opens it; Escape closes it). Search indexes the published collections and clearly labels forthcoming subjects. On mobile, the subject menu replaces the scrolling navigation strip. The atlas Resources menu retains existing control IDs and handlers; research data, narration, browser-local progress and evidence credits are preserved.
 
 The homepage map uses Natural Earth public-domain geometry. Its connections are editorial illustrations, not migration reconstructions. The Clue Club image is AI-created; the manuscript image is from the Badische Landesbibliothek and is public domain, with fuller source records in the Nibelungen Atlas.
+
+Quantum Biology Research Atlas, Edition 02, is served at `/quantum-biology/` from the user-provided standalone HTML. Its 32 mechanism chapters, 64 diagrams, 64 references, history and interactive models are preserved. Original atlas styles are scoped to its content; shared navigation and a local theme layer integrate it with Dunobo.

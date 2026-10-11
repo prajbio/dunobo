@@ -11,7 +11,7 @@
     {title:'Rhine through time',url:'/anthropology/nibelungenhort/river-change.html',detail:'Compare historical maps across five periods',tags:'maps river geography landscape'},
     {title:'Nibelungen video library',url:'/anthropology/nibelungenhort/videos.html',detail:'Six films and explainers with viewing notes',tags:'watch videos documentary'},
     {title:'Anthropology',url:'/anthropology/',detail:'Stories, places and perspectives',tags:'culture humans'},
-    {title:'Quantum Biology',url:'/quantum-biology/',detail:'Collection in preparation',tags:'physics life quantum biology'},
+    {title:'Quantum Biology',url:'/quantum-biology/',detail:'32 mechanisms, interactive models, evidence and history',tags:'physics life quantum biology tunneling photosynthesis magnetoreception'},
     {title:'Privacy & sources',url:'/human-atlas/privacy.html',detail:'Browser storage, narration and reuse',tags:'privacy licence source'}
   ];
   const dialog=document.createElement('dialog');dialog.id='dunoboSearch';dialog.setAttribute('aria-labelledby','siteSearchTitle');

@@ -1,0 +1,320 @@
+/* Theme scientific SVGs without changing geometry, labels or data. */
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#39615e"]{fill:hsl(176 17% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#39615e"]{stroke:hsl(176 17% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#557e70"]{fill:hsl(160 13% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#557e70"]{stroke:hsl(160 13% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#7fb190"]{fill:hsl(140 16% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#7fb190"]{stroke:hsl(140 16% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d2ed87"]{fill:hsl(76 48% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d2ed87"]{stroke:hsl(76 48% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#bbd298"]{fill:hsl(84 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#bbd298"]{stroke:hsl(84 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8ba989"]{fill:hsl(116 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8ba989"]{stroke:hsl(116 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8fafaa"]{fill:hsl(171 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8fafaa"]{stroke:hsl(171 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#7faaa0"]{fill:hsl(166 13% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#7faaa0"]{stroke:hsl(166 13% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c8dcc5"]{fill:hsl(112 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c8dcc5"]{stroke:hsl(112 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#89aaa5"]{fill:hsl(171 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#89aaa5"]{stroke:hsl(171 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#afccc0"]{fill:hsl(155 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#afccc0"]{stroke:hsl(155 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#84a5a0"]{fill:hsl(171 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#84a5a0"]{stroke:hsl(171 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#10383c"]{fill:hsl(185 38% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#10383c"]{stroke:hsl(185 38% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#426360"]{fill:hsl(175 13% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#426360"]{stroke:hsl(175 13% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a7c4b5"]{fill:hsl(149 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a7c4b5"]{stroke:hsl(149 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#6d9286"]{fill:hsl(161 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#6d9286"]{stroke:hsl(161 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b7c7df"]{fill:hsl(216 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b7c7df"]{stroke:hsl(216 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#293e53"]{fill:hsl(210 22% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#293e53"]{stroke:hsl(210 22% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b3a9de"]{fill:hsl(251 29% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b3a9de"]{stroke:hsl(251 29% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d5ccee"]{fill:hsl(256 33% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d5ccee"]{stroke:hsl(256 33% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a8aecb"]{fill:hsl(230 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a8aecb"]{stroke:hsl(230 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#739b93"]{fill:hsl(168 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#739b93"]{stroke:hsl(168 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#627473"]{fill:hsl(177 5% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#627473"]{stroke:hsl(177 5% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#edf0eb"]{fill:hsl(96 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#edf0eb"]{stroke:hsl(96 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#ccd8ce"]{fill:hsl(130 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#ccd8ce"]{stroke:hsl(130 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#175e50"]{fill:hsl(168 39% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#175e50"]{stroke:hsl(168 39% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e2efe4"]{fill:hsl(129 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e2efe4"]{stroke:hsl(129 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b3cdbb"]{fill:hsl(138 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b3cdbb"]{stroke:hsl(138 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b8d7bd"]{fill:hsl(130 18% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b8d7bd"]{stroke:hsl(130 18% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#7ca486"]{fill:hsl(135 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#7ca486"]{stroke:hsl(135 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#80609b"]{fill:hsl(273 15% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#80609b"]{stroke:hsl(273 15% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a5b5ae"]{fill:hsl(154 6% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a5b5ae"]{stroke:hsl(154 6% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8b9690"]{fill:hsl(147 3% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8b9690"]{stroke:hsl(147 3% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a8753e"]{fill:hsl(31 30% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a8753e"]{stroke:hsl(31 30% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d0e58c"]{fill:hsl(74 41% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d0e58c"]{stroke:hsl(74 41% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a8bcae"]{fill:hsl(138 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a8bcae"]{stroke:hsl(138 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#dceccc"]{fill:hsl(90 30% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#dceccc"]{stroke:hsl(90 30% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c4d9bb"]{fill:hsl(102 18% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c4d9bb"]{stroke:hsl(102 18% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a0b7a6"]{fill:hsl(136 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a0b7a6"]{stroke:hsl(136 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#efe8f5"]{fill:hsl(272 26% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#efe8f5"]{stroke:hsl(272 26% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a4b9a8"]{fill:hsl(131 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a4b9a8"]{stroke:hsl(131 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d3dbc9"]{fill:hsl(87 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d3dbc9"]{stroke:hsl(87 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d7c3e7"]{fill:hsl(273 28% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d7c3e7"]{stroke:hsl(273 28% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#eee5f5"]{fill:hsl(274 29% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#eee5f5"]{stroke:hsl(274 29% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b4c4b6"]{fill:hsl(127 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b4c4b6"]{stroke:hsl(127 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#92ac9a"]{fill:hsl(138 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#92ac9a"]{stroke:hsl(138 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#9db29f"]{fill:hsl(126 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#9db29f"]{stroke:hsl(126 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#dcc9e9"]{fill:hsl(276 27% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#dcc9e9"]{stroke:hsl(276 27% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d9c3e9"]{fill:hsl(275 30% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d9c3e9"]{stroke:hsl(275 30% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e0e8dc"]{fill:hsl(100 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e0e8dc"]{stroke:hsl(100 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#f8faf4"]{fill:hsl(80 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#f8faf4"]{stroke:hsl(80 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#bdcabe"]{fill:hsl(125 7% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#bdcabe"]{stroke:hsl(125 7% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#9fac9b"]{fill:hsl(106 6% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#9fac9b"]{stroke:hsl(106 6% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e5efdc"]{fill:hsl(92 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e5efdc"]{stroke:hsl(92 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#eee6f4"]{fill:hsl(274 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#eee6f4"]{stroke:hsl(274 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b2c4b3"]{fill:hsl(123 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b2c4b3"]{stroke:hsl(123 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e6dbef"]{fill:hsl(273 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e6dbef"]{stroke:hsl(273 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b3c4b4"]{fill:hsl(124 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b3c4b4"]{stroke:hsl(124 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e0cce9"]{fill:hsl(281 26% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e0cce9"]{stroke:hsl(281 26% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b9cfac"]{fill:hsl(98 17% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b9cfac"]{stroke:hsl(98 17% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#769578"]{fill:hsl(124 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#769578"]{stroke:hsl(124 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#aac0ad"]{fill:hsl(128 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#aac0ad"]{stroke:hsl(128 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#bac6b7"]{fill:hsl(108 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#bac6b7"]{stroke:hsl(108 8% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#fff"]{fill:hsl(0 0% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#fff"]{stroke:hsl(0 0% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b4c9b7"]{fill:hsl(129 11% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b4c9b7"]{stroke:hsl(129 11% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c8a45f"]{fill:hsl(39 32% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c8a45f"]{stroke:hsl(39 32% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#aac7ae"]{fill:hsl(128 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#aac7ae"]{stroke:hsl(128 13% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#32575a"]{fill:hsl(185 19% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#32575a"]{stroke:hsl(185 19% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8eadab"]{fill:hsl(176 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8eadab"]{stroke:hsl(176 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a6c9bc"]{fill:hsl(158 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a6c9bc"]{stroke:hsl(158 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a0bab1"]{fill:hsl(159 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a0bab1"]{stroke:hsl(159 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#afc4b8"]{fill:hsl(146 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#afc4b8"]{stroke:hsl(146 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#789b93"]{fill:hsl(166 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#789b93"]{stroke:hsl(166 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#577e78"]{fill:hsl(171 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#577e78"]{stroke:hsl(171 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a2c2b4"]{fill:hsl(154 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a2c2b4"]{stroke:hsl(154 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#577451"]{fill:hsl(110 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#577451"]{stroke:hsl(110 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#abc698"]{fill:hsl(95 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#abc698"]{stroke:hsl(95 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#bcd1b4"]{fill:hsl(103 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#bcd1b4"]{stroke:hsl(103 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#93b2a6"]{fill:hsl(157 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#93b2a6"]{stroke:hsl(157 11% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b6a7d6"]{fill:hsl(259 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b6a7d6"]{stroke:hsl(259 24% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#194645"]{fill:hsl(179 31% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#194645"]{stroke:hsl(179 31% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8ebfa6"]{fill:hsl(149 18% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8ebfa6"]{stroke:hsl(149 18% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#273c4f"]{fill:hsl(209 22% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#273c4f"]{stroke:hsl(209 22% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d3c3ef"]{fill:hsl(262 38% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d3c3ef"]{stroke:hsl(262 38% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a8c9bc"]{fill:hsl(156 15% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a8c9bc"]{stroke:hsl(156 15% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#b9bdd3"]{fill:hsl(231 15% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#b9bdd3"]{stroke:hsl(231 15% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#718d95"]{fill:hsl(193 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#718d95"]{stroke:hsl(193 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#21484a"]{fill:hsl(183 25% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#21484a"]{stroke:hsl(183 25% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#789a9c"]{fill:hsl(183 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#789a9c"]{stroke:hsl(183 10% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#d4decc"]{fill:hsl(93 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#d4decc"]{stroke:hsl(93 14% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#8da991"]{fill:hsl(129 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#8da991"]{stroke:hsl(129 9% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#2d5044"]{fill:hsl(159 18% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#2d5044"]{stroke:hsl(159 18% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#9abb8e"]{fill:hsl(104 16% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#9abb8e"]{stroke:hsl(104 16% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#323e51"]{fill:hsl(217 15% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#323e51"]{stroke:hsl(217 15% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a8a0c6"]{fill:hsl(253 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a8a0c6"]{stroke:hsl(253 16% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c4d6b4"]{fill:hsl(92 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c4d6b4"]{stroke:hsl(92 19% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c4b8df"]{fill:hsl(258 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c4b8df"]{stroke:hsl(258 25% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#496c70"]{fill:hsl(186 14% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#496c70"]{stroke:hsl(186 14% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#a7b5bf"]{fill:hsl(205 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#a7b5bf"]{stroke:hsl(205 10% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#89ada6"]{fill:hsl(168 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#89ada6"]{stroke:hsl(168 12% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#e0e7df"]{fill:hsl(113 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#e0e7df"]{stroke:hsl(113 9% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#728272"]{fill:hsl(120 4% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#728272"]{stroke:hsl(120 4% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#5c725f"]{fill:hsl(128 7% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#5c725f"]{stroke:hsl(128 7% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#c0cfae"]{fill:hsl(87 17% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#c0cfae"]{stroke:hsl(87 17% 20%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#627d64"]{fill:hsl(124 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#627d64"]{stroke:hsl(124 8% 62%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [fill="#174e3b"]{fill:hsl(159 35% 81%)}
+html[data-theme=dark] .quantum-atlas :is(.diagram-card,.chart-svg) [stroke="#174e3b"]{stroke:hsl(159 35% 81%)}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual{background:#dceef2;border:1px solid #b6d6de}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual text{fill:#476578}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual .visual-caption{color:#476578}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#39615e"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#557e70"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#7fb190"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d2ed87"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#bbd298"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8ba989"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8fafaa"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#7faaa0"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c8dcc5"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#89aaa5"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#afccc0"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#84a5a0"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#10383c"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#426360"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a7c4b5"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#6d9286"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b7c7df"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#293e53"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b3a9de"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d5ccee"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a8aecb"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#739b93"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#627473"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#edf0eb"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#ccd8ce"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#175e50"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e2efe4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b3cdbb"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b8d7bd"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#7ca486"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#80609b"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a5b5ae"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8b9690"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a8753e"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d0e58c"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a8bcae"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#dceccc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c4d9bb"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a0b7a6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#efe8f5"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a4b9a8"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d3dbc9"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d7c3e7"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#eee5f5"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b4c4b6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#92ac9a"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#9db29f"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#dcc9e9"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d9c3e9"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e0e8dc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#f8faf4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#bdcabe"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#9fac9b"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e5efdc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#eee6f4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b2c4b3"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e6dbef"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b3c4b4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e0cce9"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b9cfac"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#769578"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#aac0ad"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#bac6b7"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#fff"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b4c9b7"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c8a45f"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#aac7ae"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#32575a"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8eadab"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a6c9bc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a0bab1"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#afc4b8"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#789b93"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#577e78"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a2c2b4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#abc698"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#bcd1b4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#93b2a6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b6a7d6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#194645"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8ebfa6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#273c4f"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d3c3ef"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a8c9bc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#b9bdd3"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#718d95"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#21484a"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#789a9c"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#d4decc"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#8da991"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#2d5044"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#9abb8e"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#323e51"]{fill:#eaf5f8}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a8a0c6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c4d6b4"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c4b8df"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#a7b5bf"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#89ada6"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#e0e7df"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#728272"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#5c725f"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#c0cfae"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [stroke="#627d64"]{stroke:#398994}
+html:not([data-theme=dark]) .quantum-atlas .hero-visual [fill="#174e3b"]{fill:#eaf5f8}
