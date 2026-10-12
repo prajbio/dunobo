@@ -27,6 +27,14 @@ This is not a donor-to-Trp distance or a tunneling path length. No line or movin
 
 The before/after controls explain the first incoming electron in the native catalytic reaction (source 2, equation 2). These redox labels are a mechanistic overlay on fixed coordinates, not crystallographically resolved reaction states. In particular, no ferryl oxygen has been added to 2PCC. The highlighted bridge is a literature-proposed structural region, not a quantum-chemical calculation or populated sequence of intermediates. No rates, molecular dynamics, orbital surfaces or probabilities are simulated.
 
+## Classical and quantum mechanism comparison
+
+The linked four-step sequence shows reactants, environmental reorganization, a successful electron-transfer event and product relaxation. The nuclear/solvent diagram and localized-charge-state diagram are complementary views of the same weak-coupling Marcus teaching model, not two competing biological mechanisms. Sources 3 and 4 provide the theory; source 2 supplies the case-specific redox chemistry.
+
+The diagrams use dimensionless q and arbitrary energy units: G_R(q) = q², G_P(q) = (q − 1)² − 0.2. Thus λ = 1, ΔG = −0.2, the crossing is q = 0.4 and its free energy is 0.16. These values are editorial teaching choices, not measurements or fitted parameters for 2PCC. The four selected configurations are (q=0, R), (q=0.4, R), (q=0.4, P), (q=1, P). The two middle steps deliberately share the same nuclear coordinate.
+
+The quantum diagram shows the two diabatic free energies at the selected q, with the occupied charge-state assignment highlighted. Its dashed connector denotes electronic coupling; it is not an electron trajectory. It omits coupling-induced splitting and does not evolve a wavefunction, compute a rate or show nuclear quantum effects. A curve crossing alone does not guarantee transfer. Playback shows one successful event and has no physical timescale. 2PCC atoms remain fixed. The mechanism steps and molecular-view redox controls stay synchronized.
+
 ## Rendering
 
 3Dmol.js 2.5.5, locally vendored from the official npm `3dmol` package. BSD-3-Clause license is in `../vendor/3Dmol-LICENSE.txt`. Viewer code and coordinates load only when this case study is visited. The interface works in both Dunobo themes and has a linked coordinate/structure fallback when WebGL is unavailable.

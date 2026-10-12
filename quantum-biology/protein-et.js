@@ -17,7 +17,7 @@
   const bridge = {chain: 'A', resi: [192, 193, 194]};
   const centres = {or: [donor, heme, trp, bridge]};
   let viewer, model, defaultView, libraryPromise, loading = false;
-  let scene = 'complex', state = 'before', account = 'effective', labels = true;
+  let scene = 'complex', state = 'before', account = 'compare', labels = true;
   let surfaces = [], surfacesLoading = false, selectedLabel;
   const dark = () => document.documentElement.dataset.theme === 'dark';
   const text = (selector, value) => { root.querySelector(selector).textContent = value; };
@@ -58,7 +58,7 @@
     addLabel(state === 'before' ? 'Cc heme · Fe(II)' : 'Cc heme · Fe(III)', {...b, y: b.y - 4}, colour.donor);
     addLabel(state === 'before' ? 'Trp191 · radical' : 'Trp191 · reduced', {...w, z: w.z + 3}, colour.trp);
     addLabel('CcP heme', {...a, y: a.y + 4}, colour.acceptor);
-    if (scene !== 'complex' || account === 'quantum') {
+    if (scene !== 'complex' || account !== 'effective') {
       const region = mean({...bridge, atom: 'CA'});
       addLabel('A194 · A193 · G192', {...region, y: region.y + 4, z: region.z + 4}, colour.bridge);
     }
@@ -76,7 +76,7 @@
     viewer.setStyle(donor, {stick: {radius: .2, color: palette.heme}});
     viewer.setStyle(heme, {stick: {radius: .2, color: palette.heme}});
     viewer.setStyle(trp, {stick: {radius: .22, color: state === 'before' ? palette.trp : dark() ? '#d69ab0' : '#ac6f88'}});
-    if (account === 'quantum' || scene !== 'complex') viewer.setStyle(bridge, {stick: {radius: .2, color: palette.bridge}});
+    if (account !== 'effective' || scene !== 'complex') viewer.setStyle(bridge, {stick: {radius: .2, color: palette.bridge}});
     viewer.addStyle({resn: 'HEM', elem: 'Fe'}, {sphere: {radius: .72, color: dark() ? '#f1c66c' : '#a97028'}});
     updateLabels();
     for (const surface of surfaces) viewer.setSurfaceMaterialStyle(surface.id, {color: surface.color === colour.acceptor ? palette.acceptor : palette.donor, depthWrite: false, opacity: surfaceCheckbox.checked && scene !== 'centres' ? .2 : 0});
@@ -103,14 +103,16 @@
     text('[data-et-acceptor-note]', after ? 'The radical is reduced by that electron.' : 'Radical cation, ready to accept one electron.');
     text('.et-state-message', after ? 'One electron transferred: the donor is oxidized and Trp191 is reduced. Coordinates remain fixed.' : 'Select “After 1 e−” to compare the products.');
     applyStyle();
+    root.dispatchEvent(new CustomEvent('et:statechange', {detail: {state}}));
   }
 
   function setAccount(next) {
     account = next;
     root.querySelectorAll('[data-et-account]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.etAccount === account)));
-    root.querySelectorAll('[data-et-explanation]').forEach(el => { el.hidden = el.dataset.etExplanation !== account; });
+    root.querySelectorAll('[data-et-explanation]').forEach(el => { el.hidden = account !== 'compare' && el.dataset.etExplanation !== account; });
+    root.querySelector('.et-explanation').dataset.account = account;
     if (account === 'quantum') setView('interface');
-    else applyStyle();
+    else setView('complex');
   }
 
   async function showSurfaces() {
@@ -206,6 +208,7 @@
     if (viewer && (action === 'in' || action === 'out')) { viewer.zoom(action === 'in' ? 1.18 : 1 / 1.18); viewer.render(); }
   });
   surfaceCheckbox.addEventListener('change', showSurfaces);
+  root.addEventListener('et:stepchange', e => setState(e.detail.state));
   viewport.addEventListener('keydown', e => {
     if (!viewer) return;
     const rotate = {ArrowLeft: [-12, 'vy'], ArrowRight: [12, 'vy'], ArrowUp: [-12, 'vx'], ArrowDown: [12, 'vx']};
