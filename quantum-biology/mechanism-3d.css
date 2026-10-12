@@ -1,0 +1,28 @@
+.quantum-atlas .scene-explorer{margin:24px 0;border:1px solid var(--d-line);border-radius:14px;overflow:hidden;background:var(--d-raised)}
+.quantum-atlas .scene-heading{padding:20px 22px 12px;display:flex;justify-content:space-between;gap:12px;align-items:start}
+.quantum-atlas .scene-heading h4{margin:0;font-size:18px;letter-spacing:-.3px}
+.quantum-atlas .scene-heading p{margin:6px 0 0;font-size:12px;color:var(--d-muted)}
+.quantum-atlas .scene-modes{display:flex;gap:5px;padding:0 22px 16px;flex-wrap:wrap}
+.quantum-atlas .scene-modes button{font-size:12px;background:var(--d-panel);padding:8px 12px;border:1px solid var(--d-line);border-radius:7px;color:var(--d-text)}
+.quantum-atlas .scene-modes [aria-pressed=true]{background:var(--d-accent);color:#17251b;border-color:var(--d-accent)}
+html:not([data-theme=dark]) .quantum-atlas .scene-modes [aria-pressed=true]{color:white}
+.quantum-atlas .scene-canvas-wrap{position:relative;background:var(--d-bg);border-block:1px solid var(--d-line)}
+.quantum-atlas .scene-canvas{display:block;width:100%;height:380px;touch-action:none;cursor:grab;max-width:100%}
+.quantum-atlas .scene-canvas:active{cursor:grabbing}
+.quantum-atlas .scene-hint{position:absolute;bottom:9px;left:16px;right:16px;text-align:center;pointer-events:none;font-size:10px;color:var(--d-muted)}
+.quantum-atlas .scene-controls{padding:16px 22px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.quantum-atlas .scene-controls button{font-size:12px;padding:7px 11px;min-height:36px;border:1px solid var(--d-line);border-radius:7px;background:var(--d-panel);color:var(--d-text)}
+.quantum-atlas .scene-controls label{font-size:12px;display:flex;align-items:center;gap:6px;color:var(--d-muted)}
+.quantum-atlas .scene-scrub{flex:1;min-width:140px}
+.quantum-atlas .scene-scrub input{width:100%;accent-color:var(--d-accent)}
+.quantum-atlas .scene-captions{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:0 22px 20px}
+.quantum-atlas .scene-captions h5{margin:0 0 7px;font-size:12px;color:var(--d-accent)}
+.quantum-atlas .scene-captions p{margin:0;font-size:12px;color:var(--d-muted);line-height:1.65}
+.quantum-atlas .scene-captions [hidden]{display:none}
+.quantum-atlas .scene-captions:has([hidden]){grid-template-columns:1fr}
+.quantum-atlas .scene-status{font-size:10px;color:var(--d-muted);white-space:nowrap}
+.quantum-atlas .scene-boundary{margin:0;padding:14px 22px;border-top:1px solid var(--d-line);font-size:11px;line-height:1.65;color:var(--d-muted)}
+.quantum-atlas .flat-diagrams{margin-block:20px;border-top:1px solid var(--d-line);padding-top:14px}
+.quantum-atlas .flat-diagrams>summary{font-size:13px;cursor:pointer;font-weight:600;color:var(--d-accent)}
+@media(max-width:620px){.quantum-atlas .scene-canvas{height:430px}.quantum-atlas .scene-heading,.quantum-atlas .scene-controls{padding:16px 14px}.quantum-atlas .scene-modes{padding-inline:14px}.quantum-atlas .scene-captions{padding:0 14px 16px;grid-template-columns:1fr;gap:14px}.quantum-atlas .scene-boundary{padding:14px}.quantum-atlas .scene-heading{display:block}.quantum-atlas .scene-status{display:block;margin-top:8px}.quantum-atlas .scene-scrub{flex-basis:100%}}
+@media print{.quantum-atlas .scene-explorer{display:none}.quantum-atlas .flat-diagrams>summary{display:none}}
