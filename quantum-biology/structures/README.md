@@ -46,3 +46,16 @@ The quantum layer emphasizes actual bridge atoms and bonds (A194–A193–G192),
 3Dmol.js 2.5.5, locally vendored from the official npm `3dmol` package. BSD-3-Clause license is in `../vendor/3Dmol-LICENSE.txt`. Viewer code and coordinates load only when this case study is visited. The interface works in both Dunobo themes and has a linked coordinate/structure fallback when WebGL is unavailable.
 
 Coordinate file SHA-256: `d9c19f316054d86cbf84900fe36b67fb55e1c793377c64b099786c42248bff0e`.
+
+# DHFR hydride-transfer case
+
+- Original coordinates: https://files.rcsb.org/download/1RX2.pdb, downloaded 2026-10-12 unchanged.
+- E. coli DHFR, chain A, 1.80 Å X-ray structure; retain NAP A164 and FOL A161. Display omits water, manganese and beta-mercaptoethanol. RCSB notes alternative re-refinement 3QL3.
+- Crystal contains oxidized NADP+ and folate, a nonreactive Michaelis-complex mimic. It does not contain the reactive NADPH/DHF pair or product THF.
+- C4N of NAP A164: (31.149,45.947,14.124) Å. C6 of FOL A161: (31.895,44.651,11.140) Å. Distance 3.34 Å rounded; carbon separation is not tunneling barrier width.
+- No deposited atom coordinates are changed. Schematic H localization sites are 1.09 Å along the carbon-carbon axis from either end. Midpoint is illustrative, not a calculated saddle point. Opacity does not encode probabilities. Compare shows alternative accounts, not several actual hydrogens.
+- Energy inset is schematic, with no physical energy or time scale. The hydride step assumes N5-protonated DHF; separate proton delivery is outside this sequence. Ligand bond orders and identities remain those of the crystal mimic.
+- Sawaya & Kraut (1997), https://doi.org/10.1021/bi962337c: deposited structure.
+- Sikorski et al. (2004), https://doi.org/10.1021/ja031683w: isotope and temperature evidence supporting tunneling in WT ecDHFR.
+- Wang et al. (2006), https://doi.org/10.1073/pnas.0606976103: distal mutations and environmentally coupled tunneling interpretation, not direct observation of a nuclear trajectory.
+- Wan et al. (2014), https://doi.org/10.1073/pnas.1415856111: pseudo-Michaelis-complex interpretation and protonation context.
