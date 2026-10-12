@@ -103,6 +103,18 @@
     // Same-state events from this sequence must not collapse the prepare/relax steps.
     if (stages[step].state !== e.detail.state) { stop(); show(e.detail.state === 'after' ? 2 : 0, false); }
   });
+  root.addEventListener('et:motion', e => {
+    const f=e.detail;
+    if(step!==f.step)show(f.step);
+    const r=f.q*f.q,p=(f.q-1)**2-.2;
+    const marker=comparison.querySelector('[data-et-energy-marker]');
+    marker.setAttribute('cx',px(f.q));marker.setAttribute('cy',py(f.state==='before'?r:p));marker.dataset.charge=f.state;
+    const cursor=comparison.querySelector('[data-et-q-cursor]');cursor.setAttribute('x1',px(f.q));cursor.setAttribute('x2',px(f.q));cursor.setAttribute('y2',marker.getAttribute('cy'));
+    for(const [level,value] of [['R',r],['P',p]]){const g=comparison.querySelector('[data-et-level='+level+']');g.setAttribute('transform','translate(0 '+py(value)+')');g.dataset.occupied=String(level===(f.state==='before'?'R':'P'));}
+    comparison.querySelector('[data-et-coupling]').setAttribute('d','M192 '+py(r)+'L268 '+py(p));
+    comparison.querySelector('[data-et-coupling-label]').setAttribute('y',(py(r)+py(p))/2-12);
+    root.dispatchEvent(new CustomEvent('et:motion-render',{detail:f}));
+  });
   document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
   const visiblePanels = new Set();
   const visibility = new IntersectionObserver(entries => {

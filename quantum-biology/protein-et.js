@@ -29,7 +29,7 @@
     ['Reactants', 'Blue-to-amber arrows mark an initial environmental polarization around the two redox sites.', 'The donor heme, green bridge residues and Trp191 form the highlighted structural region. The radical is still on Trp191.', 'Start: Cc Fe(II) + Trp191•+. Rotate the pair to locate both redox sites.'],
     ['Reorganize', 'The schematic dipoles turn toward a transfer-ready configuration. The protein coordinates stay fixed.', 'The proposed coupling bridge stays connected. Preparation makes a transfer possible; it does not guarantee one.', 'Prepared environment: the redox labels have not changed. The dipole positions and angles are teaching choices.'],
     ['Transfer', 'The dipoles hold their orientation across the electronic event: nuclear relaxation follows afterwards.', 'Cc loses one electron and Trp191 gains it. The arrow marks the net change between sites; the green bridge is not a series of occupied intermediates.', 'Transferred: Cc Fe(III) + neutral Trp191. Arrow = net redox change, not an electron trajectory.'],
-    ['Relax', 'The dipoles turn again to represent relaxation around the product charges.', 'The product redox labels remain. The peroxidase heme is still ferryl after this first incoming electron.', 'Products: the environment has relaxed. Playback is an explanatory sequence with no physical timescale.']
+    ['Relax', 'The dipoles turn again to represent relaxation around the product charges.', 'The product redox labels remain. The peroxidase heme is still ferryl after this first incoming electron.', 'Products: the environment relaxes toward its product configuration. Playback has no physical timescale.']
   ];
   const dark = () => document.documentElement.dataset.theme === 'dark';
   const text = (selector, value) => { root.querySelector(selector).textContent = value; };
@@ -311,6 +311,21 @@
   });
   surfaceCheckbox.addEventListener('change', showSurfaces);
   overlaysCheckbox.addEventListener('change', applyStyle);
+  root.addEventListener('et:motion-render', e => {
+    if (!viewer) return;
+    cancelAnimationFrame(dipoleFrame);
+    environmentQ = e.detail.q;
+    clearShapes(dipoleShapes);
+    clearShapes(siteShapes);
+    if (overlaysCheckbox.checked) {
+      const {d, a, u} = geometry(), t = e.detail.transfer;
+      siteShapes.push(viewer.addSphere({center:d,radius:4.9,color:colour.donor,opacity:.06+.16*(1-t)}));
+      siteShapes.push(viewer.addSphere({center:a,radius:3.1,color:colour.trp,opacity:.07+.2*t}));
+      if(account!=='effective' && t>.5)siteShapes.push(viewer.addArrow({start:add(d,u,4),end:add(a,u,4),radius:.34,radiusRatio:2.8,mid:.86,color:dark()?'#ff87a7':colour.trp,opacity:(t-.5)*2}));
+      drawDipoles(environmentQ);
+    }
+    viewer.render();
+  });
   root.addEventListener('et:stepchange', e => setState(e.detail.state, e.detail.step));
   document.addEventListener('visibilitychange', () => {
     if (document.hidden) { cancelAnimationFrame(dipoleFrame); environmentQ = sequenceQ[mechanismStep]; if (viewer) { drawDipoles(environmentQ); viewer.render(); } }
@@ -331,3 +346,4 @@
   updateSceneText();
   new MutationObserver(() => { if (panel.classList.contains('active') && viewport.clientWidth) init(); }).observe(panel, {attributes: true, attributeFilter: ['class']});
 })();
+

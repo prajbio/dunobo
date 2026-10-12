@@ -59,3 +59,21 @@ Coordinate file SHA-256: `d9c19f316054d86cbf84900fe36b67fb55e1c793377c64b099786c
 - Sikorski et al. (2004), https://doi.org/10.1021/ja031683w: isotope and temperature evidence supporting tunneling in WT ecDHFR.
 - Wang et al. (2006), https://doi.org/10.1073/pnas.0606976103: distal mutations and environmentally coupled tunneling interpretation, not direct observation of a nuclear trajectory.
 - Wan et al. (2014), https://doi.org/10.1073/pnas.1415856111: pseudo-Michaelis-complex interpretation and protonation context.
+
+## Continuous animation and literature audit — 2026-10-12
+
+Both models now use a requestAnimationFrame clock (14 editorial seconds per cycle) with pause, speed, optional looping and a scrubber. No atom coordinates are altered. Playback stops when the document, mechanism or viewer leaves view. Explicit playback is opt-in; there is no automatic motion on load. Loop restart resets reactants and is not a reverse reaction.
+
+DHFR: classical gold H moves on the idealized straight C4–C6 coordinate; violet fixed-site cues fade. The energy inset tracks an illustrative barrier and fixed quantum endpoint markers. Fades are not wavefunctions, populations or coherent oscillations. No quantitative tunneling fraction or isotope effect is calculated. Electronically quantum QM/MM potentials alone do not constitute nuclear quantum dynamics.
+
+ET: environment q moves continuously from 0 to .4, remains .4 across the selected electronic transition, then relaxes to 1. Redox labels switch at the crossing; annotation halos cross-fade, not an electron in flight. The same q drives the Marcus plot and polarization glyphs. The two accounts are complementary, not mutually exclusive mechanisms. Selected successful-event playback does not assert every energy-matching encounter transfers an electron.
+
+Recent primary sources checked:
+- 2024, CHARMM-GUI QM/MM Interfacer, https://doi.org/10.1021/acs.jctc.4c00439 — DHFR with protonated substrate, separate environmental/chemical modeling.
+- 2025, Machine Learning QM/MM Potentials: Evaluating Transferability in DHFR-Catalyzed Reactions, https://doi.org/10.1021/acs.jctc.4c01487 — donor-H minus acceptor-H coordinate, reactive ligands, umbrella sampling. Not a measured tunneling movie.
+- 2025, Fast rational enzyme design by computational non-equilibrium alchemical transformations, https://doi.org/10.1039/D5CC03075G — adaptive string free-energy paths. No trajectory imported into this site.
+- 2026, Quantum Enhanced Modeling of Enzyme Inhibition and Drug Behavior Integrating Tunneling Kinetics and Molecular Dynamics, https://www.scitepress.org/PublishedPapers/2026/142893/ — conference proof of concept with simplified tunneling proxies, not validation of this atomistic animation.
+- 2022, Crystal structure of Trypanosoma cruzi heme peroxidase and characterization of its substrate specificity and compound I intermediate, https://doi.org/10.1016/j.jbc.2022.102204 — comparative discussion of yeast CcP Trp191 and its proposed transfer region; not a new yeast time-resolved trajectory.
+- 2025, Reactivity of canonical bacterial cytochrome c peroxidases, https://doi.org/10.1039/D4SC07339H — bacterial diheme family, explicitly not substituted for yeast CcP chemistry.
+
+Search scope included 2024–2026 DHFR hydride/nuclear quantum dynamics and yeast Cc/CcP transfer. This targeted check was not exhaustive; publication dates were distinguished from web crawl dates. Direct older experimental sources remain the reaction evidence. No newer experimentally resolved trajectory of this exact yeast pair was identified.
