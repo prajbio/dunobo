@@ -37,6 +37,12 @@ The quantum diagram shows the two diabatic free energies at the selected q, with
 
 ## Rendering
 
+The molecular viewer also supports synchronized classical, quantum and combined explanatory layers. Its four-step controls share state and playback with the energy diagrams. Switching layers preserves the camera, and donor/bridge/acceptor buttons focus the measured sites.
+
+Classical reorganization is represented by six blue-to-amber dipole glyphs placed schematically around the donor iron and Trp191 ring centroid. The positions, lengths and rotations are editorial illustrations, not explicit solvent coordinates, calculated fields or simulated atomic motion. Their orientation changes with the same illustrative q used in the diagrams. Preparation and transfer have identical q = 0.4; the transfer step snaps to that orientation without animating nuclear reorganization. Reduced-motion users see the stage endpoints without rotation animation.
+
+The quantum layer emphasizes actual bridge atoms and bonds (A194–A193–G192), the donor heme and the Trp191 acceptor. The bridge is proposed from the literature; it is not a calculated dominant pathway or sequence of real, occupied intermediates. Transparent redox-site halos are annotations, not orbitals. A straight arrow, offset from the atomic sites after transfer, denotes only the net donor-to-acceptor redox change. It is not an electron trajectory. These limits are stated in the visible caption and expandable visual key. All overlays can be hidden independently of the coordinates, and no atomic positions are changed.
+
 3Dmol.js 2.5.5, locally vendored from the official npm `3dmol` package. BSD-3-Clause license is in `../vendor/3Dmol-LICENSE.txt`. Viewer code and coordinates load only when this case study is visited. The interface works in both Dunobo themes and has a linked coordinate/structure fallback when WebGL is unavailable.
 
 Coordinate file SHA-256: `d9c19f316054d86cbf84900fe36b67fb55e1c793377c64b099786c42248bff0e`.

@@ -17,7 +17,7 @@ html:not([data-theme=dark]) .quantum-atlas .protein-et button[aria-pressed=true]
 .quantum-atlas .et-toolbar label{display:flex;align-items:center;gap:5px;margin-left:auto;font-size:11px;color:var(--d-muted)}
 .quantum-atlas .et-stage{display:grid;grid-template-columns:minmax(0,1fr) 230px}
 .quantum-atlas .et-molecule-column{min-width:0;background:var(--d-bg)}
-.quantum-atlas .et-viewport{position:relative;height:430px;isolation:isolate;touch-action:none;overflow:hidden;cursor:grab}
+.quantum-atlas .et-viewport{position:relative;height:540px;isolation:isolate;touch-action:none;overflow:hidden;cursor:grab;scroll-margin-top:158px}
 .quantum-atlas .et-viewport:active{cursor:grabbing}
 .quantum-atlas .et-viewer{position:absolute;inset:0}
 .quantum-atlas .et-load-status{position:absolute;inset:40% 15%;text-align:center;font-size:13px;color:var(--d-muted);z-index:2;pointer-events:none}
@@ -61,6 +61,37 @@ html:not([data-theme=dark]) .quantum-atlas .protein-et button[aria-pressed=true]
 .quantum-atlas .et-sources p{font-size:11px;line-height:1.6;color:var(--d-muted)}
 .quantum-atlas .et-fallback{padding:14px 24px;font-size:12px;background:var(--d-bg)}
 .quantum-atlas .et-comparison-jump{margin-top:12px!important;font-weight:650;font-size:12px!important}
+.quantum-atlas .et-comparison-jump>span{margin:0 7px;color:var(--d-muted)}
+.quantum-atlas .et-protein-mechanism{scroll-margin-top:165px;border-top:1px solid var(--d-line)}
+.quantum-atlas .et-3d-controls{padding:20px 24px 5px;background:var(--d-bg)}
+.quantum-atlas .et-3d-heading{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:17px}
+.quantum-atlas .et-3d-heading h5{font-size:21px;letter-spacing:-.4px;margin:0;line-height:1.3}
+.quantum-atlas .et-overlay-toggle{display:flex;align-items:center;gap:6px;font-size:11px;margin-left:auto;cursor:pointer}
+.quantum-atlas .et-protein-mechanism .et-viewer{bottom:100px}
+.quantum-atlas .et-3d-sequence{position:absolute;bottom:0;left:0;right:0;padding:10px 12px 8px;background:var(--d-panel);border-top:1px solid var(--d-line);cursor:auto;touch-action:auto;z-index:2}
+.quantum-atlas .et-3d-sequence .et-step-buttons{gap:5px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.quantum-atlas .et-3d-sequence .et-step-buttons button{font-size:10px;min-height:33px;padding:7px;gap:5px}
+.quantum-atlas .et-3d-sequence .et-sequence-controls{margin:7px 0 0}
+.quantum-atlas .et-3d-sequence .et-sequence-controls button{font-size:10px;min-height:31px;padding:6px 8px}
+.quantum-atlas .et-3d-sequence .et-overlay-toggle{font-size:10px}
+.quantum-atlas .et-overlay-key{display:flex;gap:7px 16px;flex-wrap:wrap;padding:10px 14px;border-top:1px solid var(--d-line);font-size:10px;line-height:1.5;color:var(--d-muted)}
+.quantum-atlas .et-overlay-key>span{display:flex;align-items:center;gap:5px}
+.quantum-atlas .et-dipole-key{font-style:normal;font-weight:700;color:var(--et-heme);font-size:13px}
+.quantum-atlas .et-dipole-key::first-letter{color:var(--et-donor)}
+.quantum-atlas .et-bridge-key{display:inline-block;background:#7d9e4c;width:14px;height:3px;border-radius:3px}
+.quantum-atlas .et-3d-narrative{grid-column:1/-1}
+.quantum-atlas .et-3d-narrative p{font-size:11px;line-height:1.6;color:var(--d-muted);margin:10px 0}
+.quantum-atlas .et-3d-narrative strong{display:block;font-size:10px;letter-spacing:.8px;text-transform:uppercase;color:var(--d-text);margin-bottom:3px}
+.quantum-atlas .et-focus-controls{display:flex;flex-wrap:wrap;gap:4px;margin:14px 0;grid-column:1/-1}
+.quantum-atlas .et-focus-controls button{font-size:10px;padding:6px 8px}
+.quantum-atlas .et-3d-caption{font-size:12px;line-height:1.65;margin:0;padding:14px 24px;background:var(--d-bg);border-block:1px solid var(--d-line);border-left:3px solid var(--d-accent)}
+.quantum-atlas .et-3d-assumptions{font-size:11px;line-height:1.7;padding:14px 24px}
+.quantum-atlas .et-3d-assumptions summary{cursor:pointer;font-size:12px;font-weight:650}
+.quantum-atlas .et-3d-assumptions p{color:var(--d-muted);font-size:11px;margin:10px 0 0}
+.quantum-atlas .et-protein-mechanism .et-story{padding-top:18px}
+.quantum-atlas .et-protein-mechanism .et-state-message{display:none}
+.quantum-atlas .et-protein-mechanism .et-redox-site{padding:9px 0}
+.quantum-atlas .et-protein-mechanism .et-state-toggle{margin:10px 0}
 .quantum-atlas .et-mechanism{scroll-margin-top:170px;border-top:1px solid var(--d-line)}
 .quantum-atlas .et-mechanism .et-explanation-heading h5{font-size:21px;letter-spacing:-.4px}
 .quantum-atlas .et-mechanism-intro{font-size:13px;line-height:1.65;max-width:75ch;margin:0 0 18px}
@@ -112,3 +143,4 @@ html:not([data-theme=dark]) .quantum-atlas .protein-et button[aria-pressed=true]
 @media(max-width:1000px){.quantum-atlas .et-stage{grid-template-columns:1fr}.quantum-atlas .et-story{border-left:0;border-top:1px solid var(--d-line);display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.quantum-atlas .et-story>h5,.quantum-atlas .et-story>.et-eyebrow,.quantum-atlas .et-story>.et-state-message{grid-column:1/-1}.quantum-atlas .et-state-toggle{align-self:start;margin:6px 0}.quantum-atlas .et-story>p{margin:6px 0 12px}.quantum-atlas .et-story .et-heme-context{grid-column:1/-1}}
 @media(max-width:600px){.quantum-atlas .et-intro,.quantum-atlas .et-explanation{padding:18px 16px}.quantum-atlas .et-toolbar{padding:10px 12px}.quantum-atlas .et-toolbar label{margin-left:0;width:100%}.quantum-atlas .et-viewport{height:365px}.quantum-atlas .et-camera p{width:100%;margin:4px 0 0}.quantum-atlas .et-stage{display:block}.quantum-atlas .et-legend{gap:8px 12px}.quantum-atlas .et-story{padding:18px 16px}.quantum-atlas .et-rate-diagram{font-size:10px;gap:7px}.quantum-atlas .et-sources{padding:16px}}
 @media print{.quantum-atlas .et-viewport,.quantum-atlas .et-toolbar,.quantum-atlas .et-camera{display:none}.quantum-atlas .et-stage{display:block}.quantum-atlas .et-account[hidden]{display:block!important}}
+@media(max-width:600px){.quantum-atlas .et-3d-controls{padding:18px 16px 3px}.quantum-atlas .et-3d-caption,.quantum-atlas .et-3d-assumptions{padding:14px 16px}.quantum-atlas .et-protein-mechanism .et-viewport{height:495px}.quantum-atlas .et-3d-sequence .et-step-buttons span{display:none}.quantum-atlas .et-3d-sequence .et-overlay-toggle{width:auto;margin-left:auto}.quantum-atlas .et-3d-sequence{padding:9px 8px}.quantum-atlas .et-3d-sequence .et-sequence-controls{gap:4px}.quantum-atlas .et-3d-sequence .et-overlay-toggle{max-width:95px;line-height:1.25}}

@@ -32,21 +32,26 @@
     }
   ];
   let step = 0, playing = false, timer = 0;
-  const playButton = comparison.querySelector('[data-et-sequence=play]');
+  const playButtons = root.querySelectorAll('[data-et-sequence=play]');
+  function updatePlaybackLabel() {
+    playButtons.forEach(button => {
+      button.setAttribute('aria-pressed', String(playing));
+      button.textContent = playing ? 'Pause explanation' : step === stages.length - 1 ? 'Replay explanation' : 'Play explanation';
+    });
+  }
   const px = q => 60 + (q + .2) / 1.4 * 350;
   const py = g => 235 - (g + .3) / 1.8 * 190;
   const set = (selector, value) => { comparison.querySelector(selector).textContent = value; };
   function stop() {
     clearTimeout(timer);
     playing = false;
-    playButton.setAttribute('aria-pressed', 'false');
-    playButton.textContent = step === stages.length - 1 ? 'Replay explanation' : 'Play explanation';
+    updatePlaybackLabel();
   }
   function show(next, notify = true) {
     step = next;
     const s = stages[step], r = s.q * s.q, p = (s.q - 1) ** 2 - .2;
     comparison.dataset.step = String(step);
-    comparison.querySelectorAll('[data-et-step]').forEach(button => button.setAttribute('aria-pressed', String(+button.dataset.etStep === step)));
+    root.querySelectorAll('[data-et-step]').forEach(button => button.setAttribute('aria-pressed', String(+button.dataset.etStep === step)));
     const marker = comparison.querySelector('[data-et-energy-marker]');
     marker.setAttribute('cx', px(s.q));
     marker.setAttribute('cy', py(s.state === 'before' ? r : p));
@@ -69,8 +74,8 @@
     const caption = comparison.querySelector('[data-et-step-caption]');
     const strong = document.createElement('strong'); strong.textContent = `0${step + 1} · ${s.name}. `;
     caption.replaceChildren(strong, document.createTextNode(s.caption));
-    if (!playing) playButton.textContent = step === stages.length - 1 ? 'Replay explanation' : 'Play explanation';
-    if (notify) root.dispatchEvent(new CustomEvent('et:stepchange', {detail: {state: s.state}}));
+    updatePlaybackLabel();
+    if (notify) root.dispatchEvent(new CustomEvent('et:stepchange', {detail: {state: s.state, step, q: s.q}}));
   }
   function advance() {
     if (!playing || document.hidden || !comparison.offsetWidth) { stop(); return; }
@@ -78,7 +83,7 @@
     show(step + 1);
     timer = setTimeout(advance, 2600);
   }
-  comparison.addEventListener('click', e => {
+  root.addEventListener('click', e => {
     const button = e.target.closest('button');
     if (!button) return;
     if (button.hasAttribute('data-et-step')) { stop(); show(+button.dataset.etStep); }
@@ -88,8 +93,7 @@
       else {
         if (step === stages.length - 1) show(0);
         playing = true;
-        playButton.textContent = 'Pause explanation';
-        playButton.setAttribute('aria-pressed', 'true');
+        updatePlaybackLabel();
         timer = setTimeout(advance, 2600);
       }
     }
@@ -100,16 +104,23 @@
     if (stages[step].state !== e.detail.state) { stop(); show(e.detail.state === 'after' ? 2 : 0, false); }
   });
   document.addEventListener('visibilitychange', () => { if (document.hidden) stop(); });
-  new IntersectionObserver(entries => { if (!entries[0].isIntersecting) stop(); }).observe(comparison);
+  const visiblePanels = new Set();
+  const visibility = new IntersectionObserver(entries => {
+    entries.forEach(entry => entry.isIntersecting ? visiblePanels.add(entry.target) : visiblePanels.delete(entry.target));
+    if (!visiblePanels.size) stop();
+  });
+  visibility.observe(comparison);
+  visibility.observe(root.querySelector('.et-protein-mechanism'));
   new MutationObserver(() => { if (!comparison.offsetWidth) stop(); }).observe(root.closest('.mechanism-panel'), {attributes: true, attributeFilter: ['class', 'style']});
   show(0, false);
   function revealComparison() {
-    if (location.hash !== '#et-mechanism') return;
+    if (!['#et-mechanism', '#et-protein-mechanism'].includes(location.hash)) return;
+    const fragment = location.hash;
     if (!root.closest('.mechanism-panel').classList.contains('active')) {
       document.querySelector('[data-mechanism="electron-transfer"]').click();
-      history.replaceState(null, '', '#et-mechanism');
+      history.replaceState(null, '', fragment);
     }
-    requestAnimationFrame(() => comparison.scrollIntoView({block: 'start', behavior: 'instant'}));
+    requestAnimationFrame(() => root.querySelector(fragment).scrollIntoView({block: 'start', behavior: 'instant'}));
   }
   window.addEventListener('hashchange', revealComparison);
   window.addEventListener('load', revealComparison, {once: true});
