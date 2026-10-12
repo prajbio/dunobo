@@ -77,3 +77,24 @@ Recent primary sources checked:
 - 2025, Reactivity of canonical bacterial cytochrome c peroxidases, https://doi.org/10.1039/D4SC07339H — bacterial diheme family, explicitly not substituted for yeast CcP chemistry.
 
 Search scope included 2024–2026 DHFR hydride/nuclear quantum dynamics and yeast Cc/CcP transfer. This targeted check was not exhaustive; publication dates were distinguished from web crawl dates. Direct older experimental sources remain the reaction evidence. No newer experimentally resolved trajectory of this exact yeast pair was identified.
+
+
+## Remaining mechanism families — 12 October 2026
+
+All coordinate files below were downloaded unchanged from `https://files.rcsb.org/download/ID.pdb`. The viewer selects the specified chains, omits waters and retains deposited coordinates. Gold halos are explanatory attention markers, never measured charge densities. Stage timing and diagram amplitudes are qualitative, not fits or trajectories. See `../mechanism-cases.json` for site selections, structural limitations and primary literature per chapter.
+
+- **6W4X**: E. coli RNR · trapped engineered complex. Chains B, C. Cryo-EM 3.60 Å. The trapping construct uses E52Q and fluorotyrosine122 in β. This is a structural relay reference, not a native turnover movie.
+- **1TEZ**: Photolyase–DNA · repaired-lesion reference. Chains A, I, J. X-ray 1.80 Å. The synthetic CPD-like lesion was split by X-rays. These coordinates show a repaired, flipped-out substate, not an intact CPD or a live repair trajectory.
+- **1U19**: Bovine rhodopsin · dark-state retinal. Chains A. X-ray 2.20 Å. Fixed 11-cis-retinal geometry. The adjacent torsion diagram illustrates isomerization; the crystal coordinates are not morphed into a calculated product.
+- **3WU2**: Photosystem II · D1/D2 structural context. Chains A, D. Only chains A/D and their cofactors are displayed. Pigment identities are from the deposited structure. Highlighting the pigments does not select a unique early charge-separation pathway.
+- **3ENI**: FMO · eight bacteriochlorophyll sites. Chains A. One FMO chain is shown. BCL residue numbers are PDB identifiers, not a prescribed energy-transfer order. Halos show explanatory emphasis, not simulated populations or measured coherence.
+- **1EMA**: GFP · chromophore and proton-relay residues. Chains A. Fixed GFP structure. CRO66, Ser205 and Glu222 are highlighted; the intervening water is omitted. The schematic relay does not turn a cluster calculation into a whole-protein trajectory.
+- **2D1S**: Firefly luciferase · intermediate analogue. Chains A. Thermostable Japanese firefly luciferase bound to a high-energy intermediate analogue (SLU). The crystal ligand is not emitting oxyluciferin; chemiexcitation is illustrated separately.
+- **1BNA**: B-DNA dodecamer · structural context. Chains A, B. Canonical DNA duplex, without repair proteins or a measured rare tautomer. It is not the experimental DNA monolayer used in spin-filtering measurements.
+- **1MAG**: Gramicidin A · membrane-channel reference. Chains A, B. Solid-state NMR channel structure. No water chain or moving proton is resolved here. The adjacent wire is idealized; proton hopping does not mean one nucleus traverses the entire wire.
+- **1K4C**: KcsA · one crystallographic protomer. Chains C. One KcsA protomer and crystal K⁺ sites, with Fab omitted. The full tetramer is not reconstructed. Site occupancy in a crystal is not a direct movie of permeation.
+- **6PU0**: Pigeon CRY4 · structural homologue. Chains A. Pigeon protein, not the European robin CRY4 tested in the cited magnetic-sensitivity experiment. Only FAD is marked; no experimentally identified spin pair is inferred from this structure.
+- **4GU5**: Drosophila cryptochrome · dark-state reference. Chains A. Updated 2.30 Å structure. FAD binding is structural evidence; it does not establish a magnetic behavioural response or a specific ROS radical-pair partner.
+- **8F76**: Human OR51E2 · propionate-bound receptor. Chains A. Receptor chain A with propionate (PPI401); signalling partners omitted. An active binding pocket is not evidence of a donor–acceptor electron-tunneling route.
+- **1JFF**: α/β tubulin · taxol-stabilized sheet structure. Chains A, B. A tubulin dimer from zinc-induced sheets, not a complete microtubule or neuron. Tryptophan positions are measured; collective-state lifetimes and consciousness claims are not encoded in them.
+- **2V1A**: AsLOV2 · parent scaffold for MagLOV. Chains A. Parent LOV2 fold with FMN, not the engineered MagLOV2 variant. The 2026 sensing study uses this scaffold as structural context. No native qubit or Earth-field compass is implied.

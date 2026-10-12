@@ -1,0 +1,1687 @@
+{
+  "reviewed": "2026-10-12",
+  "scope": "Targeted primary-literature and structural cross-check; not exhaustive. Animations are qualitative teaching models, never measured trajectories.",
+  "cases": [
+    {
+      "slug": "pcet",
+      "title": "Proton-coupled electron transfer",
+      "status": "Established",
+      "kind": "relay",
+      "states": [
+        "Prepare interface",
+        "Relay radical",
+        "Generate thiyl",
+        "Enable reduction"
+      ],
+      "explanation": "Radical transfer and proton transfer are coupled but need not follow the same route. The long-range radical relay is not one proton crossing both subunits.",
+      "review": "2025 turnover structures show multiple conformations; 2026 β-subunit calculations support conformational gating. A trapped 2020 structure alone does not give rate constants or proton tunneling probabilities.",
+      "structure": {
+        "id": "6W4X",
+        "chains": [
+          "B",
+          "C"
+        ],
+        "name": "E. coli RNR · trapped engineered complex",
+        "note": "Cryo-EM 3.60 Å. The trapping construct uses E52Q and fluorotyrosine122 in β. This is a structural relay reference, not a native turnover movie.",
+        "sites": [
+          {
+            "chain": "C",
+            "resi": 122
+          },
+          {
+            "chain": "C",
+            "resi": 356
+          },
+          {
+            "chain": "B",
+            "resi": 731
+          },
+          {
+            "chain": "B",
+            "resi": 730
+          },
+          {
+            "chain": "B",
+            "resi": 439
+          }
+        ],
+        "labels": [
+          "F₃Y122 β",
+          "Tyr356 β",
+          "Tyr731 α",
+          "Tyr730 α",
+          "Cys439 α"
+        ]
+      },
+      "baseline": "A reaction scheme treats electron and proton changes as separately parameterized steps, or combines them into one fitted rate.",
+      "quantum": "Electronic and proton coordinates are coupled. Concerted or sequential routes depend on energetics and local hydrogen-bond networks.",
+      "boundary": "A structure establishes geometry, not a measured nuclear tunneling probability. One should distinguish proof of a PCET reaction scheme from proof that a particular proton tunnels or that long-lived coherence drives the full radical relay.",
+      "test": "Combine site-specific redox substitutions, solvent isotope effects, time-resolved radical detection and calculations that compare sequential and concerted pathways.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-57735-4",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12867644/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.aba6794",
+          "label": "Kang, G., Taguchi, A. T., Stubbe, J., & Drennan, C. L. · 2020 · Structure of a trapped radical transfer pathway within a ribonucleotide reductase holocomplex."
+        },
+        {
+          "url": "https://doi.org/10.1038/355796a0",
+          "label": "Moser, C. C., et al. · 1992 · Nature of biological electron transfer."
+        },
+        {
+          "url": "https://doi.org/10.1021/ja012205t",
+          "label": "Knapp, M. J., Rickert, K., & Klinman, J. P. · 2002 · Temperature-dependent isotope effects in soybean lipoxygenase-1: correlating hydrogen tunneling with protein dynamics."
+        }
+      ]
+    },
+    {
+      "slug": "photolyase",
+      "title": "DNA photolyase repair",
+      "status": "Established",
+      "kind": "repair",
+      "states": [
+        "Absorb light",
+        "Donate electron",
+        "Split CPD bonds",
+        "Return electron"
+      ],
+      "explanation": "Excited reduced FAD donates an electron to the lesion; bond cleavage and electron return complete the repair scheme. The structural view is already repaired.",
+      "review": "2023 time-resolved CPD crystallography provides actual reaction snapshots. A 2024 ultrafast study concerns (6–4) photolyase photoreduction, a different reaction; neither is silently substituted for this fixed structure.",
+      "structure": {
+        "id": "1TEZ",
+        "chains": [
+          "A",
+          "I",
+          "J"
+        ],
+        "name": "Photolyase–DNA · repaired-lesion reference",
+        "note": "X-ray 1.80 Å. The synthetic CPD-like lesion was split by X-rays. These coordinates show a repaired, flipped-out substate, not an intact CPD or a live repair trajectory.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 5485
+          },
+          {
+            "chain": "I",
+            "resi": [
+              7,
+              8
+            ]
+          }
+        ],
+        "labels": [
+          "FAD",
+          "Repaired lesion region"
+        ]
+      },
+      "baseline": "A kinetic scheme says light activates an enzyme and a damaged base pair is restored; it leaves the electronic intermediate implicit.",
+      "quantum": "An excited flavin transfers an electron to a pyrimidine dimer, enabling bond splitting, followed by electron return.",
+      "boundary": "The existence of photolyase in one organism cannot be generalized to every species or to an effective treatment in human skin. A microscopic repair mechanism and the delivery/efficacy of a topical product are separate questions.",
+      "test": "Alter cofactor–lesion geometry or electronic energetics and measure both intermediate lifetimes and completed repair, controlling binding and protein integrity.",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38033054/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41557-023-01413-9",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1110927108",
+          "label": "Liu, Z., et al. · 2011 · Dynamics and mechanism of cyclobutane pyrimidine dimer repair by DNA photolyase."
+        },
+        {
+          "url": "https://doi.org/10.1038/355796a0",
+          "label": "Moser, C. C., et al. · 1992 · Nature of biological electron transfer."
+        }
+      ]
+    },
+    {
+      "slug": "vision",
+      "title": "Vision and retinal photochemistry",
+      "status": "Established",
+      "kind": "torsion",
+      "states": [
+        "11-cis retinal",
+        "Photoexcitation",
+        "C11=C12 torsion",
+        "All-trans product"
+      ],
+      "explanation": "Light prepares an excited electronic state. Nuclear torsion connects cis and trans structures through nonadiabatic dynamics; this is not tunneling through a spatial wall.",
+      "review": "Visual rhodopsin starts with 11-cis retinal. Recent microbial rhodopsin results often start with all-trans retinal and cannot be substituted unchanged.",
+      "structure": {
+        "id": "1U19",
+        "chains": [
+          "A"
+        ],
+        "name": "Bovine rhodopsin · dark-state retinal",
+        "note": "X-ray 2.20 Å. Fixed 11-cis-retinal geometry. The adjacent torsion diagram illustrates isomerization; the crystal coordinates are not morphed into a calculated product.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 1296,
+            "resn": "RET"
+          },
+          {
+            "chain": "A",
+            "resi": 296,
+            "resn": "LYS"
+          }
+        ],
+        "labels": [
+          "11-cis retinal",
+          "Lys296 linkage"
+        ]
+      },
+      "baseline": "A receptor model treats light as the input and activation as a fitted conversion rate; the chromophore pathway is hidden.",
+      "quantum": "A photon prepares an excited electronic state. Coupled electronic and nuclear dynamics steer retinal toward an altered geometry.",
+      "boundary": "The quantum character of photon absorption does not imply entangled visual perception or quantum consciousness. Different opsins have different photocycles, so this diagram is not a universal time-resolved map of every photoreceptor.",
+      "test": "Measure excited-state lifetimes, product yield and subsequent receptor activation after a chromophore or binding-pocket change; separate photophysics from downstream signaling.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-65759-z",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.1925597",
+          "label": "Schoenlein, R. W., et al. · 1991 · The first step in vision: femtosecond isomerization of rhodopsin."
+        }
+      ]
+    },
+    {
+      "slug": "reaction-center",
+      "title": "Photosynthetic charge separation",
+      "status": "Established",
+      "kind": "charge",
+      "states": [
+        "Excite pigments",
+        "Mix excited states",
+        "Separate charge",
+        "Stabilize charge"
+      ],
+      "explanation": "Excitation energy and charge are different. The diagram tracks formation of a radical pair, not an electron ball travelling along every pigment.",
+      "review": "Multispectral 2D spectroscopy resolves charge separation; assignment of the earliest donor mixture remains system- and model-dependent.",
+      "structure": {
+        "id": "3WU2",
+        "chains": [
+          "A",
+          "D"
+        ],
+        "name": "Photosystem II · D1/D2 structural context",
+        "note": "Only chains A/D and their cofactors are displayed. Pigment identities are from the deposited structure. Highlighting the pigments does not select a unique early charge-separation pathway.",
+        "sites": [
+          {
+            "chain": "A",
+            "resn": "CLA"
+          },
+          {
+            "chain": "D",
+            "resn": "CLA"
+          },
+          {
+            "chain": "A",
+            "resn": "PHO"
+          },
+          {
+            "chain": "D",
+            "resi": 405,
+            "resn": "PL9"
+          }
+        ],
+        "labels": [
+          "D1 chlorophylls",
+          "D2 chlorophylls",
+          "Pheophytins",
+          "Quinone"
+        ]
+      },
+      "baseline": "A reaction-center rate model moves populations between excited and charge-separated states.",
+      "quantum": "Electronic coupling and the protein environment connect excited pigments to charge-transfer states while competing with recombination.",
+      "boundary": "Competing assignments of the earliest intermediates do not call the existence of charge separation into question. Nor does demonstrating a quantum charge-transfer mechanism establish that long-lived antenna coherence provides an organism-level efficiency advantage.",
+      "test": "Use multiple spectral observables and selective pigment perturbations to distinguish charge-transfer populations from overlapping exciton and vibrational signals.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1126/sciadv.ade7190",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1063/1.1742723",
+          "label": "Marcus, R. A. · 1956 · On the theory of oxidation-reduction reactions involving electron transfer. I."
+        }
+      ]
+    },
+    {
+      "slug": "exciton",
+      "title": "Excitons and resonance energy transfer",
+      "status": "Established",
+      "kind": "network",
+      "states": [
+        "Absorb energy",
+        "Couple pigments",
+        "Redistribute excitation",
+        "Deliver excitation"
+      ],
+      "explanation": "A localized-rate description and an excitonic description can describe different regimes. FRET already rests on quantum coupling.",
+      "review": "Delocalization is not automatically long-lived electronic coherence. The highlighted pigment order is a teaching scan, not an inferred FMO transport path.",
+      "structure": {
+        "id": "3ENI",
+        "chains": [
+          "A"
+        ],
+        "name": "FMO · eight bacteriochlorophyll sites",
+        "note": "One FMO chain is shown. BCL residue numbers are PDB identifiers, not a prescribed energy-transfer order. Halos show explanatory emphasis, not simulated populations or measured coherence.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 371,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 372,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 373,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 374,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 375,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 376,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 377,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 378,
+            "resn": "BCL"
+          }
+        ],
+        "labels": [
+          "BCL 371",
+          "BCL 372",
+          "BCL 373",
+          "BCL 374",
+          "BCL 375",
+          "BCL 376",
+          "BCL 377",
+          "BCL 378"
+        ]
+      },
+      "baseline": "An incoherent Förster-type rate network transfers excitation populations between sites. Its rates already have a quantum origin.",
+      "quantum": "Coupled electronic states can be spread across pigments. Coherent evolution, disorder and environment determine when a rate limit is adequate.",
+      "boundary": "FRET is not a non-quantum alternative to quantum physics. Spatial delocalization does not by itself establish long-lived electronic coherence, and a quantum-state description is not proof of evolutionary advantage.",
+      "test": "Vary pigment separation and spectral overlap; compare measured transfer with the weak-coupling rate limit and more complete open-system models.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/s41557-018-0060-5",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1002/andp.19484370105",
+          "label": "Förster, T. · 1948 · Zwischenmolekulare Energiewanderung und Fluoreszenz."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-020-14970-1",
+          "label": "Arsenault, E. A., et al. · 2020 · Vibronic mixing enables ultrafast energy flow in light-harvesting complex II."
+        }
+      ]
+    },
+    {
+      "slug": "photosynthetic-coherence",
+      "title": "Long-lived coherence in photosynthesis",
+      "status": "Debated",
+      "kind": "coherence",
+      "states": [
+        "Prepare excitation",
+        "Establish phase relation",
+        "Dephase",
+        "Transfer energy"
+      ],
+      "explanation": "The rotating phase pointer belongs to a schematic coherence, not a spiralling electron. Damping illustrates loss of phase memory without assigning a lifetime.",
+      "review": "2025 microscopic simulations recover persistent coherence in their model; they do not by themselves overturn spectroscopic assignments or demonstrate an evolutionary advantage.",
+      "structure": {
+        "id": "3ENI",
+        "chains": [
+          "A"
+        ],
+        "name": "FMO · eight bacteriochlorophyll sites",
+        "note": "One FMO chain is shown. BCL residue numbers are PDB identifiers, not a prescribed energy-transfer order. Halos show explanatory emphasis, not simulated populations or measured coherence.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 371,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 372,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 373,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 374,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 375,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 376,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 377,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 378,
+            "resn": "BCL"
+          }
+        ],
+        "labels": [
+          "BCL 371",
+          "BCL 372",
+          "BCL 373",
+          "BCL 374",
+          "BCL 375",
+          "BCL 376",
+          "BCL 377",
+          "BCL 378"
+        ]
+      },
+      "baseline": "Incoherent population transfer can reproduce many energy-flow observations when realistic disorder and relaxation are included.",
+      "quantum": "Electronic amplitudes retain phase relationships. Interference may change transport, but the measured oscillation must be assigned correctly.",
+      "boundary": "The newer simulation does not reverse earlier experiments by itself. Neither a spectroscopic beat nor a model’s transport yield proves an adaptive advantage in a living organism.",
+      "test": "Selectively modify dephasing or vibronic resonance while preserving pigment energetics and structure; measure energy delivery and photochemistry under physiologically relevant preparation.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2503.17282",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41557-018-0060-5",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/nature05678",
+          "label": "Engel, G. S., et al. · 2007 · Evidence for wavelike energy transfer through quantum coherence in photosynthetic systems."
+        },
+        {
+          "url": "https://doi.org/10.1126/sciadv.ady6751",
+          "label": "Lorenzoni, N., et al. · 2025 · Full microscopic simulations uncover persistent quantum effects in primary photosynthesis."
+        }
+      ]
+    },
+    {
+      "slug": "vibronic",
+      "title": "Vibronic assistance",
+      "status": "Supported",
+      "kind": "vibronic",
+      "states": [
+        "Excite electronic state",
+        "Couple vibration",
+        "Mix states",
+        "Redistribute energy"
+      ],
+      "explanation": "Electronic and vibrational levels mix when coupling and energies permit. A rocking level is an energy diagram, not a measured backbone vibration.",
+      "review": "2026 evidence in disordered artificial aggregates is not a direct measurement in this FMO structure; LHCII and aggregate results retain their own experimental contexts.",
+      "structure": {
+        "id": "3ENI",
+        "chains": [
+          "A"
+        ],
+        "name": "FMO · eight bacteriochlorophyll sites",
+        "note": "One FMO chain is shown. BCL residue numbers are PDB identifiers, not a prescribed energy-transfer order. Halos show explanatory emphasis, not simulated populations or measured coherence.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 371,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 372,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 373,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 374,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 375,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 376,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 377,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 378,
+            "resn": "BCL"
+          }
+        ],
+        "labels": [
+          "BCL 371",
+          "BCL 372",
+          "BCL 373",
+          "BCL 374",
+          "BCL 375",
+          "BCL 376",
+          "BCL 377",
+          "BCL 378"
+        ]
+      },
+      "baseline": "Electronic transfer and molecular vibrations are treated separately; relaxation supplies a smooth background.",
+      "quantum": "Near-resonant electronic and vibrational levels mix. Coupled states may open or strengthen energy-transfer channels.",
+      "boundary": "Evidence in one protein complex or synthetic aggregate is not proof that every antenna uses the same mechanism. Uniqueness of spectroscopic assignments and a realistic baseline still matter.",
+      "test": "Tune a vibrational mode with isotopic substitution or a designed analogue, then check transfer while independently monitoring energy levels, morphology and environmental changes.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-026-69815-0",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-020-14970-1",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-026-69815-0",
+          "label": "Thomas, A. S., et al. · 2026 · Disordered light-harvesting aggregates can host functional vibronic couplings at room temperature."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41557-018-0060-5",
+          "label": "Thyrhaug, E., et al. · 2018 · Identification and characterization of diverse coherences in the Fenna–Matthews–Olson complex."
+        }
+      ]
+    },
+    {
+      "slug": "environment-assisted",
+      "title": "Environment-assisted quantum transport",
+      "status": "Supported",
+      "kind": "noise",
+      "states": [
+        "Localize excitation",
+        "Interact with environment",
+        "Change transport",
+        "Reach a sink"
+      ],
+      "explanation": "Environmental fluctuations may aid some transport regimes and suppress others. No universal optimal noise is inferred from the crystal.",
+      "review": "The benchmark includes engineered quantum networks. The animation is a model comparison, not evidence that this protein has evolved to an optimum.",
+      "structure": {
+        "id": "3ENI",
+        "chains": [
+          "A"
+        ],
+        "name": "FMO · eight bacteriochlorophyll sites",
+        "note": "One FMO chain is shown. BCL residue numbers are PDB identifiers, not a prescribed energy-transfer order. Halos show explanatory emphasis, not simulated populations or measured coherence.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 371,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 372,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 373,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 374,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 375,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 376,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 377,
+            "resn": "BCL"
+          },
+          {
+            "chain": "A",
+            "resi": 378,
+            "resn": "BCL"
+          }
+        ],
+        "labels": [
+          "BCL 371",
+          "BCL 372",
+          "BCL 373",
+          "BCL 374",
+          "BCL 375",
+          "BCL 376",
+          "BCL 377",
+          "BCL 378"
+        ]
+      },
+      "baseline": "A disordered network can trap excitation. A purely coherent model is not automatically the best transport model.",
+      "quantum": "Intermediate dephasing can release localization or destructive interference; excessive dephasing can impede transfer again.",
+      "boundary": "A demonstration in an engineered network is not proof that a protein has evolved to its optimal dephasing rate. Some transport enhancement can also occur in classical stochastic models, so the comparator must be explicit.",
+      "test": "Construct a matched baseline and vary environmental coupling independently. Measure transfer probability, speed and loss, rather than selecting whichever metric improves.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1103/PhysRevLett.122.050501",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1088/1367-2630/11/3/033003",
+          "label": "Rebentrost, P., et al. · 2009 · Environment-assisted quantum transport."
+        }
+      ]
+    },
+    {
+      "slug": "gfp-protons",
+      "title": "Excited-state proton transfer in GFP",
+      "status": "Established",
+      "kind": "relay",
+      "states": [
+        "Excite chromophore",
+        "Redistribute protons",
+        "Form anionic excited state",
+        "Emit green light"
+      ],
+      "explanation": "The chromophore–water–Ser205–Glu222 network supports proton rearrangement. The water is included only in the schematic, not invented in the crystal display.",
+      "review": "2024 quantum dynamics studied a chromophore cluster over early dynamics. It is not a simulation of coherent proton motion through a cell.",
+      "structure": {
+        "id": "1EMA",
+        "chains": [
+          "A"
+        ],
+        "name": "GFP · chromophore and proton-relay residues",
+        "note": "Fixed GFP structure. CRO66, Ser205 and Glu222 are highlighted; the intervening water is omitted. The schematic relay does not turn a cluster calculation into a whole-protein trajectory.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 66,
+            "resn": "CRO"
+          },
+          {
+            "chain": "A",
+            "resi": 205,
+            "resn": "SER"
+          },
+          {
+            "chain": "A",
+            "resi": 222,
+            "resn": "GLU"
+          }
+        ],
+        "labels": [
+          "Chromophore",
+          "Ser205",
+          "Glu222"
+        ]
+      },
+      "baseline": "A fluorescence cycle uses fitted rates between neutral and anionic chromophore states.",
+      "quantum": "Excitation reshapes proton energetics; a hydrogen-bonded pathway couples proton positions, vibrations and electronic emission.",
+      "boundary": "This is not proof of coherent proton conduction throughout an entire cell. Calculated populations depend on the included coordinates, potential-energy surfaces and treatment of the remaining protein.",
+      "test": "Combine residue substitutions and hydrogen/deuterium exchange with time-resolved infrared and fluorescence measurements, checking that the protein remains correctly folded.",
+      "sources": [
+        {
+          "url": "https://discovery.ucl.ac.uk/id/eprint/10187458/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1021/ja042466d",
+          "label": "Stoner-Ma, D., et al. · 2005 · Observation of excited-state proton transfer in green fluorescent protein using ultrafast vibrational spectroscopy."
+        },
+        {
+          "url": "https://doi.org/10.1063/5.0188834",
+          "label": "Bourne-Worster, S., & Worth, G. A. · 2024 · Quantum dynamics of excited state proton transfer in green fluorescent protein."
+        }
+      ]
+    },
+    {
+      "slug": "photoprotection",
+      "title": "Ultrafast nucleobase photoprotection",
+      "status": "Established",
+      "kind": "levels",
+      "states": [
+        "UV excitation",
+        "Change electronic character",
+        "Internal conversion",
+        "Release heat"
+      ],
+      "explanation": "Excited-state population can return nonradiatively through coupled electronic and nuclear dynamics. This does not require an emitted photon.",
+      "review": "The cited thymine experiment probes ultrafast electronic conversion; isolated-base results cannot be treated as a complete duplex-DNA trajectory.",
+      "structure": null,
+      "baseline": "A relaxation rate summarizes how an excited DNA base loses energy without emitting a photon.",
+      "quantum": "Coupled electronic surfaces and nuclear motion permit internal conversion; intersections between surfaces can route population rapidly.",
+      "boundary": "A gas-phase or isolated-base result cannot be copied unchanged into duplex DNA. Fast decay can be protective, but evolutionary selection of the exact quantum pathway is a further inference.",
+      "test": "Compare state-resolved lifetimes and lesion yields in matched bases, nucleosides and stacked sequences; check whether changing one pathway changes damage probability.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-017-00069-7",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41467-017-00069-7",
+          "label": "Wolf, T. J. A., et al. · 2017 · Probing ultrafast ππ*/nπ* internal conversion in organic chromophores via K-edge resonant absorption."
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1110927108",
+          "label": "Liu, Z., et al. · 2011 · Dynamics and mechanism of cyclobutane pyrimidine dimer repair by DNA photolyase."
+        }
+      ]
+    },
+    {
+      "slug": "bioluminescence",
+      "title": "Bioluminescence and chemiexcitation",
+      "status": "Established",
+      "kind": "emission",
+      "states": [
+        "Chemical activation",
+        "Chemiexcitation",
+        "Excited emitter",
+        "Photon emission"
+      ],
+      "explanation": "Chemical energy creates an excited emitter, which can radiate. The expanding photon ring is a symbol; it is not a coherence measurement.",
+      "review": "The bound analogue supplies active-site context. Emission spectra constrain the chemistry but do not turn an analogue crystal into an emitting intermediate.",
+      "structure": {
+        "id": "2D1S",
+        "chains": [
+          "A"
+        ],
+        "name": "Firefly luciferase · intermediate analogue",
+        "note": "Thermostable Japanese firefly luciferase bound to a high-energy intermediate analogue (SLU). The crystal ligand is not emitting oxyluciferin; chemiexcitation is illustrated separately.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 2001,
+            "resn": "SLU"
+          }
+        ],
+        "labels": [
+          "Bound analogue"
+        ]
+      },
+      "baseline": "Enzyme turnover is converted into a photon-production rate; excited-state chemistry is implicit.",
+      "quantum": "Reaction energy populates an excited emitter. Relaxation between electronic states releases a photon with a characteristic spectrum.",
+      "boundary": "Ordinary photon emission is not evidence for coherent quantum communication. Light yield, fluorescence quantum yield and overall bioluminescent reaction yield are related but distinct measures.",
+      "test": "Compare emitter analogues and binding-pocket variants using product analysis, spectra, photon yield and reaction kinetics, not color alone.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1021/ja808836b",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://ocw.mit.edu/courses/8-04-quantum-physics-i-spring-2016/",
+          "label": "MIT OpenCourseWare · 2016 · Quantum Physics I (8.04)."
+        }
+      ]
+    },
+    {
+      "slug": "singlet-oxygen",
+      "title": "Spin-selective oxygen photochemistry",
+      "status": "Established",
+      "kind": "oxygen",
+      "states": [
+        "Excite sensitizer",
+        "Form triplet sensitizer",
+        "Transfer excitation",
+        "Produce singlet oxygen"
+      ],
+      "explanation": "Triplet sensitizer energy transfer can excite triplet ground-state O₂ into singlet oxygen. Spin labels denote electronic states, not tiny classical spinning balls.",
+      "review": "Cellular singlet-oxygen formation and decay depend on generation site. This is photochemistry, not proof of weak-field physiological control.",
+      "structure": null,
+      "baseline": "A photochemical kinetic model tracks sensitizer, oxygen and products without explicitly showing spin states.",
+      "quantum": "Excited-state energy transfer and spin selection access reactive oxygen states, including singlet oxygen, with distinct reactivity.",
+      "boundary": "Observed oxygen photochemistry does not establish that ordinary weak magnetic fields control cellular health. Nor does a measured singlet-oxygen yield by itself establish therapeutic safety or efficacy.",
+      "test": "Use specific detection, sensitizer-free and oxygen-dependent controls, scavenger comparisons, and localized damage readouts; distinguish singlet oxygen from other ROS.",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0891584908001056",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.freeradbiomed.2008.02.011",
+          "label": "Jiménez-Banzo, A., Sagristà, M. L., Mora, M., & Nonell, S. · 2008 · Kinetics of singlet oxygen photosensitization in human skin fibroblasts."
+        }
+      ]
+    },
+    {
+      "slug": "dna-charge",
+      "title": "DNA charge transport and repair search",
+      "status": "Supported",
+      "kind": "charge",
+      "states": [
+        "Oxidize a site",
+        "Couple base stack",
+        "Exchange charge",
+        "Alter repair binding"
+      ],
+      "explanation": "DNA-mediated redox communication is distinct from sliding or diffusion. The duplex here contains no repair enzyme or metal cluster.",
+      "review": "Specific repair-protein assays support charge-transport models. A canonical duplex alone does not establish an in-cell wire network.",
+      "structure": {
+        "id": "1BNA",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "B-DNA dodecamer · structural context",
+        "note": "Canonical DNA duplex, without repair proteins or a measured rare tautomer. It is not the experimental DNA monolayer used in spin-filtering measurements.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 4,
+            "resn": "DG"
+          },
+          {
+            "chain": "B",
+            "resi": 21,
+            "resn": "DC"
+          },
+          {
+            "chain": "A",
+            "resi": 8,
+            "resn": "DT"
+          }
+        ],
+        "labels": [
+          "G4",
+          "C21",
+          "T8"
+        ]
+      },
+      "baseline": "Repair proteins find lesions by diffusion, binding and local scanning of DNA.",
+      "quantum": "Charge transport through stacked bases can connect redox-active proteins. Disruptions to stacking may interrupt a proposed redox search signal.",
+      "boundary": "These findings do not establish a universal DNA “wire network” in a living nucleus. The relative contribution compared with diffusion and sliding, and the physiological redox partners, must be established for each system.",
+      "test": "Perturb redox competence without eliminating lesion recognition; compare search and repair kinetics on intact versus stacking-disrupted DNA and then in cells.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3277573/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.2035257100",
+          "label": "Boon, E. M., et al. · 2003 · DNA-mediated charge transport for DNA repair."
+        }
+      ]
+    },
+    {
+      "slug": "dna-tunneling",
+      "title": "DNA tautomerization and mutation",
+      "status": "Hypothesis",
+      "kind": "barrier",
+      "states": [
+        "Canonical base pair",
+        "Sample H bonds",
+        "Transfer protons",
+        "Rare tautomer / return"
+      ],
+      "explanation": "The cartoon contrasts over-barrier motion with a localization change. G4–C21 is structural context; no tautomer or proton trajectory is measured in 1BNA.",
+      "review": "2022 open-system calculations and mismatched-base experiments concern different systems. Neither directly gives a human mutation fraction.",
+      "structure": {
+        "id": "1BNA",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "B-DNA dodecamer · structural context",
+        "note": "Canonical DNA duplex, without repair proteins or a measured rare tautomer. It is not the experimental DNA monolayer used in spin-filtering measurements.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 4,
+            "resn": "DG"
+          },
+          {
+            "chain": "B",
+            "resi": 21,
+            "resn": "DC"
+          },
+          {
+            "chain": "A",
+            "resi": 8,
+            "resn": "DT"
+          }
+        ],
+        "labels": [
+          "G4",
+          "C21",
+          "T8"
+        ]
+      },
+      "baseline": "Rare base states, polymerase selectivity and repair determine errors; thermal chemistry can generate alternative proton positions.",
+      "quantum": "Proton tunneling may alter rare-state populations or lifetimes. A state must then be captured during copying and escape correction.",
+      "boundary": "The modeled canonical G–C transfer problem and the experimentally probed mismatched-base states are not the same experiment. A predicted tautomer population cannot be reported as the fraction of human mutations caused by tunneling.",
+      "test": "Combine isotope-sensitive state measurements with polymerase assays and mutation sequencing, controlling replication speed, damage, selection and repair.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s42005-022-00881-8",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/nature25487",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s42005-022-00881-8",
+          "label": "Slocombe, L., Sacchi, M., & Al-Khalili, J. · 2022 · An open quantum systems approach to proton tunnelling in DNA."
+        },
+        {
+          "url": "https://doi.org/10.1103/RevModPhys.35.724",
+          "label": "Löwdin, P.-O. · 1963 · Proton Tunneling in DNA and its Biological Implications."
+        }
+      ]
+    },
+    {
+      "slug": "proton-wires",
+      "title": "Proton wires, channels and pumps",
+      "status": "Supported",
+      "kind": "relay",
+      "states": [
+        "Hydrate channel",
+        "Reorient H bonds",
+        "Move excess charge",
+        "Restore network"
+      ],
+      "explanation": "Grotthuss transport redistributes covalent bonds and charge through waters; the same proton need not cross the entire channel.",
+      "review": "The quantum-classical calculation treats a water dimer embedded in gramicidin. It is not a measured full-channel proton wavefunction.",
+      "structure": {
+        "id": "1MAG",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "Gramicidin A · membrane-channel reference",
+        "note": "Solid-state NMR channel structure. No water chain or moving proton is resolved here. The adjacent wire is idealized; proton hopping does not mean one nucleus traverses the entire wire.",
+        "sites": [
+          {
+            "chain": "A",
+            "atom": "CA"
+          },
+          {
+            "chain": "B",
+            "atom": "CA"
+          }
+        ],
+        "labels": [
+          "Peptide A",
+          "Peptide B"
+        ]
+      },
+      "baseline": "Hydrogen-bond rearrangements and an electrochemical gradient drive proton conduction in a rate or molecular-dynamics model.",
+      "quantum": "Explicit nuclear motion changes zero-point distributions, sharing and possible tunneling along short hydrogen-bonded segments.",
+      "boundary": "A calculated short-segment effect does not prove coherent conduction along a whole channel, much less throughout mitochondria. Passive conduction, active pumping and ATP-synthase rotation are distinct functions.",
+      "test": "Compare isotope effects, conductance and calculated free energies across controlled channel variants; quantify whether quantum treatment improves predictions beyond uncertainty in solvation and structure.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1021/acs.jctc.0c01012",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1021/jp0465783",
+          "label": "Braun-Sand, S., Burykin, A., Chu, Z. T., & Warshel, A. · 2005 · Realistic simulations of proton transport along the gramicidin channel: Demonstrating the importance of solvation effects."
+        }
+      ]
+    },
+    {
+      "slug": "ion-channels",
+      "title": "Quantum proposals for ion channels",
+      "status": "Hypothesis",
+      "kind": "channel",
+      "states": [
+        "Enter filter",
+        "Coordinate ions",
+        "Exchange occupancy",
+        "Exit filter"
+      ],
+      "explanation": "Classical knock-on describes interacting ions and coordination. The alternative quantum panel is a proposal, not a demonstrated extra route through this structure.",
+      "review": "The 2026 tunneling argument is a preprint; high flux and selectivity alone do not distinguish it from classical mechanisms.",
+      "structure": {
+        "id": "1K4C",
+        "chains": [
+          "C"
+        ],
+        "name": "KcsA · one crystallographic protomer",
+        "note": "One KcsA protomer and crystal K⁺ sites, with Fab omitted. The full tetramer is not reconstructed. Site occupancy in a crystal is not a direct movie of permeation.",
+        "sites": [
+          {
+            "chain": "C",
+            "resi": [
+              75,
+              76,
+              77,
+              78,
+              79
+            ]
+          },
+          {
+            "chain": "C",
+            "resn": "K"
+          }
+        ],
+        "labels": [
+          "Selectivity filter",
+          "Crystal K⁺ sites"
+        ]
+      },
+      "baseline": "Electrostatics, selectivity-filter geometry and correlated knock-on motion generate rapid ionic conduction.",
+      "quantum": "Some models propose tunneling or coherent ionic states across filter barriers. Predictions depend strongly on barrier and bath assumptions.",
+      "boundary": "Fast transport and ion selectivity are not unique signatures of quantum coherence. Uncertainty about water occupancy or a detailed classical mechanism does not establish an alternative quantum proposal.",
+      "test": "Derive discriminating isotope, temperature or field predictions from realistic structures, then test them against equally calibrated classical-nuclear simulations and electrophysiology.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2603.07196",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.1254840",
+          "label": "Case-specific research"
+        }
+      ]
+    },
+    {
+      "slug": "avian-compass",
+      "title": "Avian radical-pair compass",
+      "status": "Supported",
+      "kind": "spin",
+      "states": [
+        "Photoinduce radicals",
+        "Mix spin character",
+        "Compete reactions",
+        "Change product yield"
+      ],
+      "explanation": "Singlet and triplet character can interconvert under spin interactions. The plotted pointer is a state-space cue, not two classical arrows precessing in the protein.",
+      "review": "European-robin protein magnetic sensitivity and 2026 redox-state structural work do not complete the receptor-to-navigation pathway. The pictured structure is pigeon CRY4.",
+      "structure": {
+        "id": "6PU0",
+        "chains": [
+          "A"
+        ],
+        "name": "Pigeon CRY4 · structural homologue",
+        "note": "Pigeon protein, not the European robin CRY4 tested in the cited magnetic-sensitivity experiment. Only FAD is marked; no experimentally identified spin pair is inferred from this structure.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 501,
+            "resn": "FAD"
+          }
+        ],
+        "labels": [
+          "Bound FAD"
+        ]
+      },
+      "baseline": "A magnetic-particle torque or another non-radical sensor could transduce direction. A spin-free reaction rate would not specify radical-pair sensitivity.",
+      "quantum": "Light creates a spin-correlated radical pair. Field-dependent singlet–triplet evolution can change reaction-product branching.",
+      "boundary": "An isolated-protein response does not establish every step from retinal receptor to navigation. Directional compass information is also not equivalent to a complete geographic map. Competing sensory mechanisms must be tested rather than excluded by definition.",
+      "test": "Link a controlled receptor perturbation to molecular magnetic response and orientation behavior, while preserving vision, health and light-response pathways.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1038/s41586-021-03618-9",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://arxiv.org/abs/2604.19579",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/nature06834",
+          "label": "Maeda, K., et al. · 2008 · Chemical compass model of avian magnetoreception."
+        },
+        {
+          "url": "https://doi.org/10.1524/zpch.1978.111.1.001",
+          "label": "Schulten, K., Swenberg, C. E., & Weller, A. · 1978 · A biomagnetic sensory mechanism based on magnetic field modulated coherent electron spin motion."
+        }
+      ]
+    },
+    {
+      "slug": "insect-magnetism",
+      "title": "Insect and other cryptochrome responses",
+      "status": "Debated",
+      "kind": "spin",
+      "states": [
+        "Illuminate flavin",
+        "Form candidate pair",
+        "Mix spin states",
+        "Test a response"
+      ],
+      "explanation": "A flavin-based spin scheme is distinct from a demonstrated behaviour. The response step remains assay-dependent.",
+      "review": "2023 positive neuronal/behavioural experiments and large negative behavioural tests must both be considered; neither is silently represented as universal.",
+      "structure": {
+        "id": "4GU5",
+        "chains": [
+          "A"
+        ],
+        "name": "Drosophila cryptochrome · dark-state reference",
+        "note": "Updated 2.30 Å structure. FAD binding is structural evidence; it does not establish a magnetic behavioural response or a specific ROS radical-pair partner.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 602,
+            "resn": "FAD"
+          }
+        ],
+        "labels": [
+          "Bound FAD"
+        ]
+      },
+      "baseline": "Light response, temperature, apparatus cues or behavior variability can imitate a field-associated effect unless controlled.",
+      "quantum": "A flavin-related radical process could make field changes alter chemical signals and, downstream, behavior.",
+      "boundary": "Positive molecular or cellular sensitivity and negative behavioral replication need not answer the same question. Conversely, repeated positive reports cannot substitute for blinded replication. Fly results should not be generalized to all plant or insect responses.",
+      "test": "Use preregistered, blinded multisite protocols, double-wrapped sham coils, matched heating/light and a molecular readout paired with the same behavioral endpoint.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-023-05735-z",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-023-06397-7",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-023-05735-z",
+          "label": "Bradlaugh, A. A., et al. · 2023 · Essential elements of radical pair magnetosensitivity in Drosophila."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-023-06397-7",
+          "label": "Bassetto, M., et al. · 2023 · No evidence for magnetic field effects on the behaviour of Drosophila."
+        },
+        {
+          "url": "https://doi.org/10.1371/journal.pone.0171836",
+          "label": "Arthaut, L.-D., et al. · 2017 · Blue-light induced accumulation of reactive oxygen species is a consequence of the Drosophila cryptochrome photocycle."
+        }
+      ]
+    },
+    {
+      "slug": "ros-spin",
+      "title": "Spin chemistry and ROS regulation",
+      "status": "Hypothesis",
+      "kind": "spin",
+      "states": [
+        "Photochemistry",
+        "Candidate radical pair",
+        "Competing spin reactions",
+        "Measure ROS"
+      ],
+      "explanation": "Cryptochrome provides one photochemical context; a particular ROS radical pair is not identified by this structure or by a changed ROS assay.",
+      "review": "A 2025 spin-kinetics analysis limits telecom-frequency explanations. Weak-static-field and high-frequency experiments are not interchangeable.",
+      "structure": {
+        "id": "4GU5",
+        "chains": [
+          "A"
+        ],
+        "name": "Drosophila cryptochrome · dark-state reference",
+        "note": "Updated 2.30 Å structure. FAD binding is structural evidence; it does not establish a magnetic behavioural response or a specific ROS radical-pair partner.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 602,
+            "resn": "FAD"
+          }
+        ],
+        "labels": [
+          "Bound FAD"
+        ]
+      },
+      "baseline": "Light, redox metabolism, oxygen and chemical quenching govern ROS in a conventional kinetic network.",
+      "quantum": "In a specified radical reaction, spin dynamics may alter branching and ROS yield. Only certain lifetimes and field regimes allow a meaningful effect.",
+      "boundary": "“ROS changed” does not uniquely identify a spin mechanism. Heating, light exposure, oxygen, contaminants and assay artifacts can change the same endpoint. A model valid for a laboratory static field cannot simply be extended to every environmental exposure.",
+      "test": "Measure the candidate radical lifetime and field-response spectrum; use chemical product assays alongside spin-sensitive spectroscopy and matched sham exposures.",
+      "sources": [
+        {
+          "url": "https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2025.1544473/full",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1371/journal.pone.0171836",
+          "label": "Arthaut, L.-D., et al. · 2017 · Blue-light induced accumulation of reactive oxygen species is a consequence of the Drosophila cryptochrome photocycle."
+        },
+        {
+          "url": "https://arxiv.org/abs/2407.03358",
+          "label": "Talbi, H., Zadeh-Haghighi, H., & Simon, C. · 2024 · The Radical Pair Mechanism Cannot Explain Telecommunication Frequency Effects on Reactive Oxygen Species."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-025-09971-3",
+          "label": "Abrahams, G., et al. · 2026 · Quantum spin resonance in engineered proteins for multimodal sensing."
+        }
+      ]
+    },
+    {
+      "slug": "ciss",
+      "title": "Chirality-induced spin selectivity",
+      "status": "Supported",
+      "kind": "filter",
+      "states": [
+        "Prepare carriers",
+        "Meet chiral medium",
+        "Compare spin channels",
+        "Measure polarization"
+      ],
+      "explanation": "Spin-resolved transmission is an ensemble measurement. Colored channels denote spin labels, not electrons orbiting a helix.",
+      "review": "The landmark experiment used DNA monolayers on gold. This free duplex provides structural context only; it does not reproduce the substrate or measurement apparatus.",
+      "structure": {
+        "id": "1BNA",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "B-DNA dodecamer · structural context",
+        "note": "Canonical DNA duplex, without repair proteins or a measured rare tautomer. It is not the experimental DNA monolayer used in spin-filtering measurements.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 4,
+            "resn": "DG"
+          },
+          {
+            "chain": "B",
+            "resi": 21,
+            "resn": "DC"
+          },
+          {
+            "chain": "A",
+            "resi": 8,
+            "resn": "DT"
+          }
+        ],
+        "labels": [
+          "G4",
+          "C21",
+          "T8"
+        ]
+      },
+      "baseline": "A spin-averaged model sends charge through a chiral molecule without tracking electron-spin preference.",
+      "quantum": "Experiments report spin-selective transmission through chiral structures. Microscopic explanations involve coupled spin, motion and environment.",
+      "boundary": "The physical origin and magnitude across platforms are active theoretical questions. Whether native proteins exploit CISS to suppress unwanted reactions or improve biological electron transfer remains a stronger, incompletely demonstrated claim.",
+      "test": "Compare enantiomers, achiral controls, reversed measurement geometry and independent spin readouts; then test the same proposed consequence in native-like aqueous protein systems.",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21330541/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1126/science.1199339",
+          "label": "Göhler, B., et al. · 2011 · Spin Selectivity in Electron Transmission Through Self-Assembled Monolayers of Double-Stranded DNA."
+        },
+        {
+          "url": "https://doi.org/10.1126/sciadv.adg8274",
+          "label": "Ozturk, S. F., Liu, Z., Sutherland, J. D., & Sasselov, D. D. · 2023 · Origin of biological homochirality by crystallization of an RNA precursor on a magnetic surface."
+        }
+      ]
+    },
+    {
+      "slug": "magnetic-isotopes",
+      "title": "Magnetic isotope effects in catalysis",
+      "status": "Debated",
+      "kind": "isotope",
+      "states": [
+        "Select isotope",
+        "Specify radical chemistry",
+        "Compare spin channels",
+        "Measure reaction rate"
+      ],
+      "explanation": "Nuclear-spin isotope effects require a suitable spin-dependent chemical mechanism. Mass effects and isotope purity are separate controls.",
+      "review": "A creatine-kinase reexamination found no enhancement under its tested conditions; claims of universal ATP-production enhancement are not warranted.",
+      "structure": null,
+      "baseline": "Isotope substitution affects chemistry through mass, abundance, impurities or ordinary kinetic isotope effects.",
+      "quantum": "A proposed radical intermediate couples to nuclear spin, causing isotope-dependent branching beyond a mass-only explanation.",
+      "boundary": "Candidate radical intermediates, isotope purity, metal concentrations and background chemistry must be demonstrated. ATP production by one kinase should not be conflated with ATP synthase or all energy metabolism.",
+      "test": "Use blinded isotope preparations, impurity controls, matched chemistry, multiple independent batches and direct radical detection with a predicted field-dependence pattern.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3277194/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.0504876102",
+          "label": "Buchachenko, A. L., et al. · 2005 · Magnetic isotope effect of magnesium in phosphoglycerate kinase phosphorylation."
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1117840108",
+          "label": "Crotty, D., et al. · 2012 · Reexamination of magnetic isotope and field effects on adenosine triphosphate production by creatine kinase."
+        }
+      ]
+    },
+    {
+      "slug": "olfaction",
+      "title": "Vibrational olfaction",
+      "status": "Debated",
+      "kind": "vibration",
+      "states": [
+        "Odorant binding",
+        "Receptor activation",
+        "Proposed vibration coupling",
+        "Discriminating test"
+      ],
+      "explanation": "The measured binding pocket belongs to the established receptor system. An inelastic electron-transfer step is a hypothesis, not a resolved pathway in OR51E2.",
+      "review": "The 2026 computational IR study argues against vibration-based detection of propionate in this receptor; binding geometry remains the direct structural observation.",
+      "structure": {
+        "id": "8F76",
+        "chains": [
+          "A"
+        ],
+        "name": "Human OR51E2 · propionate-bound receptor",
+        "note": "Receptor chain A with propionate (PPI401); signalling partners omitted. An active binding pocket is not evidence of a donor–acceptor electron-tunneling route.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 401,
+            "resn": "PPI"
+          }
+        ],
+        "labels": [
+          "Propionate"
+        ]
+      },
+      "baseline": "Receptor binding depends on molecular shape, interactions and activation energetics—not a rigid lock-and-key cartoon alone.",
+      "quantum": "The proposal adds vibration-assisted electron tunneling: a bound odorant could supply a vibrational energy match for receptor charge transfer.",
+      "boundary": "Isotopic odor differences need not uniquely identify inelastic electron tunneling: binding, volatility, metabolism and trace contaminants can also change an assay. Opposing results in different species or receptors must not be treated as identical experiments.",
+      "test": "Purify isotopic odorants rigorously and pair psychophysical or behavioral results with receptor-level tests, direct electronic-pathway evidence and isotope-specific quantitative predictions.",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41824078/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-023-05798-y",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1012293108",
+          "label": "Franco, M. I., et al. · 2011 · Molecular vibration-sensing component in Drosophila melanogaster olfaction."
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.1503054112",
+          "label": "Block, E., et al. · 2015 · Implausibility of the vibrational theory of olfaction."
+        }
+      ]
+    },
+    {
+      "slug": "microtubule-optics",
+      "title": "Microtubule collective optical effects",
+      "status": "Supported",
+      "kind": "collective",
+      "states": [
+        "Excite tryptophans",
+        "Couple transition dipoles",
+        "Redistribute brightness",
+        "Measure emission"
+      ],
+      "explanation": "Collective optical states are compared with independent emitters. Dimer coordinates do not measure a coherent state in a functioning neuron.",
+      "review": "2024 theory and fluorescence-yield experiments support collective-optics interpretations. Yield alone is not a direct lifetime measurement or evidence for consciousness.",
+      "structure": {
+        "id": "1JFF",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "α/β tubulin · taxol-stabilized sheet structure",
+        "note": "A tubulin dimer from zinc-induced sheets, not a complete microtubule or neuron. Tryptophan positions are measured; collective-state lifetimes and consciousness claims are not encoded in them.",
+        "sites": [
+          {
+            "chain": "A",
+            "resn": "TRP"
+          },
+          {
+            "chain": "B",
+            "resn": "TRP"
+          }
+        ],
+        "labels": [
+          "α tryptophans",
+          "β tryptophans"
+        ]
+      },
+      "baseline": "Independent tryptophan emitters absorb and fluoresce; assembly changes local environment and quenching.",
+      "quantum": "Coupled transition dipoles can form collective bright and dark modes. Cooperative emission can differ from an independent-emitter baseline.",
+      "boundary": "An increase in fluorescence yield needs controls for absorption, quenching, scattering and sample preparation. It is not alone a direct measurement of a long-lived many-body state in a functioning neuron, and it does not establish consciousness mechanisms.",
+      "test": "Measure lifetimes, angular emission, concentration dependence and site-selective perturbations; compare to matched independent-emitter models and then test a specific cellular consequence.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11075083/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1021/acs.jpcb.3c07936",
+          "label": "Babcock, N. S., et al. · 2024 · Ultraviolet Superradiance from Mega-Networks of Tryptophan in Biological Architectures."
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevE.61.4194",
+          "label": "Tegmark, M. · 2000 · Importance of quantum decoherence in brain processes."
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevE.65.061901",
+          "label": "Hagan, S., Hameroff, S. R., & Tuszyński, J. A. · 2002 · Quantum computation in brain microtubules: decoherence and biological feasibility."
+        }
+      ]
+    },
+    {
+      "slug": "froehlich",
+      "title": "Fröhlich modes and vibrational proposals",
+      "status": "Hypothesis",
+      "kind": "oscillator",
+      "states": [
+        "Supply energy",
+        "Couple modes",
+        "Concentrate mode energy",
+        "Dissipate energy"
+      ],
+      "explanation": "Mode condensation can occur in a driven classical nonlinear model. Concentration of energy and quantum coherence are not synonyms.",
+      "review": "The 2018 optically driven protein experiment explicitly includes a classical explanation; it does not establish a metabolically maintained quantum state.",
+      "structure": null,
+      "baseline": "Driven, damped classical oscillators can synchronize or concentrate energy in a low-frequency mode.",
+      "quantum": "Fröhlich-type models propose nonequilibrium mode condensation; stronger versions require persistent quantum coherence. Davydov-type ideas instead propose self-trapped vibrational energy.",
+      "boundary": "These results do not show that ordinary metabolic pumping creates a long-lived quantum coherent state in living tissue. Classical nonlinear dynamics can supply alternative explanations for some collective observables.",
+      "test": "Measure phase-sensitive observables, pumping thresholds, mode populations and coherence times against a matched classical model, then establish the energy source and causal cellular function.",
+      "sources": [
+        {
+          "url": "https://journals.aps.org/prx/abstract/10.1103/PhysRevX.8.031061",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1002/qua.560020505",
+          "label": "Fröhlich, H. · 1968 · Long-range coherence and energy storage in biological systems."
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevX.8.031061",
+          "label": "Nardecchia, I., et al. · 2018 · Out-of-Equilibrium Collective Oscillation as Phonon Condensation in a Model Protein."
+        },
+        {
+          "url": "https://doi.org/10.1073/pnas.0806273106",
+          "label": "Reimers, J. R., et al. · 2009 · Weak, strong, and coherent regimes of Fröhlich condensation and their applications to terahertz medicine and quantum consciousness."
+        }
+      ]
+    },
+    {
+      "slug": "xenon",
+      "title": "Xenon isotope effects in anesthesia",
+      "status": "Hypothesis",
+      "kind": "isotope",
+      "states": [
+        "Choose Xe isotope",
+        "Interact with target",
+        "Candidate spin effect",
+        "Compare endpoint"
+      ],
+      "explanation": "An isotope-associated animal endpoint does not identify a molecular spin mechanism. The radical pair in the model remains a proposal.",
+      "review": "The 2021 radical-pair model can fit a pattern but does not uniquely establish causal chemistry or a basis for consciousness.",
+      "structure": null,
+      "baseline": "Anesthetic action depends on molecular interactions, exposure and network physiology; isotope-associated differences can have several causes.",
+      "quantum": "A proposed radical-pair pathway uses xenon nuclear spin to alter reaction dynamics and, indirectly, an anesthetic endpoint.",
+      "boundary": "The animal endpoint does not identify the proposed radical, show coherent neural computation or demonstrate the physical basis of consciousness. Fitting an isotope pattern does not establish unique causality; replication and mechanistic controls remain essential.",
+      "test": "Replicate blinded isotope-dose comparisons with exposure controls; detect and perturb the candidate radical pathway while measuring the same anesthetic endpoint.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7973516/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1097/ALN.0000000000002226",
+          "label": "Li, N., et al. · 2018 · Nuclear Spin Attenuates the Anesthetic Potency of Xenon Isotopes in Mice: Implications for the Mechanisms of Anesthesia and Consciousness."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41598-021-85673-w",
+          "label": "Smith, J., et al. · 2021 · Radical pairs may play a role in xenon-induced general anesthesia."
+        }
+      ]
+    },
+    {
+      "slug": "posner",
+      "title": "Posner molecules and nuclear-spin cognition",
+      "status": "Hypothesis",
+      "kind": "hypothesis",
+      "states": [
+        "Proposed spin preparation",
+        "Proposed cluster protection",
+        "Proposed reaction readout",
+        "Required biological test"
+      ],
+      "explanation": "The diagram follows a hypothetical chain. It is not a measured neuronal structure or an observed calcium-phosphate quantum register.",
+      "review": "Spin-dynamics calculations test idealized clusters; no measured brain coherence time is inferred from those calculations.",
+      "structure": null,
+      "baseline": "Calcium chemistry, ion channels and synapses transmit neural signals without invoking protected nuclear-spin information.",
+      "quantum": "The proposal uses phosphorus nuclear spins in calcium-phosphate clusters as protected information carriers, with chemistry linking spins to signaling.",
+      "boundary": "Phosphorus having nuclear spin is established physics; the proposed biological information architecture is not. An upper-bound lifetime from an idealized model must never be described as a measured neuronal coherence time.",
+      "test": "First identify the proposed cluster species and lifetimes in the relevant medium. Then directly test state preparation, nonclassical correlations and a selective, reproducible biochemical readout.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1807.06339",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://arxiv.org/abs/1508.05929",
+          "label": "Case-specific research"
+        }
+      ]
+    },
+    {
+      "slug": "orch-or",
+      "title": "Orchestrated objective reduction",
+      "status": "Hypothesis",
+      "kind": "hypothesis",
+      "states": [
+        "Proposed coherent state",
+        "Proposed orchestration",
+        "Proposed reduction",
+        "Required neural linkage"
+      ],
+      "explanation": "Tubulin is real; the proposed sequence connecting it to consciousness is not experimentally established. Animation does not upgrade evidence.",
+      "review": "Optical measurements of tubulin do not test the full Orch OR chain. Competing decoherence estimates are theoretical constraints, not observations of cognition.",
+      "structure": {
+        "id": "1JFF",
+        "chains": [
+          "A",
+          "B"
+        ],
+        "name": "α/β tubulin · taxol-stabilized sheet structure",
+        "note": "A tubulin dimer from zinc-induced sheets, not a complete microtubule or neuron. Tryptophan positions are measured; collective-state lifetimes and consciousness claims are not encoded in them.",
+        "sites": [
+          {
+            "chain": "A",
+            "resn": "TRP"
+          },
+          {
+            "chain": "B",
+            "resn": "TRP"
+          }
+        ],
+        "labels": [
+          "α tryptophans",
+          "β tryptophans"
+        ]
+      },
+      "baseline": "Neural activity is modeled through molecular signaling, electrophysiology and network dynamics; consciousness remains an explanatory challenge.",
+      "quantum": "Orch OR proposes organized microtubule quantum states and a further objective-reduction process connected to conscious events.",
+      "boundary": "Recent microtubule optical experiments do not test the entire Orch OR chain. Neither a failure of one decoherence estimate nor an unresolved question in consciousness establishes the alternative theory.",
+      "test": "Define a uniquely predicted molecular observable and timescale; demonstrate selective coherent manipulation under physiological conditions and a causal cognitive effect that established physiology does not explain.",
+      "sources": [
+        {
+          "url": "https://doi.org/10.1103/PhysRevE.61.4194",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1103/PhysRevE.65.061901",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1021/acs.jpcb.3c07936",
+          "label": "Babcock, N. S., et al. · 2024 · Ultraviolet Superradiance from Mega-Networks of Tryptophan in Biological Architectures."
+        }
+      ]
+    },
+    {
+      "slug": "homochirality",
+      "title": "Spin selection and biological handedness",
+      "status": "Supported",
+      "kind": "chirality",
+      "states": [
+        "Racemic precursor",
+        "Magnetic surface",
+        "Selective crystallization",
+        "Amplify enrichment"
+      ],
+      "explanation": "The experiment concerns an RNA precursor crystallizing on a magnetic surface. Opposite shapes are enantiomer labels, not an atomistic reconstruction.",
+      "review": "The 2023 result is a laboratory symmetry-breaking route. It is not a complete reconstruction of biological homochirality.",
+      "structure": null,
+      "baseline": "Stereochemistry, asymmetric catalysis, crystallization and amplification can enrich one molecular handedness.",
+      "quantum": "A spin-polarized magnetic surface interacting with chiral molecules can bias selection in a proposed CISS-related route.",
+      "boundary": "An enriched precursor is not a living system or a complete explanation of amino-acid and sugar handedness. The prevalence of suitable environments and integration with plausible prebiotic networks remain open.",
+      "test": "Test opposite magnetic orientations, opposite handedness, nonmagnetic controls and independent replication; then examine compatibility with realistic mixtures and downstream synthesis.",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10246896/",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1126/sciadv.adg8274",
+          "label": "Ozturk, S. F., Liu, Z., Sutherland, J. D., & Sasselov, D. D. · 2023 · Origin of biological homochirality by crystallization of an RNA precursor on a magnetic surface."
+        },
+        {
+          "url": "https://doi.org/10.1126/science.1199339",
+          "label": "Göhler, B., et al. · 2011 · Spin Selectivity in Electron Transmission Through Self-Assembled Monolayers of Double-Stranded DNA."
+        }
+      ]
+    },
+    {
+      "slug": "biophotons",
+      "title": "Ultraweak photons and neural communication",
+      "status": "Hypothesis",
+      "kind": "photon",
+      "states": [
+        "Excited species",
+        "Rare photon emission",
+        "Proposed propagation",
+        "Required detection / function"
+      ],
+      "explanation": "Emission is measured in biology, but a functional neural communication channel is a separate claim. The propagating symbol is hypothetical in that context.",
+      "review": "The cited axon-waveguide calculation is theoretical; neither targeting nor entanglement is established by rare-photon detection alone.",
+      "structure": null,
+      "baseline": "Oxidative chemistry can emit rare photons as a byproduct; neurons communicate through established electrochemical pathways.",
+      "quantum": "Proposals add guided photon signaling along axons; a still stronger version asks whether photons could carry quantum correlations.",
+      "boundary": "Biological light emission is not proof of targeted communication, coherence, entanglement or consciousness. An apparatus that detects rare photons measures emission; it does not automatically identify their functional role.",
+      "test": "Demonstrate source-to-receiver transfer with physiological photon budgets and a causal signaling consequence; only then test whether a genuinely nonclassical observable is required.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/1607.02969",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.freeradbiomed.2008.02.011",
+          "label": "Jiménez-Banzo, A., Sagristà, M. L., Mora, M., & Nonell, S. · 2008 · Kinetics of singlet oxygen photosensitization in human skin fibroblasts."
+        }
+      ]
+    },
+    {
+      "slug": "engineered-sensors",
+      "title": "Engineered protein quantum sensors",
+      "status": "Established",
+      "kind": "sensor",
+      "states": [
+        "Optical preparation",
+        "Spin-dependent chemistry",
+        "Drive resonance",
+        "Read fluorescence"
+      ],
+      "explanation": "Applied fields and radio-frequency excitation modulate a spin-sensitive fluorescence signal. This is an engineered sensor experiment.",
+      "review": "2026 MagLOV demonstrates room-temperature cellular ODMR. The parent scaffold is shown; cryogenic EYFP coherent-control results are a distinct experiment.",
+      "structure": {
+        "id": "2V1A",
+        "chains": [
+          "A"
+        ],
+        "name": "AsLOV2 · parent scaffold for MagLOV",
+        "note": "Parent LOV2 fold with FMN, not the engineered MagLOV2 variant. The 2026 sensing study uses this scaffold as structural context. No native qubit or Earth-field compass is implied.",
+        "sites": [
+          {
+            "chain": "A",
+            "resi": 1547,
+            "resn": "FMN"
+          },
+          {
+            "chain": "A",
+            "resi": 450,
+            "resn": "CYS"
+          }
+        ],
+        "labels": [
+          "FMN",
+          "Cys450 in parent"
+        ]
+      },
+      "baseline": "A conventional fluorescent reporter reads intensity, color or lifetime as a function of its chemical environment.",
+      "quantum": "Spin preparation or resonance changes an optical signal, adding magnetic/radiofrequency addressability and spin-sensitive sensing.",
+      "boundary": "Cold coherent-control results must not be described as physiological qubit lifetimes. MagLOV resonance under applied fields is not proof of an Earth-field animal compass or a ready clinical sensor.",
+      "test": "Quantify sensitivity, calibration drift, phototoxicity, targeting, perturbation and cross-sensitivity in the intended cellular environment, with conventional reporters as controls.",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09971-3",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-025-09417-w",
+          "label": "Case-specific research"
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-025-09417-w",
+          "label": "Feder, J. S., et al. · 2025 · A fluorescent-protein spin qubit."
+        },
+        {
+          "url": "https://doi.org/10.1038/s41586-025-09971-3",
+          "label": "Abrahams, G., et al. · 2026 · Quantum spin resonance in engineered proteins for multimodal sensing."
+        }
+      ]
+    }
+  ]
+}
