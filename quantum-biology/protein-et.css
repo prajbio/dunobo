@@ -1,0 +1,65 @@
+.quantum-atlas .protein-et{--et-donor:#128ca3;--et-acceptor:#9471c7;--et-heme:#b97a25;--et-trp:#cf5478;margin:24px 0;border:1px solid var(--d-line);border-radius:16px;overflow:hidden;background:var(--d-raised);color:var(--d-text)}
+.quantum-atlas .protein-et [hidden]{display:none!important}
+html[data-theme=dark] .quantum-atlas .protein-et{--et-donor:#64c4d5;--et-acceptor:#bb9ceb;--et-heme:#f1c66c;--et-trp:#ff87a7}
+.quantum-atlas .et-intro{padding:24px 24px 16px}
+.quantum-atlas .et-eyebrow{display:block;font-size:10px;font-weight:750;letter-spacing:1.7px;text-transform:uppercase;color:var(--d-muted);margin-bottom:8px}
+.quantum-atlas .et-intro h4{font-size:clamp(20px,2.5vw,28px);line-height:1.15;letter-spacing:-.6px;margin:0 0 10px}
+.quantum-atlas .et-intro p{max-width:75ch;font-size:13px;line-height:1.65;margin:0}
+.quantum-atlas .et-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px;font-size:11px}
+.quantum-atlas .et-meta span,.quantum-atlas .et-meta a{padding:4px 8px;border:1px solid var(--d-line);border-radius:5px;background:var(--d-panel)}
+.quantum-atlas .et-toolbar{padding:12px 20px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;border-block:1px solid var(--d-line)}
+.quantum-atlas .protein-et button{border:1px solid var(--d-line);background:var(--d-panel);color:var(--d-text);border-radius:7px;padding:8px 11px;min-height:36px;font-family:inherit;font-weight:600;font-size:11px;line-height:1.35;cursor:pointer;box-shadow:none}
+.quantum-atlas .protein-et button:hover{border-color:var(--d-accent)}
+.quantum-atlas .protein-et button[aria-pressed=true]{border-color:var(--d-accent);background:var(--d-accent);color:#102823}
+html:not([data-theme=dark]) .quantum-atlas .protein-et button[aria-pressed=true]{color:#fff}
+.quantum-atlas .protein-et button:disabled{opacity:.5;cursor:wait}
+.quantum-atlas .protein-et :focus-visible{outline:3px solid var(--d-accent);outline-offset:3px}
+.quantum-atlas .et-toolbar label{display:flex;align-items:center;gap:5px;margin-left:auto;font-size:11px;color:var(--d-muted)}
+.quantum-atlas .et-stage{display:grid;grid-template-columns:minmax(0,1fr) 230px}
+.quantum-atlas .et-molecule-column{min-width:0;background:var(--d-bg)}
+.quantum-atlas .et-viewport{position:relative;height:430px;isolation:isolate;touch-action:none;overflow:hidden;cursor:grab}
+.quantum-atlas .et-viewport:active{cursor:grabbing}
+.quantum-atlas .et-viewer{position:absolute;inset:0}
+.quantum-atlas .et-load-status{position:absolute;inset:40% 15%;text-align:center;font-size:13px;color:var(--d-muted);z-index:2;pointer-events:none}
+.quantum-atlas .et-viewport-key{position:absolute;left:14px;top:12px;right:14px;z-index:1;display:flex;justify-content:space-between;gap:12px;pointer-events:none;font-size:10px;color:var(--d-muted)}
+.quantum-atlas .et-camera{display:flex;align-items:center;gap:5px;padding:10px 14px;flex-wrap:wrap;border-top:1px solid var(--d-line)}
+.quantum-atlas .et-camera p{font-size:10px;margin:0 0 0 auto;color:var(--d-muted)}
+.quantum-atlas .et-legend{display:flex;flex-wrap:wrap;gap:9px 16px;padding:11px 14px;font-size:10px;border-top:1px solid var(--d-line)}
+.quantum-atlas .et-legend span{display:flex;gap:5px;align-items:center}
+.quantum-atlas .et-dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:var(--et-donor)}
+.quantum-atlas .et-dot.acceptor{background:var(--et-acceptor)}
+.quantum-atlas .et-dot.heme{background:var(--et-heme)}
+.quantum-atlas .et-dot.trp{background:var(--et-trp)}
+.quantum-atlas .et-story{border-left:1px solid var(--d-line);padding:20px 17px;background:var(--d-panel)}
+.quantum-atlas .et-story h5{font-size:16px;line-height:1.25;margin:0 0 7px;letter-spacing:-.2px}
+.quantum-atlas .et-story>p{font-size:12px;line-height:1.55;color:var(--d-muted);margin:8px 0 14px}
+.quantum-atlas .et-state-toggle{display:flex;gap:5px;margin:16px 0}
+.quantum-atlas .et-state-toggle button{flex:1;font-size:11px}
+.quantum-atlas .et-redox-site{padding:12px 0;border-top:1px solid var(--d-line)}
+.quantum-atlas .et-redox-site small{display:block;font-size:10px;letter-spacing:.3px;color:var(--d-muted)}
+.quantum-atlas .et-redox-site strong{display:block;font-size:15px;margin-top:3px;color:var(--d-text)}
+.quantum-atlas .et-redox-site .et-donor-title{color:var(--et-donor)}
+.quantum-atlas .et-redox-site .et-acceptor-title{color:var(--et-acceptor)}
+.quantum-atlas .et-redox-site p{margin:3px 0 0;font-size:11px;line-height:1.5;color:var(--d-muted)}
+.quantum-atlas .et-state-message{min-height:3em;font-size:11px!important;color:var(--d-text)!important}
+.quantum-atlas .et-geometry-note{padding:12px 20px;font-size:11px;line-height:1.6;color:var(--d-muted);border-block:1px solid var(--d-line);margin:0}
+.quantum-atlas .et-explanation{padding:20px 24px}
+.quantum-atlas .et-explanation-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:15px}
+.quantum-atlas .et-explanation h5{font-size:16px;margin:0}
+.quantum-atlas .et-explanation-modes{display:flex;gap:4px;flex-wrap:wrap}
+.quantum-atlas .et-account p{font-size:13px;line-height:1.65;margin:8px 0 0}
+.quantum-atlas .et-account-title{font-size:11px;text-transform:uppercase;letter-spacing:1px;color:var(--d-muted)}
+.quantum-atlas .et-rate-diagram{display:flex;align-items:center;justify-content:center;gap:12px;margin:18px 0;padding:15px;background:var(--d-bg);border-radius:8px;font-size:12px;line-height:1.6;text-align:center}
+.quantum-atlas .et-rate-arrow{font-size:24px;color:var(--d-muted)}
+.quantum-atlas .et-rate-arrow small{display:block;font-size:10px;line-height:1}
+.quantum-atlas .et-coupling-strip{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin:14px 0;font-size:12px}
+.quantum-atlas .et-coupling-strip b{padding:5px 7px;border:1px solid var(--d-line);border-radius:5px;background:var(--d-bg)}
+.quantum-atlas .et-sources{border-top:1px solid var(--d-line);padding:16px 24px;font-size:11px}
+.quantum-atlas .et-sources summary{cursor:pointer;font-size:12px;font-weight:650}
+.quantum-atlas .et-sources ol{margin:16px 0 8px;padding-left:18px}
+.quantum-atlas .et-sources li{line-height:1.6;margin:8px 0}
+.quantum-atlas .et-sources p{font-size:11px;line-height:1.6;color:var(--d-muted)}
+.quantum-atlas .et-fallback{padding:14px 24px;font-size:12px;background:var(--d-bg)}
+@media(max-width:1000px){.quantum-atlas .et-stage{grid-template-columns:1fr}.quantum-atlas .et-story{border-left:0;border-top:1px solid var(--d-line);display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.quantum-atlas .et-story>h5,.quantum-atlas .et-story>.et-eyebrow,.quantum-atlas .et-story>.et-state-message{grid-column:1/-1}.quantum-atlas .et-state-toggle{align-self:start;margin:6px 0}.quantum-atlas .et-story>p{margin:6px 0 12px}.quantum-atlas .et-story .et-heme-context{grid-column:1/-1}}
+@media(max-width:600px){.quantum-atlas .et-intro,.quantum-atlas .et-explanation{padding:18px 16px}.quantum-atlas .et-toolbar{padding:10px 12px}.quantum-atlas .et-toolbar label{margin-left:0;width:100%}.quantum-atlas .et-viewport{height:365px}.quantum-atlas .et-camera p{width:100%;margin:4px 0 0}.quantum-atlas .et-stage{display:block}.quantum-atlas .et-legend{gap:8px 12px}.quantum-atlas .et-story{padding:18px 16px}.quantum-atlas .et-rate-diagram{font-size:10px;gap:7px}.quantum-atlas .et-sources{padding:16px}}
+@media print{.quantum-atlas .et-viewport,.quantum-atlas .et-toolbar,.quantum-atlas .et-camera{display:none}.quantum-atlas .et-stage{display:block}.quantum-atlas .et-account[hidden]{display:block!important}}
