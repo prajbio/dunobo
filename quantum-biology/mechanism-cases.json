@@ -126,6 +126,10 @@
       "test": "Alter cofactor–lesion geometry or electronic energetics and measure both intermediate lifetimes and completed repair, controlling binding and protein integrity.",
       "sources": [
         {
+          "url": "https://www.nature.com/articles/ncomms8302",
+          "label": "2015 · Elementary electron-transfer and bond-cleavage sequence"
+        },
+        {
           "url": "https://pubmed.ncbi.nlm.nih.gov/38033054/",
           "label": "Case-specific research"
         },
@@ -157,16 +161,16 @@
       "explanation": "Light prepares an excited electronic state. Nuclear torsion connects cis and trans structures through nonadiabatic dynamics; this is not tunneling through a spatial wall.",
       "review": "Visual rhodopsin starts with 11-cis retinal. Recent microbial rhodopsin results often start with all-trans retinal and cannot be substituted unchanged.",
       "structure": {
-        "id": "1U19",
+        "id": "7ZBE",
         "chains": [
           "A"
         ],
-        "name": "Bovine rhodopsin · dark-state retinal",
-        "note": "X-ray 2.20 Å. Fixed 11-cis-retinal geometry. The adjacent torsion diagram illustrates isomerization; the crystal coordinates are not morphed into a calculated product.",
+        "name": "Bovine rhodopsin · experimental dark / 1 ps endpoints",
+        "note": "Dark-state 7ZBE and 1 ps photoactivated 8A6C retinal endpoints from the 2023 TR-SFX study. The light endpoint is aligned on chain-A Cα atoms (RMSD 0.200 Å). Intermediate animation frames are interpolations, not experimentally measured trajectories.",
         "sites": [
           {
             "chain": "A",
-            "resi": 1296,
+            "resi": 402,
             "resn": "RET"
           },
           {
@@ -185,6 +189,10 @@
       "boundary": "The quantum character of photon absorption does not imply entangled visual perception or quantum consciousness. Different opsins have different photocycles, so this diagram is not a universal time-resolved map of every photoreceptor.",
       "test": "Measure excited-state lifetimes, product yield and subsequent receptor activation after a chromophore or binding-pocket change; separate photophysics from downstream signaling.",
       "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-023-05863-6",
+          "label": "2023 · Ultrafast structural changes direct the first molecular events of vision"
+        },
         {
           "url": "https://www.nature.com/articles/s41467-025-65759-z",
           "label": "Case-specific research"
@@ -215,31 +223,40 @@
           "D"
         ],
         "name": "Photosystem II · D1/D2 structural context",
-        "note": "Only chains A/D and their cofactors are displayed. Pigment identities are from the deposited structure. Highlighting the pigments does not select a unique early charge-separation pathway.",
+        "note": "D1/D2 context with specific reaction-centre cofactors. P_D1/P_D2 Mg atoms lie 2.15 Å from D1-His198/D2-His197; Pheo A408 is on the Q_A side. The animation illustrates charge bookkeeping without asserting a unique initial donor pathway.",
         "sites": [
           {
             "chain": "A",
+            "resi": 405,
             "resn": "CLA"
           },
           {
             "chain": "D",
+            "resi": 402,
             "resn": "CLA"
           },
           {
             "chain": "A",
+            "resi": 408,
             "resn": "PHO"
           },
           {
             "chain": "D",
             "resi": 405,
             "resn": "PL9"
+          },
+          {
+            "chain": "A",
+            "resi": 406,
+            "resn": "CLA"
           }
         ],
         "labels": [
-          "D1 chlorophylls",
-          "D2 chlorophylls",
-          "Pheophytins",
-          "Quinone"
+          "P_D1",
+          "P_D2",
+          "Pheo_D1",
+          "Q_A",
+          "Chl_D1"
         ]
       },
       "baseline": "A reaction-center rate model moves populations between excited and charge-separated states.",
@@ -640,20 +657,28 @@
         "Form anionic excited state",
         "Emit green light"
       ],
-      "explanation": "The chromophore–water–Ser205–Glu222 network supports proton rearrangement. The water is included only in the schematic, not invented in the crystal display.",
+      "explanation": "The wild-type chromophore–water–Ser205–Glu222 network relays protons after excitation. Water248 is resolved in 1GFL; the animated hydrogen positions are illustrative.",
       "review": "2024 quantum dynamics studied a chromophore cluster over early dynamics. It is not a simulation of coherent proton motion through a cell.",
       "structure": {
-        "id": "1EMA",
+        "id": "1GFL",
         "chains": [
           "A"
         ],
-        "name": "GFP · chromophore and proton-relay residues",
-        "note": "Fixed GFP structure. CRO66, Ser205 and Glu222 are highlighted; the intervening water is omitted. The schematic relay does not turn a cluster calculation into a whole-protein trajectory.",
+        "name": "Wild-type GFP · resolved proton-relay network",
+        "note": "Wild-type 1GFL replaces the S65T-mutant 1EMA reference, whose Glu222 geometry interrupts this relay. The O···O separations are 2.63 Å (Tyr66–water248), 2.70 Å (water–Ser205) and 2.74 Å (Ser205–Glu222). Protons are idealized markers, not resolved hydrogens.",
         "sites": [
           {
             "chain": "A",
-            "resi": 66,
-            "resn": "CRO"
+            "resi": [
+              65,
+              66,
+              67
+            ]
+          },
+          {
+            "chain": "A",
+            "resi": 248,
+            "resn": "HOH"
           },
           {
             "chain": "A",
@@ -668,6 +693,7 @@
         ],
         "labels": [
           "Chromophore",
+          "Water248",
           "Ser205",
           "Glu222"
         ]
@@ -677,6 +703,18 @@
       "boundary": "This is not proof of coherent proton conduction throughout an entire cell. Calculated populations depend on the included coordinates, potential-energy surfaces and treatment of the remaining protein.",
       "test": "Combine residue substitutions and hydrogen/deuterium exchange with time-resolved infrared and fluorescence measurements, checking that the protein remains correctly folded.",
       "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4576823/",
+          "label": "2015 · Complete proton-transfer cycle and disruption by S65T"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5890789/",
+          "label": "2018 · GFP proton-shuttle dynamics"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11445422/",
+          "label": "2024 · Structural characterization of the GFP I-state"
+        },
         {
           "url": "https://discovery.ucl.ac.uk/id/eprint/10187458/",
           "label": "Case-specific research"
@@ -1051,16 +1089,40 @@
           "A"
         ],
         "name": "Pigeon CRY4 · structural homologue",
-        "note": "Pigeon protein, not the European robin CRY4 tested in the cited magnetic-sensitivity experiment. Only FAD is marked; no experimentally identified spin pair is inferred from this structure.",
+        "note": "Pigeon protein, not the European robin CRY4 tested in the cited magnetic-sensitivity experiment. The FAD and Trp395/372/318/369 tetrad are marked. Photoreduction chemistry does not establish a neural compass readout.",
         "sites": [
           {
             "chain": "A",
             "resi": 501,
             "resn": "FAD"
+          },
+          {
+            "chain": "A",
+            "resi": 395,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 372,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 318,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 369,
+            "resn": "TRP"
           }
         ],
         "labels": [
-          "Bound FAD"
+          "Bound FAD",
+          "Trp395",
+          "Trp372",
+          "Trp318",
+          "Trp369"
         ]
       },
       "baseline": "A magnetic-particle torque or another non-radical sensor could transduce direction. A spin-free reaction rate would not specify radical-pair sensitivity.",
@@ -1068,6 +1130,10 @@
       "boundary": "An isolated-protein response does not establish every step from retinal receptor to navigation. Directional compass information is also not equivalent to a complete geographic map. Competing sensory mechanisms must be tested rather than excluded by definition.",
       "test": "Link a controlled receptor perturbation to molecular magnetic response and orientation behavior, while preserving vision, health and light-response pathways.",
       "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6765304/",
+          "label": "Structural and mutational evidence for the cryptochrome electron-transfer chain"
+        },
         {
           "url": "https://doi.org/10.1038/s41586-021-03618-9",
           "label": "Case-specific research"
@@ -1111,10 +1177,34 @@
             "chain": "A",
             "resi": 602,
             "resn": "FAD"
+          },
+          {
+            "chain": "A",
+            "resi": 420,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 397,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 342,
+            "resn": "TRP"
+          },
+          {
+            "chain": "A",
+            "resi": 394,
+            "resn": "TRP"
           }
         ],
         "labels": [
-          "Bound FAD"
+          "Bound FAD",
+          "Trp420",
+          "Trp397",
+          "Trp342",
+          "Trp394"
         ]
       },
       "baseline": "Light response, temperature, apparatus cues or behavior variability can imitate a field-associated effect unless controlled.",
@@ -1122,6 +1212,10 @@
       "boundary": "Positive molecular or cellular sensitivity and negative behavioral replication need not answer the same question. Conversely, repeated positive reports cannot substitute for blinded replication. Fly results should not be generalized to all plant or insect responses.",
       "test": "Use preregistered, blinded multisite protocols, double-wrapped sham coils, matched heating/light and a molecular readout paired with the same behavioral endpoint.",
       "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5899454/",
+          "label": "Structural and mutational evidence for the cryptochrome electron-transfer chain"
+        },
         {
           "url": "https://www.nature.com/articles/s41586-023-05735-z",
           "label": "Case-specific research"
